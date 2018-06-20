@@ -58,9 +58,10 @@ $ sequelize-auto -o "./models" -d dbname -h hostname -u username -p 3306 -x pass
 ```
 
 ## Create Migration & Create Model
-[링크 바로 가기](https://github.com/limdongjin/JSLearn/tree/master/Express/Sequelize/Migration)
+[링크 바로 가기](https://github.com/limdongjin/TIL/tree/master/nodejs_serverside/Sequelize/Migration)
 
 ## C(create)
-[링크 바로 가기](https://github.com/limdongjin/JSLearn/tree/master/Express/Sequelize/CRUD/C)
+[링크 바로 가기](https://github.com/limdongjin/TIL/tree/master/nodejs_serverside/Sequelize/CRUD/C)
 
 ## R(read)
+[링크 바로가기](https://github.com/limdongjin/TIL/tree/master/nodejs_serverside/Sequelize/CRUD/R)
