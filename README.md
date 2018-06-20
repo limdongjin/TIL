@@ -29,3 +29,28 @@ Node.js 백엔드사이드
 데이터 베이스 엔진, 서비스, 사용방법, 팁 등의 전반적인 내용
 
 [링크 바로가기](https://github.com/limdongjin/TIL/tree/master/database)
+
+## `Keras`
+
+편리한 딥러닝 프레임워크 Keras!! 
+
+[링크 바로가기](https://github.com/limdongjin/TIL/tree/master/keras)
+
+## `NLP`
+
+자연어 처리
+
+[링크 바로가기](https://github.com/limdongjin/TIL/tree/master/nlp)
+
+## `Quora Question Pairs`
+
+'Quora Question Pairs'라는 kaggle competion 을 개인적으로 공부하면서 도큐멘팅할겸 만들었던 주피터 노트북 모음입니다. ( 이 competition과 유사한 주제가 2018네이버AI해커톤에 출제되어 참가할려했지만, git score때문에 예선 탈락 ㅠㅠ)
+
+[링크 바로가기](https://github.com/limdongjin/TIL/tree/master/quoraquestionpairs)
+
+## `sklearn_ml_from_start_to_finish`
+
+'Scikit-Learn ML from Start to Finish
+'라는 kaggle notebook을 번역하였음. 
+
+[링크 바로가기](https://github.com/limdongjin/TIL/tree/master/sklearn_ml_from_start_to_finish_ko)
