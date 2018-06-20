@@ -16,7 +16,7 @@ Node.js 웹 서비스를 서버리스 아키텍처로 구현하기!
 
 Node.js 백엔드사이드
 
-[링크 바로가기](https://github.com/limdongjin/TIL/tree/mastr/nodejs_serverside)
+[링크 바로가기](https://github.com/limdongjin/TIL/tree/master/nodejs_serverside)
 
 ## `Vue.js`
 
