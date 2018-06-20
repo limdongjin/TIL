@@ -33,6 +33,6 @@ Vue.js의 개념들을 친절히 설명해주는 자료이다.
 
 1. vue + vue-router + vuex
 
-특이사항: 디렉토리 구조가 아름다움
+특이사항: 디렉토리 구조가 아름다움, boilerplate로 써도 좋을것같음
 
 [vue + vue-router + vuex](http://vuejs.kr/update/2017/01/08/using-vue-with-vuex-vue-rotuer/)
