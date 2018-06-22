@@ -54,3 +54,9 @@ Node.js 백엔드사이드
 '라는 kaggle notebook을 번역하였음. 
 
 [링크 바로가기](https://github.com/limdongjin/TIL/tree/master/sklearn_ml_from_start_to_finish_ko)
+
+## `git/github`
+
+효율적인 협업을 도와주는 도구 git 그리고 github !!
+
+[링크 바로가기](https://github.com/limdongjin/TIL/tree/master/git)
