@@ -15,7 +15,7 @@ pip install requests-aws4auth
 ```
 from elasticsearch import Elasticsearch, RequestsHttpConnection
 from requests_aws4auth import AWS4Auth
-import os
+import os 
 
 AWS_ACCESS_KEY = os.environ['AWS_ACCESS_KEY']
 AWS_SECRET_KEY = os.environ['AWS_SECRET_KEY']
@@ -119,8 +119,60 @@ es.index(index='mymyindex', doc_type='mymytype', id='105', body={
    "itisfield": "hihi" 
 })
 ```
+
+### `Bulk Insert` 
+
+```python
+import elasticsearch
+
+doc1 = {
+    '_index': 'mymyindex',
+    '_type': 'mymytype',
+    '_id': '123',
+    '_source': {
+        'field1': 'hello world!! ',
+        'hello': 'hello world!! dd'
+    }
+}
+doc2 = {
+    '_index': 'mymyindex',
+    '_type': 'mymytype',
+    '_id': '1234',
+    '_source': {
+        'field1': '22 hello world!! ',
+        'hello': '22 hello world!! dd'
+    }
+}
+
+doc3 = {
+    '_index': 'mymyindex',
+    '_type': 'mymytype',
+    '_id': '456',
+    '_source': {
+        'field1': '33 hello world!! ',
+        'hello': '33 hello world!! dd'
+    }
+}
+
+elasticsearch.helpers.bulk(es, [doc1, doc2, doc3])
+```
+
+### `RAW REST API 호출` perform_request
+
+elasticsearch-py 라이브러리에 원하는 기능이 없다면 perform_request()를 이용하는 것이 편하다. 
+
+```python
+es.transport.perform_request(
+    method=" ... ", # ex) "PUT", "GET" , ..
+    url=" ... ",    # ex) /myindex/mytype/1000
+    body={
+        ...
+    }
+)
+```
+
 ## Reference
 
-[AWS Elasticsearch Service 개발자 안내서](https://docs.aws.amazon.com/ko_kr/elasticsearch-service/latest/developerguide/aes-dg.pdf)
-
 [elasticsearch-py 공식문서](https://elasticsearch-py.readthedocs.io/en/master/api.html#elasticsearch)
+
+[AWS Elasticsearch Service 개발자 안내서](https://docs.aws.amazon.com/ko_kr/elasticsearch-service/latest/developerguide/es-indexing-programmatic.html)
