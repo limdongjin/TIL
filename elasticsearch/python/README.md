@@ -72,11 +72,20 @@ es.search(body={
     }
 })
 
-# example 
+# // example1 
 # es.search(body={ 
 #   "query": {
 #      "match": {
 #        "col1": "hello"         
+#      }   
+#   }   
+# })
+
+# // example2 
+# es.search(body={ 
+#   "query": {
+#      "wildcard": {
+#        "col1": "*elo*"         
 #      }   
 #   }   
 # })
