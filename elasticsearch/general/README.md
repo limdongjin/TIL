@@ -16,7 +16,8 @@ PUT /mymyindex
 ### AWS Elasticsearch Service 액세스 정책 설정
 
 ```
-// kibana + cognito 조합을 원한다면
+// elasticsearch + kibana + cognito 조합 (1)
+// 주의할점: 해당 정책은 cognito를 통해 가입된 유저들은 Elasticsearch에 DELETE, PUT 등의 액션을 수행할수있다.
 
 {
   "Version": "2012-10-17",
@@ -35,6 +36,33 @@ PUT /mymyindex
         "AWS": "arn:aws:iam::xxxxx:role/Cognito_xxxAuth_Role"
       },
       "Action": "es:ESHttp*",
+      "Resource": "arn:aws:es:ap-northeast-2:xxxxx:domain/도메인이름/*"
+    }
+  ]
+}
+```
+
+```
+// elasticsearch + kibana + cognito 조합 (2)
+// cognito 유저들이 ReadOnly로 접근했으면 좋겠다면 해당 정책을 사용하자
+
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Principal": {
+        "AWS": "arn:aws:iam::xxxxx:user/도메일이름"
+      },
+      "Action": "es:*",
+      "Resource": "arn:aws:iam::xxxxx:user/도메일이름"
+    },
+    {
+      "Effect": "Allow",
+      "Principal": {
+        "AWS": "arn:aws:iam::xxxxx:role/Cognito_xxxAuth_Role"
+      },
+      "Action": [ "es:ESHttpGet", "es:ESHttpPost", "es:ESHttpHead" ],
       "Resource": "arn:aws:es:ap-northeast-2:xxxxx:domain/도메인이름/*"
     }
   ]
@@ -69,3 +97,7 @@ Index를 처음 생성할때 settings에 형태소 분석기를 설정해주면 
      }
 }
 ```
+
+### References
+
+[AWS Elasticsearch Service 개발자문서 - 액세스 제어 파트](https://docs.aws.amazon.com/ko_kr/elasticsearch-service/latest/developerguide/es-ac.html)
