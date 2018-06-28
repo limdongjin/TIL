@@ -2,7 +2,7 @@
 
 ## Elasticsearch 팁 
 
-[링크 바로가기](https://github.com/limdongjin/TIL/master/elasticsearch/general)
+[링크 바로가기](https://github.com/limdongjin/TIL/tree/master/elasticsearch/general)
 
 ## Python 에서 Elastic Search 사용하기 
 
