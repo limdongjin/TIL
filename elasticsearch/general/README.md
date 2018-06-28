@@ -43,8 +43,8 @@ PUT /mymyindex
 
 ### AWS Elasticsearch Service 한글 형태소 분석기 붙이기
 
-Index를 처음 생성할때 settings를 다음과 같이 설정하면된다. 
-
+Index를 처음 생성할때 settings에 형태소 분석기를 설정해주면 된다
+(AWS Elasticsearch Service는 seunjeon 형태소 분석기를 지원한다.)
 ```
 {'settings': 
      {'index': 
