@@ -25,10 +25,10 @@ PUT /mymyindex
     {
       "Effect": "Allow",
       "Principal": {
-        "AWS": "arn:aws:iam::xxxxx:user/도메일이름"
+        "AWS": "arn:aws:iam::xxxxx:user/도메인이름"
       },
       "Action": "es:*",
-      "Resource": "arn:aws:iam::xxxxx:user/도메일이름"
+      "Resource": "arn:aws:iam::xxxxx:user/도메인이름"
     },
     {
       "Effect": "Allow",
