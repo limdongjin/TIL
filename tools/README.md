@@ -55,10 +55,8 @@ Rails 개발을 할때 정말 강력한 IDE!!
 
 - Class Diagram : 클래스 이름앞에서 기능을 실행시키면 클래스의 구조도를 다이어그램으로 확인가능하다. 또한 다이어그램의 요소를 클릭하면 해당 요소의 소스로 이동한다. ( RubyMine, Pycharm)
 
-<img src="https://github.com/limdongjin/TIL/tree/master/images/zetbrain_diagram0.png" style="width: 80%; height: 200px;">
-
-
-<img src="https://github.com/limdongjin/TIL/tree/master/images/zetbrain_diagram1.png" style="width: 80%; height: 200px;">
+![](/images/zetbrain_diagram0.png)
+![](/images/zetbrain_diagram1.png)
 
 [루비마인 다이어그램 기능]
 
