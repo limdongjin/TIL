@@ -12,6 +12,7 @@ Rails 개발을 할때 정말 강력한 IDE!!
 
 [단축키 치트 시트 / Rubymine for Mac](https://www.shortcutfoo.com/app/dojos/rubymine-mac/cheatsheet)
 
+[유용한 단축키 정리 :: limdongjin/TIL](https://github.com/limdongjin/TIL/tree/master/tools/rubymine)
 
 ### Iterm2
 
@@ -47,7 +48,9 @@ Rails 개발을 할때 정말 강력한 IDE!!
 
 ## `Zetbrain IDE 좋은 기능 모음`
 
-### 
+### Idea VIM plugin
+
+vim 명렁어를 거의다 쓰면서 제트브레인 기능을 사용할수있다. 
 
 ### 다이어그램 기능 
 
