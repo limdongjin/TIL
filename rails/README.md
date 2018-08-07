@@ -20,3 +20,7 @@ Rails를 배포해보자!!
 Rails의 View와 Controller Layer를 책임지는 Action Pack을 파헤쳐보자!
 
 [링크 바로가기](https://github.com/limdongjin/TIL/tree/master/rails/actionpack)
+
+## `Tip`
+
+[링크 바로가기](https://github.com/limdongjin/TIL/tree/master/rails/tip)
