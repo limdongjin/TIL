@@ -2,13 +2,36 @@
 
 ## Introduction to Java Programming
 
-도대체 자바는 무엇이고 어떻게 돌아가지?
+도대체 자바는 무엇이고 어떻게 돌아가는지 살펴보자
 
 [링크 바로가기](https://github.com/limgondjin/TIL/tree/master/java/introduction)
 
 ## Class
 
-자바에서의 클래스를 살펴보자
+자바에서 클래스,객체를 어떻게 다루는지 살펴보자
 
 [링크 바로가기](https://github.com/limdongjin/TIL/tree/master/java/class)
 
+## 자바 입문할때 유용한 사이트/자료
+
+[생활코딩 자바 강의](https://opentutorials.org/course/1223/4551)
+
+[Jbee님 티스토리 블로그](http://asfirstalways.tistory.com/category/Dev.BackEnd/JAVA)
+
+[점프 투 자바 ebook](https://wikidocs.net/book/31)
+
+[Jangwon Dev blog](https://dev-jangwon.github.io/blog/tags/#java)
+
+[rebeccacho님 자바스터디 깃북](https://rebeccacho.gitbooks.io/java-study-group/content/index.html)
+
+[rebeccacho님 스프링스터디 깃북](https://rebeccacho.gitbooks.io/spring-study-group/content/)
+
+[요우의 내맘대로 블로그](http://luckyyowu.tistory.com/category/%EA%B0%9C%EC%9D%B8%EA%B3%B5%EB%B6%80/JAVA)
+
+[자바 오라클 공식 튜토리얼](https://docs.oracle.com/javase/tutorial/tutorialLearningPaths.html)
+
+[프로그래머스 자바 입문 강의](https://programmers.co.kr/learn/courses/5)
+
+[프로그래머스 자바 중급 강의](https://programmers.co.kr/learn/courses/9)
+
+[프로그래머스 자바 무섭지않아요 강의](https://programmers.co.kr/learn/courses/16)

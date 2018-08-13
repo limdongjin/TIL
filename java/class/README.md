@@ -87,5 +87,3 @@ public class Bmw extends Car {
 [자바에서 변수와 메소드에 대하여 / 클래스 메소드, 클래스 변수 posted by Jbee](http://asfirstalways.tistory.com/160?category=660807)
 
 [점프 투 자바 05장](https://wikidocs.net/214)
-
-
