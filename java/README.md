@@ -2,7 +2,7 @@
 
 ## Introduction to Java Programming
 
-도대체 자바는 무엇이고 어떻게 돌아가는지 살펴보자
+도대체 자바는 무엇이고 어떻게 돌아가는지 살펴보
 
 [링크 바로가기](https://github.com/limgondjin/TIL/tree/master/java/introduction)
 
@@ -35,3 +35,5 @@
 [프로그래머스 자바 중급 강의](https://programmers.co.kr/learn/courses/9)
 
 [프로그래머스 자바 무섭지않아요 강의](https://programmers.co.kr/learn/courses/16)
+
+[책 소설같은 자바](http://book.interpark.com/product/BookDisplay.do?_method=detail&sc.prdNo=206612496)
