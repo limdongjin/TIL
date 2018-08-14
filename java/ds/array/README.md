@@ -1,6 +1,6 @@
 # Array in Java
 
-이 문서는 Java의 기본적인 Array를 다룬다. ( int[], String[] )
+이 문서는 Java의 기본적인 Array를 다룬다.
 
 ## Array란? 
 
