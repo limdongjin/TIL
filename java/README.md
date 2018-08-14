@@ -2,9 +2,13 @@
 
 ## Introduction to Java Programming
 
-도대체 자바는 무엇이고 어떻게 돌아가는지 살펴보
+도대체 자바는 무엇이고 어떻게 돌아가는지 살펴보자 
 
 [링크 바로가기](https://github.com/limdongjin/TIL/tree/master/java/introduction)
+
+## Data Structure in Java
+
+[링크 바로가기](https://github.com/limdongjin/TIL/tree/master/java/ds)
 
 ## Class
 
