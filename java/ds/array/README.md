@@ -108,7 +108,9 @@ for(int elem : intArr){
 * (장점)데이터를 순차적으로 나열할수있다. 성능 향상에 도움이됨.
 
 배열의 장점이 단점을 커버할수있는 경우가 아니라면 List를 쓰는 것이 좋아보인다.
-자바 util 패키지에서 ArrayList와 LinkedList라는 List 를 지원한다.
+자바 util 패키지에서 ArrayList와 LinkedList라는 List 를 지원한다. 
+
+(* 엄밀히 말하면 ArrayList와 LinkedList는 트리로 구현이 되어있다.)
 
 ## Reference
 

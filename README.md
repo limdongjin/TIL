@@ -72,3 +72,7 @@ Node.js 백엔드사이드
 ## `유용한 Tool 모음 및 팁`
 
 [링크 바로가기](https://github.com/limdongjin/TIL/tree/master/tools)
+
+## `자료구조`
+
+[링크 바로가기](https://github.com/limdongjin/TIL/tree/master/datastructure)
