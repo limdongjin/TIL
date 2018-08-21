@@ -67,7 +67,12 @@ end
 ```ruby 
 # 위에서 정의한 메일러 메소드는 다음과 같이 어디서나 호출할수있다.
 ...
+# .deliver_now를 사용하면 동기적으로 메일이 보내지기때문에 서버에 과부하가 걸릴수도있다.
 MymailerMailer.simple_send("example@example.com", "hello@naver.com", "제목", "내용").deliver_now
+
+# 백그라운드에서 메일을 보내도록해야 서버가 멈추는 불상사를 막을수있다. 
+# .deliver_later를 사용하면 ActiveJob을 통해서 비동기적으로 메일을 보낼수있다.
+MymailerMailer.simple_send("example@example.com", "hello@naver.com", "제목", "내용").deliver_later
 ...
 ```
 
