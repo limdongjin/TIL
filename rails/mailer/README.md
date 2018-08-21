@@ -48,7 +48,7 @@ config.action_mailer.delivery_method = :mailgun
 ...
 ```
 
-### 05. 메일 보내기
+### 05. 메일 보내기 
 
 ```ruby
 # app/mailers/mymailer_mailer.rb (또는 설정한메일러이름_mailer.rb)
@@ -66,6 +66,7 @@ end
 
 ```ruby 
 # 위에서 정의한 메일러 메소드는 다음과 같이 어디서나 호출할수있다.
+# 동기적으로 메일을 보낼수도 있고, 비동기적으로 메일을 보낼수도 있다.
 ...
 # .deliver_now를 사용하면 동기적으로 메일이 보내지기때문에 서버에 과부하가 걸릴수도있다.
 MymailerMailer.simple_send("example@example.com", "hello@naver.com", "제목", "내용").deliver_now
