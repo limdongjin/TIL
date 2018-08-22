@@ -80,3 +80,7 @@ Node.js 백엔드사이드
 ## `AWS`
 
 [링크 바로가기](https://github.com/limdongjin/TIL/tree/master/aws)
+
+## `객체지향`
+
+[링크 바로가기](https://github.com/limdongjin/TIL/tree/master/oop)

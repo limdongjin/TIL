@@ -2,7 +2,7 @@
 
 ### 자바에서의 클래스를 살펴보자.
 
-#### 클래스 선언 및 정의 
+#### 클래스 작성
 
 ```java
 public class Car {
@@ -49,6 +49,10 @@ public class Car {
 
 ```java 
 Car mycar = new Car("Blue", 2000);
+// Car : 클래스로 생성한 사용자 데이터 타입
+// mycar : Car 데이터타입으로 선언한 변수
+// new : 메모리를 생성하는 연산자
+// Car() : 메모리 생성후 초기화 작업을 담당하는 생성자 
 
 System.out.println(mycar.price);
 // 2000
@@ -71,6 +75,23 @@ if ( mycar.isfire ){
 // BMW is Fire!!
 ```
 
+#### 객체 생성 과정 이해하기
+
+```
+Car mycar;
+mycar = new Car();
+```
+
+new 연산자는 메모리를 생성한다음 메모리 주소의 참조값을 객체변수 mycar에 할당한다. 생성자 메소드는 생성된 메모리의 초기화 작업 진행한다. 
+즉 모든 객체변수는 참조값을 갖게된다. 
+
+```
+Car mycar = new Car();
+Car mycar2 = mycar;
+```
+
+그렇기때문에 위의 mycar2 객체변수는 mycar의 참조값을 넘겨받는것이고, mycar의 내용을 복사받는게 아니라 참조값만을 넘겨받는것이다. C언어의 포인터를 생각해보면 쉬울것이다.
+
 #### 상속하기 
 
 ```java 
@@ -80,7 +101,6 @@ public class Bmw extends Car {
 
 // class 자식클래스 extends 부모클래스
 ```
-
 
 ### References
 

@@ -40,4 +40,4 @@
 
 [프로그래머스 자바 무섭지않아요 강의](https://programmers.co.kr/learn/courses/16)
 
-[책 소설같은 자바](http://book.interpark.com/product/BookDisplay.do?_method=detail&sc.prdNo=206612496)
+[책 "소설같은 자바"](http://book.interpark.com/product/BookDisplay.do?_method=detail&sc.prdNo=206612496)
