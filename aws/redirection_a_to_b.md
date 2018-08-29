@@ -5,7 +5,7 @@
 
 AWS Route53 과 S3와 함께라면 매우 간단하게 해결할수있다. 이 튜토리얼은 A도메인이 Route53에 등록되어있다는 가정하에 진행된다.
 
-그리고 편의를 위해 기존 도메인인 A도메인을 aexample.com이라 하고 새 도메인인 B도메인을 https:// bexample.com이라 하겠다.
+그리고 편의를 위해 기존 도메인인 A도메인을 http:// aexample.com이라 하고 새 도메인인 B도메인을 https:// bexample.com이라 하겠다.
 
 1. S3에서 기존 도메인 이름과 같은 버켓을 하나 생성한다. ( ex, aexample.com 이란 이름의 버켓으로 생성한다 )
 
@@ -18,3 +18,8 @@ AWS Route53 과 S3와 함께라면 매우 간단하게 해결할수있다. 이 �
 Record Type은 A – IPv4 address. Alias는 Yes, Alias Target은 방금 생성해준 S3버켓을 선택한다. 나머지 속성들은 기본적으로 설정되어있는 설정을 유지하고 제출한다.
 
 5. 완료!
+
+### References
+
+[Redirecting a domain with HTTPS using Amazon S3 and CloudFront
+](https://simonecarletti.com/blog/2016/08/redirect-domain-https-amazon-cloudfront/)

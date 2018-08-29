@@ -79,7 +79,7 @@ Node.js 백엔드사이드
 
 ## `알고리즘`
 
-[](https://github.com/limdongjin/TIL/tree/master/algorithms)
+[링크 바로가기](https://github.com/limdongjin/TIL/tree/master/algorithms)
 
 ## `AWS`
 
