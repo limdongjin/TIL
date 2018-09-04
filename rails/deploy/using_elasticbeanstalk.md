@@ -62,3 +62,10 @@ $ eb create myfirstdeploy
   # eb create <deploy_name>
 ```
 
+### Rails + Elastic Beanstalk 관련 유용한 자료 모음 
+
+[How to set up a Rails 4.2 app on AWS with Elastic Beanstalk and PostgreSQL posted by Julian Tescher](https://hackernoon.com/how-to-set-up-a-rails-4-2-app-on-aws-with-elastic-beanstalk-and-postgresql-3f9f29c046e2)
+
+[How to Deploy a Ruby on Rails Application to Elastic Beanstalk posted by Jason Swett](https://www.awsrails.com/rails-elastic-beanstalk/)
+
+[(한글)RubyonRails AWS Elastic Beanstalk setting posted by ahntae](https://medium.com/ufofactory-org/rubyonrails-aws-elastic-beanstalk-setting-80181ae7b2ea)

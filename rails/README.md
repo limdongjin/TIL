@@ -23,7 +23,7 @@ Rails의 View와 Controller Layer를 책임지는 Action Pack을 파헤쳐보자
 
 ## `Tip`
 
-코드조각 + 팁
+코드조각 + 팁 + 유용한 자료 모음
 
 [링크 바로가기](https://github.com/limdongjin/TIL/tree/master/rails/tip)
 

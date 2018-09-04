@@ -19,6 +19,8 @@ Record Type은 A – IPv4 address. Alias는 Yes, Alias Target은 방금 생성�
 
 5. 완료!
 
+기존 도메인이 https인경우에는 아래 레퍼런스 링크를 참고하면된다.
+
 ### References
 
 [Redirecting a domain with HTTPS using Amazon S3 and CloudFront
