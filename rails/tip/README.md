@@ -97,6 +97,7 @@ $(document).on('turbolinks:request-end', function () {
 4. activeadmin : Admin 페이지 구현 젬 (유사한 젬으로 rails_db도 있지만 커스터마이징의 수월함이나 젬의 완성도는 activeadmin이 훨씬 높다고 생각한다.)
 
 + 저 레포지토리에는 유용한 젬들이 정리되어있다. [awesome-rails-gem](https://github.com/hothero/awesome-rails-gem)
++ 이 링크의 글은 RubyGarage라는 회사에서 자주사용하는 젬들을 적어놓은 글이다. [57 Best Ruby Gems We Use at RubyGarage](https://rubygarage.org/blog/best-ruby-gems-we-use)
 
 ## Rails 관련 좋은 글들
 
@@ -118,6 +119,12 @@ $(document).on('turbolinks:request-end', function () {
 
 [How to Interview Your Ruby on Rails Developer posted by RubyGarage](https://rubygarage.org/blog/how-to-interview-your-ruby-on-rails-developer)
 
+[Ruby on Rails Web Application Vulnerabilities: How to Make Your App Secure posted by RubyGarage](https://rubygarage.org/blog/ruby-on-rails-web-application-vulnerabilities-how-to-make-your-app-secure)
+
+[57 Best Ruby Gems We Use at RubyGarage](https://rubygarage.org/blog/best-ruby-gems-we-use)
+
+[RubyGarage에서 공개한 루비온레일즈 강의자료들!! 리팩토링 기법이나 BDD적용 방법등 수준높고 좋은 글들이 많은 링크](http://rubygarage.github.io/)
+
 ## Ruby 관련 좋은 글들
 
 [(번역)루비 블록을 5분 이내에 마스터하기 translated by Rinae](https://adhrinae.github.io/posts/mastering-ruby-blocks-in-less-than-5minutes-kor)
@@ -136,3 +143,5 @@ $(document).on('turbolinks:request-end', function () {
 [I am a puts debuggerer posted by  Aaron Patterson](https://tenderlovemaking.com/2016/02/05/i-am-a-puts-debuggerer.html)
 
 [ruby에서 net/http를 이용한 json api call posted by Seotory](https://blog.seotory.com/post/2016/03/ruby-json-api-call-with-nethttp)
+
+[SOLID Object-Oriented Design Principles with Ruby Examples posted by RubyGarage](https://rubygarage.org/blog/solid-principles-of-ood)
