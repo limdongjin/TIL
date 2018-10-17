@@ -16,6 +16,13 @@
 
 [링크 바로가기](https://github.com/limdongjin/TIL/tree/master/java/class)
 
+## "Hello World 10번 출력하기" 예시모음
+
+Hello World를 콘솔에 10번 출력하는 예제 모음이다.
+자바를 사용하여 다양한 방법으로 구현된 예제를 볼수있는 문서이다.
+
+[링크 바로가기](https://github.com/limdongjin/TIL/tree/master/java/helloworld10)
+
 ## 자바 입문할때 유용한 사이트/자료
 
 [생활코딩 자바 강의](https://opentutorials.org/course/1223/4551)
