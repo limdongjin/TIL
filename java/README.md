@@ -10,7 +10,7 @@
 
 [링크 바로가기](https://github.com/limdongjin/TIL/tree/master/java/ds)
 
-## Class
+## Class/Object
 
 자바에서 클래스,객체를 어떻게 다루는지 살펴보자
 
@@ -20,7 +20,9 @@
 
 Hello World를 콘솔에 10번 출력하는 예제 모음이다.
 자바를 사용하여 다양한 방법으로 구현된 예제를 볼수있는 문서이다.
-( for, while, forEach, stream, ExecutorService 등)
+또한 예제를 통해 for, while, forEach, 모던자바의 stream, ExecutorService 등의 사용예시도 확인할수있다.
+
+
 
 [링크 바로가기](https://github.com/limdongjin/TIL/tree/master/java/helloworld10)
 
@@ -49,3 +51,5 @@ Hello World를 콘솔에 10번 출력하는 예제 모음이다.
 [프로그래머스 자바 무섭지않아요 강의](https://programmers.co.kr/learn/courses/16)
 
 [책 "소설같은 자바"](http://book.interpark.com/product/BookDisplay.do?_method=detail&sc.prdNo=206612496)
+
+[MIT "Software Conversation" Course 강의자료](http://web.mit.edu/6.005/www/fa15/)
