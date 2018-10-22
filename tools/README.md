@@ -1,6 +1,10 @@
 # 유용한 Tool 모음 
 
-## `IDE / VIM / Iterm2` 
+## `개발툴` 
+
+### Intellij IDEA
+
+Java 개발을 매우 편하게 할수있게 도와주는 IDE
 
 ### Ruby Mine 
 
