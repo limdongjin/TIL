@@ -58,3 +58,7 @@ Hello World를 콘솔에 10번 출력하는 예제 모음이다.
 [책 "소설같은 자바"](http://book.interpark.com/product/BookDisplay.do?_method=detail&sc.prdNo=206612496)
 
 [MIT "Software Conversation" Course 강의자료](http://web.mit.edu/6.005/www/fa15/)
+
+[유튜브 케빈TV 채널](https://www.youtube.com/channel/UCsOJxLxzQl8IbwGS-Cp5t8w)
+
+[유튜브 백기선님 채널](https://www.youtube.com/user/whiteship2000)
