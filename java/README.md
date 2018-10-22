@@ -20,11 +20,16 @@
 
 Hello World를 콘솔에 10번 출력하는 예제 모음이다.
 자바를 사용하여 다양한 방법으로 구현된 예제를 볼수있는 문서이다.
-또한 예제를 통해 for, while, forEach, 모던자바의 stream, ExecutorService 등의 사용예시도 확인할수있다.
-
-
+밑에 항목들은 예제를 구현하기위해 사용한 문법,기술들이다.
+- for, while, forEach,
+- 모던자바의 stream
+- ExecutorService 
 
 [링크 바로가기](https://github.com/limdongjin/TIL/tree/master/java/helloworld10)
+
+## Tomcat
+
+[링크 바로가기](https://github.com/limdongjin/TIL/tree/master/java/tomcat)
 
 ## 자바 입문할때 유용한 사이트/자료
 
