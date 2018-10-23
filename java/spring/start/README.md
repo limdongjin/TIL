@@ -64,8 +64,8 @@ after
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mvc="http://www.springframework.org/schema/mvc"
        xmlns:context="http://www.springframework.org/schema/context"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
-    <mvc:annotation-driven></mvc:annotation-driven> <!-- Annotation 활성화 -->
-    <context:component-scan base-package="Controller"></context:component-scan> <!-- Component 패키지 지정 -->
+    <mvc:annotation-driven></mvc:annotation-driven> <!-- Annotation Activate -->
+    <context:component-scan base-package="Controller"></context:component-scan> <!-- Component Package -->
 
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value="/WEB-INF/views/"></property>
@@ -73,6 +73,46 @@ after
     </bean>
 
 </beans>
+```
+
+### pom.xml
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.dongjin</groupId>
+    <artifactId>HelloWorldSpringMaven</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    
+    <!-- Check your Spring Version -->
+    <properties>
+        <spring.version>4.3.18.RELEASE</spring.version>
+    </properties>
+    
+    <!-- add Dependency ( check your spring version )-->
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+            <version>4.3.18.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
+            <version>4.3.18.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-core</artifactId>
+            <version>4.3.18.RELEASE</version>
+        </dependency>
+    </dependencies>
+
+</project>
 ```
 
 ### Views
