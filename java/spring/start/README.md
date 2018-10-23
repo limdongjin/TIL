@@ -1,4 +1,4 @@
-## Get Started !! 
+## Get Started !! ( IntelliJ + Maven )
 
 인텔리제이에서 스프링 MVC를 초기설정하고 
 Hello World를 페이지에 띄우는 정도의 튜토리얼이다.
