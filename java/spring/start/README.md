@@ -1,7 +1,9 @@
-## Get Started !! ( IntelliJ + Maven )
+## Get Started Spring MVC with IntelliJ + Maven 
 
 인텔리제이에서 스프링 MVC를 초기설정하고 
-Hello World를 페이지에 띄우는 정도의 튜토리얼이다.
+Hello World를 페이지에 띄우는 튜토리얼이다.
+
+그리고 Maven을 이용하여 의존성관리를 할것이다.
 
 ### create Intellij Maven Project
 
