@@ -5,7 +5,7 @@ Hello World를 페이지에 띄우는 튜토리얼이다.
 
 그리고 Gradle을 이용하여 의존성관리를 할것이며 Tomcat을 사용할것.
 
-Java Based Configuration을 활용할것.
+XML Based Configuration을 사용할것.
 
 ### create Intellij Gradle project
 
@@ -54,67 +54,69 @@ dependencies {
 ```
 mkdir src/main/webapp/WEB-INF
 touch src/main/webapp/WEB-INF/web.xml
+touch src/main/webapp/WEB-INF/dispatcher-servlet.xml
+touch src/main/webapp/WEB-INF/applicationContext.xml
 ```
 
+**web.xml**
 ```
 <?xml version="1.0" encoding="UTF-8"?>
-<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <context-param>
+        <param-name>contextConfigLocation</param-name>
+        <param-value>/WEB-INF/applicationContext.xml</param-value>
+    </context-param>
+    <listener>
+        <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+    </listener>
 
     <servlet>
         <servlet-name>dispatcher</servlet-name>
-        <servlet-class>
-            org.springframework.web.servlet.DispatcherServlet
-        </servlet-class>
-        <init-param>
-            <param-name>contextClass</param-name>
-            <param-value>org.springframework.web.context.support.AnnotationConfigWebApplicationContext</param-value>
-        </init-param>
+        <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
         <init-param>
             <param-name>contextConfigLocation</param-name>
-            <param-value>com.yourpackagename.yourconfigdirname</param-value>
+            <param-value>/WEB-INF/dispatcher-servlet.xml</param-value>
         </init-param>
+        <load-on-startup>1</load-on-startup>
     </servlet>
-
     <servlet-mapping>
         <servlet-name>dispatcher</servlet-name>
         <url-pattern>/</url-pattern>
     </servlet-mapping>
 
-</web-app> 
+</web-app>
 ```
 
-### src/main/java/com/yourpackagename/yourconfigdirname/WebConfig.java
-
+**dispatcher-servlet.xml**
 ```
-mkdir -p src/main/java/com/yourpackagename/yourconfigdirname
-touch src/main/java/com/yourpackagename/yourconfigdirname/WebConfig.java
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+    <mvc:annotation-driven />
+    <context:component-scan base-package="com.dongjin.spring.controllers" />
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="prefix" value="/WEB-INF/view/"></property>
+        <property name="suffix" value=".jsp"></property>
+    </bean>
+</beans>
 ```
 
+**applicationContext.xml**
 ```
-package com.yourpackagename.yourconfigdirname;
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.ComponentScan;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.web.servlet.config.annotation.EnableWebMvc;
-import org.springframework.web.servlet.view.InternalResourceViewResolver;
-
-@Configuration
-@EnableWebMvc
-@ComponentScan(basePackages="com.yourpackagename.controller")
-public class WebConfig {
-    @Bean
-    public InternalResourceViewResolver viewResolver() {
-        InternalResourceViewResolver resolver = new InternalResourceViewResolver();
-        resolver.setPrefix("/WEB-INF/view/");
-        resolver.setSuffix(".jsp");
-        return resolver;
-    }
-}
+</beans>
 ```
+
 ### src/main/java/com/yourpackagename/controller/HomeController.java
 
 ```
