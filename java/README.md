@@ -31,6 +31,10 @@ Hello World를 콘솔에 10번 출력하는 예제 모음이다.
 
 [링크 바로가기](https://github.com/limdongjin/TIL/tree/master/java/tomcat)
 
+## Servlet
+
+[링크 바로가기](/java/servlet)
+
 ## Spring Framework (MVC)
 
 [링크 바로가기](https://github.com/limdongjin/TIL/tree/master/java/spring)
