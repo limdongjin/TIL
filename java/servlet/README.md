@@ -187,6 +187,54 @@ public class FiveServlet extends HttpServlet {
 Example4는 Servlet Context의 간단한 예시이다. Servlet 간에 정보를 공유해야 할때 주로 사용한다. 예제에서는 web.xml에서 **context-param**에 값을 설정할수있다는것을 보여준다. 
 또한 **getServletContext().getInitParameter**를 통해 접근할수있음을 볼수있다.
 
+### Example5 (jsp forward)
+
+```
+<%--
+ /src/webapp/WEB-INF/views/result.jsp
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html>
+<head>
+    <title>Title</title>
+</head>
+<body>
+    <%= request.getAttribute("attr1") %>
+</body>
+</html>
+
+```
+
+```java 
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
+
+@WebServlet("/jspservlet")
+public class SixServlet extends HttpServlet {
+    public SixServlet() {
+        super();
+    }
+
+    @Override
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        // super.doGet(req, resp);
+        System.out.println("Get Six!\n");
+        req.setAttribute("attr1", "하이루!");
+
+        RequestDispatcher requestDispatcher = req.getRequestDispatcher("/src/webapp/WEB-INF/views/result.jsp");
+        requestDispatcher.forward(req, resp);
+    }
+}
+```
+
+Example5는 jsp파일로 포워딩하는 예시이다. 
+
+
 ### References
 
 [Oracle Docs Java EE Tutorial](https://docs.oracle.com/javaee/7/tutorial/servlets001.htm#BNAFE)
