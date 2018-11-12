@@ -4,14 +4,14 @@
 
 > In software engineering, the template method pattern is a behavioral design pattern that defines the program skeleton of an algorithm in an operation, deferring some steps to subclasses. - Design Patterns: Elements of Reusable Object-Oriented Software
 
-메서드의 알고리즘의 골격을 정해두고, 알고리즘 골격의 일부 스텝의 구현은 서브 클래스에서 오버라이드해서 재정의하도록 하는 디자인 패턴이다. 
+알고리즘의 골격을 정해두고, 알고리즘 골격의 일부 스텝의 구현은 서브 클래스에서 오버라이드해서 재정의하도록 하는 디자인 패턴이다. 
 
 ### 언제 Template Method Pattern 을 주로 사용하는가(or 사용할수있는가?)
 
 알고리즘의 골격은 같지만, 각 스텝들의 구현이 달라지는 경우에 사용한다. 그래서 알고리즘의 골격을 변경하지 않고 다른 알고리즘을 구현할수있게된다.
 
 <br>
-Template Method Pattern은 주로 프레임워크들의 내부 구현에 주로 사용된다. 도메인에 따라서 소프트웨어가 달라질수도 있으니 이런 도메인 영역을 "placeholder"로 놓는 식의 개념으로 구현되는것이다. 대표적인 예시로는 IOC가 있다.
+Template Method Pattern은 프레임워크들의 내부 구현에 주로 사용된다. 도메인에 따라서 소프트웨어가 달라질수도 있으니 이런 도메인 영역을 "placeholder"로 놓는 식의 개념으로 구현되는것이다. 대표적인 예시로는 IOC가 있다.
 
 ### Detail of Template Method Patten
 
