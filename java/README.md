@@ -10,6 +10,10 @@
 
 [링크 바로가기](https://github.com/limdongjin/TIL/tree/master/java/ds)
 
+## Design Pattern in Java
+
+[링크 바로가기](/java/design-pattern)
+
 ## Class/Object
 
 자바에서 클래스,객체를 어떻게 다루는지 살펴보자
@@ -39,7 +43,7 @@ Hello World를 콘솔에 10번 출력하는 예제 모음이다.
 
 [링크 바로가기](https://github.com/limdongjin/TIL/tree/master/java/spring)
 
-## 자바 입문할때 유용한 사이트/자료
+## 자바 공부할때 유용한 사이트/자료
 
 [생활코딩 자바 강의](https://opentutorials.org/course/1223/4551)
 
@@ -70,3 +74,11 @@ Hello World를 콘솔에 10번 출력하는 예제 모음이다.
 [유튜브 케빈TV 채널](https://www.youtube.com/channel/UCsOJxLxzQl8IbwGS-Cp5t8w)
 
 [유튜브 백기선님 채널](https://www.youtube.com/user/whiteship2000)
+
+[소프트웨어 학습 및 자바 웹 개발자 학습 로드맵 by 박재성](https://www.slideshare.net/javajigi/ss-66877363?fbclid=IwAR0giEb5lvbQ1BGe827R9hOK_5pGXCChXLf_wcnyaukuT2GctaOCri1U830)
+
+[Dzone](https://dzone.com/java-jdk-development-tutorials-tools-news)
+
+[tutorialspoint java](http://www.tutorialspoint.com/java/index.htm)
+
+[java-design-patterns repository](https://github.com/iluwatar/java-design-patterns)
