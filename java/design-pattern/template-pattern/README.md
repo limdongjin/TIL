@@ -38,7 +38,7 @@ Base Class에는 templateMethod라는 메소드가 있는데, Template Method Pa
 
 <br>
 
-3. Example에 대한 소스는 [limdongjin/design-patterns](https://github.com/limdongjin/design-patterns/template-method-pattern) 레포지토리에 에 저장하였다.
+3. Example에 대한 소스는 [limdongjin/design-patterns](https://github.com/limdongjin/design-patterns/tree/master/template-method-pattern) 레포지토리에 에 저장하였다.
 
 <br>
 
