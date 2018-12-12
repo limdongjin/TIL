@@ -1,11 +1,15 @@
+---
+home: true
+---
 # Today I Learned
+
 도큐멘팅 레포지토리입니다. 
 
 ## `git/github`
 
 효율적인 협업을 도와주는 도구 git 그리고 github !!
 
-[링크 바로가기](https://github.com/limdongjin/TIL/tree/master/git)
+[링크 바로가기](/git/)
 
 ## `Elasticsearch`
 
@@ -18,6 +22,8 @@
 ## `유용한 Tool 모음 및 팁`
 
 [링크 바로가기](https://github.com/limdongjin/TIL/tree/master/tools)
+
+## ``
 
 ## `자료구조`
 
@@ -40,7 +46,6 @@
 [링크 바로가기](https://github.com/limdongjin/TIL/tree/master/js)
 
 ## `RubyOnRails`
-강력한 개발속도의 웹프레임워크 RubyOnRails
 
 [링크 바로 가기](https://github.com/limdongjin/TIL/tree/master/rails)
 
@@ -92,3 +97,4 @@ Node.js 백엔드사이드
 '라는 kaggle notebook을 번역하였음. 
 
 [링크 바로가기](https://github.com/limdongjin/TIL/tree/master/sklearn_ml_from_start_to_finish_ko)
+
