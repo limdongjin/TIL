@@ -18,8 +18,13 @@ module.exports = {
         }
     },
     plugins: [
-        'tag',
-        'category',
         '@vuepress/blog'
-    ]
+    ],
+    configureWebpack: {
+        resolve: {
+            alias: {
+                '@alias': 'images'
+            }
+        }
+    }
 }

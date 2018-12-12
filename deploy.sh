@@ -10,6 +10,8 @@ set -e
 
  rm -rf limdongjin.github.io
 
+ git config --global http.postBuffer 524288000
+
  git add .
 
  git commit -m "$1"
