@@ -1,3 +1,6 @@
+---
+prev: /vuejs/general/
+---
 ## Axios 시작하기
 
 ```

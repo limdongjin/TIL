@@ -1,3 +1,6 @@
+---
+prev: /java/
+---
 # HelloWorld 10번 출력하기 구현 예제 모음 using java
 
 ## for(), while(), items.forEach()

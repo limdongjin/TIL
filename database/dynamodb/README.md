@@ -1,3 +1,6 @@
+---
+prev: /database/
+---
 # Dynamodb
 
 ## Reference

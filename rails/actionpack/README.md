@@ -1,3 +1,6 @@
+---
+prev: /rails/
+---
 ## Action Pack 
 
 ### Action Pack README.rdoc 번역(의역)

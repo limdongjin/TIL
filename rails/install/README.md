@@ -1,3 +1,6 @@
+---
+prev: /rails/
+---
 ## How to Install RubyOnRails?
 
 ## Reference 

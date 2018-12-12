@@ -1,24 +1,27 @@
+---
+prev: /
+---
 # Java
 
 ## Introduction to Java Programming
 
 도대체 자바는 무엇이고 어떻게 돌아가는지 살펴보자 
 
-[링크 바로가기](https://github.com/limdongjin/TIL/tree/master/java/introduction)
+[바로가기](/java/introduction/)
 
 ## Data Structure in Java
 
-[링크 바로가기](https://github.com/limdongjin/TIL/tree/master/java/ds)
+[바로가기](/java/ds/)
 
 ## Design Pattern in Java
 
-[링크 바로가기](/java/design-pattern)
+[바로가기](/java/design-pattern/)
 
 ## Class/Object
 
 자바에서 클래스,객체를 어떻게 다루는지 살펴보자
 
-[링크 바로가기](https://github.com/limdongjin/TIL/tree/master/java/class)
+[바로가기](/java/class/)
 
 ## "Hello World 10번 출력하기" 예시모음
 
@@ -29,19 +32,19 @@ Hello World를 콘솔에 10번 출력하는 예제 모음이다.
 - 모던자바의 stream
 - ExecutorService 
 
-[링크 바로가기](https://github.com/limdongjin/TIL/tree/master/java/helloworld10)
+[바로가기](/java/helloworld10/)
 
 ## Tomcat
 
-[링크 바로가기](https://github.com/limdongjin/TIL/tree/master/java/tomcat)
+[바로가기](/java/tomcat/)
 
 ## Servlet
 
-[링크 바로가기](/java/servlet)
+[바로가기](/java/servlet/)
 
 ## Spring Framework (MVC)
 
-[링크 바로가기](https://github.com/limdongjin/TIL/tree/master/java/spring)
+[바로가기](/java/spring/)
 
 ## 자바 공부할때 유용한 사이트/자료
 

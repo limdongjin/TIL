@@ -1,3 +1,6 @@
+---
+prev: /java/spring/getstarted/
+---
 ## Get Started with **Intellij IDEA** and **Gradle**
 
 인텔리제이에서 스프링 MVC를 초기설정하고 

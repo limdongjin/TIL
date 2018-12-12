@@ -1,3 +1,6 @@
+---
+prev: /aws/elasticbeanstalk/
+---
 ## ebextensions 설정하기
 
 ### `01_nginx.config`

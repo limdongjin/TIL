@@ -1,3 +1,6 @@
+---
+prev: /java/spring/getstarted/
+---
 ## Get Started Spring MVC with IntelliJ + Maven 
 
 인텔리제이에서 스프링 MVC를 초기설정하고 

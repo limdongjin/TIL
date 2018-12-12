@@ -1,3 +1,6 @@
+---
+prev: /nodejs_serverside/Sequelize/
+---
 ### Create Model & table
 
 ```bash

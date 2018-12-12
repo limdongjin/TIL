@@ -1,3 +1,6 @@
+---
+prev: /vuejs/
+---
 # Vue.js 의 개념적인 부분을 긁어주는 자료들 
 ,
 ## Captain Pangyo 님의 Vue.js 자료들 

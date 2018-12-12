@@ -1,3 +1,6 @@
+---
+prev: /
+---
 # 유용한 Tool 모음 
 
 ## `개발툴` 
@@ -16,7 +19,7 @@ Rails 개발을 할때 정말 강력한 IDE!!
 
 [단축키 치트 시트 / Rubymine for Mac](https://www.shortcutfoo.com/app/dojos/rubymine-mac/cheatsheet)
 
-[유용한 단축키 정리 :: limdongjin/TIL](https://github.com/limdongjin/TIL/tree/master/tools/rubymine)
+[유용한 단축키 정리 :: limdongjin/TIL](/tools/rubymine/)
 
 ### Iterm2
 

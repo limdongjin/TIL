@@ -1,3 +1,6 @@
+---
+prev: /vuejs/general/
+---
 ## Vue.js에 Spinner 적용하기
 
 ### Vue.js Spinner 라이브러리

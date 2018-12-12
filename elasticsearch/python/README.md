@@ -1,3 +1,6 @@
+---
+prev: /elasticsearch/
+---
 # Python에서 Elastic Search 사용하기 
 
 ## AWS Elasticsearch Service 연결하기 

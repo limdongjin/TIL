@@ -1,3 +1,6 @@
+---
+prev: /elasticsearch/
+---
 ## Elasticsearch 팁
 
 ### date_detection으로 에러가 난다면? 

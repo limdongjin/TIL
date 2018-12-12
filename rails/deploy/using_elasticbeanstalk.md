@@ -1,3 +1,6 @@
+---
+prev: /rails/deploy/
+---
 # AWS Elastic Beanstalk for Rails  
 
 Rails 웹 프로젝트를 배포를 하기위한 문서이다.

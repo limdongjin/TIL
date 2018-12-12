@@ -1,3 +1,6 @@
+---
+prev: /java/design-pattern/
+---
 ## Template Method Pattern 
 
 ### What is Template Method Pattern 

@@ -1,3 +1,6 @@
+---
+prev: /java/
+---
 ## Introduction to Java Programming
 
 ### 자바가 무엇인가요? 그리고 어떻게 실행되나요? 

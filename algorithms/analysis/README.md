@@ -1,3 +1,6 @@
+---
+prev: /algorithms/
+---
 ## Analysis of Algorithms
 
 ### 알고리즘을 어떻게 평가할것인가?

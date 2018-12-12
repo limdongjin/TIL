@@ -1,3 +1,6 @@
+---
+prev: /rails/
+---
 ## Mail 보내기 기능
 
 [mailgun](https://www.mailgun.com/) 이라는 SMTP 서비스를 이용하여 튜토리얼이 진행될것이다.

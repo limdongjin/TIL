@@ -1,3 +1,6 @@
+---
+prev: /nodejs_serverside/Sequelize/
+---
 ## Read Data by id
 ```js
 router.get('/:id', (req, res)=>{

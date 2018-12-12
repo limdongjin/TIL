@@ -1,3 +1,6 @@
+---
+prev: /nodejs_serverside/Sequelize/
+---
 ## Create data
 ```js
 const models = require('./../models')

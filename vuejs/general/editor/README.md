@@ -1,3 +1,6 @@
+---
+prev: /vuejs/general/
+---
 ## Editor 적용하기 
 
 ### Vue Editor 라이브러리

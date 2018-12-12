@@ -1,16 +1,19 @@
+---
+prev: /
+---
 # Elastic Search 
 
 ## Elasticsearch 팁 
 
-[링크 바로가기](https://github.com/limdongjin/TIL/tree/master/elasticsearch/general)
+[바로가기](/elasticsearch/general/)
 
 ## Python 에서 Elastic Search 사용하기 
 
-[링크 바로가기](https://github.com/limdongjin/TIL/tree/master/elasticsearch/python)
+[바로가기](/elasticsearch/python/)
 
 ## Query DSL
 
-[준비중](https://github.com/limdongjin/TIL/tree/master/elasticsearch/querydsl)
+[준비중](/elasticsearch/querydsl/)
 
 ## Useful References
 
