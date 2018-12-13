@@ -68,25 +68,27 @@ Node.js 백엔드사이드
 
 [바로가기](/database/)
 
-## `Keras`
+## `블록체인`
 
-편리한 딥러닝 프레임워크 Keras!! 
+개인적으로 백서 보면서 공부한 내용 + 2018-1학기 블록체인 대학원 강의 청강하면서 정리한 내용
+
+[바로가기](/blockchain/)
+
+## `Keras`(jupyter notebook code)
 
 [바로가기](https://github.com/limdongjin/TIL/tree/master/keras/)
 
-## `NLP`
-
-자연어 처리
+## `NLP`(jupyter notebook code)
 
 [바로가기](https://github.com/limdongjin/TIL/tree/master/nlp/)
 
-## `Quora Question Pairs`
+## `Quora Question Pairs`(jupyter notebook code)
 
 'Quora Question Pairs'라는 kaggle competion 을 개인적으로 공부하면서 도큐멘팅할겸 만들었던 주피터 노트북 모음입니다. ( 이 competition과 유사한 주제가 2018네이버AI해커톤에 출제되어 참가할려했지만, git score때문에 예선 탈락 ㅠㅠ)
 
 [바로가기](https://github.com/limdongjin/TIL/tree/master/quoraquestionpairs/)
 
-## `sklearn_ml_from_start_to_finish`
+## `sklearn_ml_from_start_to_finish`(jupyter notebook code)
 
 'Scikit-Learn ML from Start to Finish
 '라는 kaggle notebook을 번역하였음. 
