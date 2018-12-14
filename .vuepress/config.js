@@ -9,11 +9,13 @@ module.exports = {
             { text: 'LinkedIn', link: 'https://www.linkedin.com/in/dongjin-lim-98115a137/' }
         ],
         sidebar: "auto",
+        displayAllHeaders: true,
         lastUpdated: 'Last Updated'
     },
     plugins: [
         '@vuepress/blog',
         '@vuepress/pwa',
+        '@vuepress/back-to-top',
         '@vuepress/google-analytics'
     ],
     configureWebpack: {
@@ -23,5 +25,8 @@ module.exports = {
             }
         }
     },
-    ga: 'UA-131016591-1'
+    ga: 'UA-131016591-1',
+    markdown: {
+        lineNumbers: true
+    }
 }
