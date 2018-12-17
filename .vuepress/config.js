@@ -1,7 +1,6 @@
 module.exports = {
     title: 'limdongjin',
     description: '도큐멘팅!',
-    theme: 'blog',
     themeConfig: {
         nav: [
             { text: 'Home', link: '/' },
