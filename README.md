@@ -5,6 +5,10 @@ heroText: 초고수를 향하여
 ---
 # Today I Learned
 
+## `About`
+
+[바로가기](/about/)
+
 ## `git/github`
 
 효율적인 협업을 도와주는 도구 git 그리고 github !!
