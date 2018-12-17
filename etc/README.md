@@ -23,6 +23,8 @@ prev: /
 
 [나만의 웹 크롤러 만들기(7): 창없는 크롬으로 크롤링하기 posted by beomi](https://beomi.github.io/2017/09/28/HowToMakeWebCrawler-Headless-Chrome/)
 
+[발표에 대한 생각 posted by outsider](https://blog.outsider.ne.kr/994)
+
 ## 유용한 플랫폼 모음 
 
 [velog 개발자 글쓰기 플랫폼](https://velog.io/)
