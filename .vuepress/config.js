@@ -25,7 +25,6 @@ module.exports = {
     },
     plugins: [
         '@vuepress/blog',
-        '@vuepress/pwa',
         '@vuepress/back-to-top',
         '@vuepress/google-analytics'
     ],
@@ -37,6 +36,7 @@ module.exports = {
         }
     },
     ga: 'UA-131016591-1',
+    serviceWorker: true,
     markdown: {
         lineNumbers: true
     }

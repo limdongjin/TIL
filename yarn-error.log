@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/Cellar/node/10.6.0/bin/node /usr/local/Cellar/yarn/1.7.0/libexec/bin/yarn.js install
+  /usr/local/Cellar/node/10.6.0/bin/node /usr/local/Cellar/yarn/1.7.0/libexec/bin/yarn.js add -D @vuepress/pwa
 
 PATH: 
   /usr/local/Cellar/node/10.6.0/bin/:/anaconda3/bin:/Users/imdongjin/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands
@@ -14,7 +14,7 @@ Platform:
   darwin x64
 
 Trace: 
-  Error: https://registry.yarnpkg.com/@vuepress%2ftheme-blog: Not found
+  Error: https://registry.yarnpkg.com/@vuepress%2fpwa: Not found
       at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.7.0/libexec/lib/cli.js:65656:18)
       at Request.self.callback (/usr/local/Cellar/yarn/1.7.0/libexec/lib/cli.js:134675:22)
       at Request.emit (events.js:182:13)
@@ -37,7 +37,6 @@ npm manifest:
       "@vuepress/plugin-google-analytics": "^1.0.0-alpha.0",
       "@vuepress/plugin-medium-zoom": "^1.0.0-alpha.0",
       "@vuepress/plugin-pwa": "^1.0.0-alpha.0",
-      "@vuepress/theme-blog": "^1.0.0-alpha.29",
       "vuepress": "^1.0.0-alpha.29"
     }
   }
