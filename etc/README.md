@@ -35,6 +35,8 @@ prev: /
 
 [leetcode :: 문제풀이 플랫폼](https://leetcode.com/problemset/all/)
 
+[icons8 :: 무료 아이콘 사이트](https://icons8.com/)
+
 ## 유용한 슬라이드/강연 모음
 
 [PyConKR 30분만에 따라하는 동시성 스크래퍼](https://www.slideshare.net/cornchz/pyconkr-2014-30?qid=cc4f273b-1589-4783-b823-08437be01f77&v=&b=&from_search=29)
