@@ -1,3 +1,7 @@
+// const dirTree = require('directory-tree');
+// const path = require('path');
+//
+// const projets = dirTree(path.join(__dirname, '../algorithms'), {extensions:/\.md/});
 module.exports = {
     title: 'limdongjin',
     description: '도큐멘팅!',
@@ -15,6 +19,7 @@ module.exports = {
     themeConfig: {
         nav: [
             { text: 'Home', link: '/' },
+            { text: 'About', link: '/about/'},
             { text: 'Github', link: 'https://github.com/limdongjin' },
             { text: 'Facebook', link: 'https://www.facebook.com/geniuslim27' },
             { text: 'LinkedIn', link: 'https://www.linkedin.com/in/dongjin-lim-98115a137/' }

@@ -15,7 +15,7 @@ for(int i = 1; i <= 10; i ++){
 
 ### 2. while()
 
-```java
+```java{3}
 int i = 1;
 while (i < 11 ){
     System.out.println("Hello World " + i);
