@@ -31,7 +31,7 @@ module.exports = {
     plugins: [
         '@vuepress/blog',
         '@vuepress/back-to-top',
-        '@vuepress/google-analytics'
+        '@vuepress/google-analytics',
     ],
     configureWebpack: {
         resolve: {
