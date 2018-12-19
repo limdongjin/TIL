@@ -1,9 +1,9 @@
 ---
 prev: /java/
 ---
-## Servlet
+# Servlet
 
-### What is Servlet
+## What is Servlet
 
 오라클 자바EE 공식 튜토리얼 문서의 의하면 서블릿의 정의는 아래와 같다.
 
@@ -20,7 +20,7 @@ Techopedia에서의 서블릿의 정의는 아래와 같다.
 <br> 
 웹요청이 들어오면, DD로 부터 이 요청에 해당하는 서블릿을 찾은후에 스레드를 생성하게된다. ( 만일 서블릿객체가 아직 생성이 안되어있다면 생성자를 통해 생성한다.) 이 스레드에 서블릿 객체가 갖고있는 service() 메소드를 실행하고, 요청의 타입에 따라 doGet(), doPost()등의 메소드 중에 하나가 실행된다. 그리고  doGet(), doPost() 메소드는 요청을 처리하여 응답을 보내게된다.
 
-### Example1
+## Example1
 
 ```java 
 import javax.servlet.ServletException;
@@ -58,7 +58,7 @@ public class FirstServlet extends HttpServlet {
 Example1은 "/hello"라는 url의 GET 요청이 들어왔을때 1 ~ 10까지의 수를 출력하여 브라우저에 html로 응답을 보내주게된다. 
 그리고 코드를 보면 알수있다시피 **getWriter** 메소드를 통해 PrintWriter 클래스의 객체를 얻을수있다. 또한 PrintWriter클래스의 객체인 **printWriter** 객체의 **print** 메소드를 이용하면 응답을 위한 html 코드를 만들수있다.
 
-### Example2
+## Example2
 
 ```java
 import javax.servlet.ServletException;
@@ -137,7 +137,7 @@ public class FourServlet extends HttpServlet {
 
 Example3에서 Servlet의 초기값을 설정하는 방법을 볼수있으며 ServletConfig라고 한다. 또한 getInitParameter 메소드를 통해 초기설정한 값을 불러올수있는것을 볼수있다.
 
-### Example4 ( Servlet Context )
+## Example4 ( Servlet Context )
 
 ```
 // web.xml
@@ -190,7 +190,7 @@ public class FiveServlet extends HttpServlet {
 Example4는 Servlet Context의 간단한 예시이다. Servlet 간에 정보를 공유해야 할때 주로 사용한다. 예제에서는 web.xml에서 **context-param**에 값을 설정할수있다는것을 보여준다. 
 또한 **getServletContext().getInitParameter**를 통해 접근할수있음을 볼수있다.
 
-### Example5 (jsp forward)
+## Example5 (jsp forward)
 
 ```
 <%--
@@ -238,7 +238,7 @@ public class SixServlet extends HttpServlet {
 Example5는 jsp파일로 포워딩하는 예시이다. 
 
 
-### References
+## References
 
 [Oracle Docs Java EE Tutorial](https://docs.oracle.com/javaee/7/tutorial/servlets001.htm#BNAFE)
 

@@ -5,9 +5,7 @@ prev: /java/
 
 디자인 패턴들을 자바로 구현해보자!
 
-## Template Method Pattern
-
-[바로가기](/java/design-pattern/template-pattern/)
+- [Template Method Pattern](/java/design-pattern/template-pattern/)
 
 
 ## 유용한 링크 모음 

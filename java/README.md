@@ -3,48 +3,21 @@ prev: /
 ---
 # Java
 
-## Introduction to Java Programming
+- [Introduction to Java Programming](/java/introduction/)
 
-도대체 자바는 무엇이고 어떻게 돌아가는지 살펴보자 
+- [Data Structure in Java](/java/ds/)
 
-[바로가기](/java/introduction/)
+- [Design Pattern in Java](/java/design-pattern/)
 
-## Data Structure in Java
+- [Class/Object in Java](/java/class/)
 
-[바로가기](/java/ds/)
+- ["Hello World 10번 출력하기" 예시모음](/java/helloworld10/)
 
-## Design Pattern in Java
+- [Tomcat](/java/tomcat/)
 
-[바로가기](/java/design-pattern/)
+- [Servlet](/java/servlet/)
 
-## Class/Object
-
-자바에서 클래스,객체를 어떻게 다루는지 살펴보자
-
-[바로가기](/java/class/)
-
-## "Hello World 10번 출력하기" 예시모음
-
-Hello World를 콘솔에 10번 출력하는 예제 모음이다.
-자바를 사용하여 다양한 방법으로 구현된 예제를 볼수있는 문서이다.
-밑에 항목들은 예제를 구현하기위해 사용한 문법,기술들이다.
-- for, while, forEach,
-- 모던자바의 stream
-- ExecutorService 
-
-[바로가기](/java/helloworld10/)
-
-## Tomcat
-
-[바로가기](/java/tomcat/)
-
-## Servlet
-
-[바로가기](/java/servlet/)
-
-## Spring Framework (MVC)
-
-[바로가기](/java/spring/)
+- [Spring Framework (MVC)](/java/spring/)
 
 ## 자바 공부할때 유용한 사이트/자료
 

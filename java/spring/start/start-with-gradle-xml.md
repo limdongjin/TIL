@@ -1,7 +1,7 @@
 ---
 prev: /java/spring/getstarted/
 ---
-## Get Started with **Intellij IDEA** and **Gradle**
+# Get Started Spring MVC with **Intellij IDEA** and **Gradle**
 
 인텔리제이에서 스프링 MVC를 초기설정하고 
 Hello World를 페이지에 띄우는 튜토리얼이다.
@@ -10,7 +10,7 @@ Hello World를 페이지에 띄우는 튜토리얼이다.
 
 XML Based Configuration을 사용할것.
 
-### create Intellij Gradle project
+## create Intellij Gradle project
 
 Check **java** and **web**.
 
@@ -22,7 +22,7 @@ Check **java** and **web**.
 
 ![](/images/spring-gradle4.png)
 
-### build.gradle
+## build.gradle
 
 본인이 사용하고싶은 버전에 따라서 해당 코드를 적절하게 수정하면된다.
 
@@ -52,7 +52,7 @@ dependencies {
 }
 ```
 
-### src/main/webapp/WEB-INF/web.xml
+## src/main/webapp/WEB-INF/web.xml
 
 ```
 mkdir src/main/webapp/WEB-INF
@@ -120,7 +120,7 @@ touch src/main/webapp/WEB-INF/applicationContext.xml
 </beans>
 ```
 
-### src/main/java/com/yourpackagename/controller/HomeController.java
+## src/main/java/com/yourpackagename/controller/HomeController.java
 
 ```
 mkdir src/main/java/com/yourpackagename/controller/
@@ -144,7 +144,7 @@ public class HomeController {
 }
 ```
 
-### Views
+## Views
 
 ```
 mkdir src/main/webapp/WEB-INF/view
@@ -171,7 +171,7 @@ mv src/main/webapp/index.jsp src/main/webapp/WEB-INF/view/index.jsp
 </html>
 ```
 
-### Configuration for Tomcat Run
+## Configuration for Tomcat Run
 
 ![](/images/edit-configuration.png)
 
@@ -181,7 +181,7 @@ mv src/main/webapp/index.jsp src/main/webapp/WEB-INF/view/index.jsp
 
 ![](/images/edit-configuration4.png)
 
-### Configuration Intellij Setting
+## Configuration Intellij Setting
 
 Check "Enable Annotation Processing"
 
@@ -191,7 +191,7 @@ Uncheck "Delegate IDE build/run actions to gradle"
 
 ![](/images/gradle-setting.png)
 
-### Run! Success!
+## Run! Success!
 
 ![](/images/run.png)
 

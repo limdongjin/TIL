@@ -1,6 +1,8 @@
 ---
 prev: /nodejs_serverside/
 ---
+# Sequelize 
+
 ## What is Sequelize?
 Sequelize는 Node.js의 ORM중 하나이며, SQL계열의 DBMS를 지원하는 ORM이다. 
 
@@ -47,7 +49,7 @@ $ sequelize init:models
 $ sequelize-auto -o "./models" -d dbname -h hostname -u username -p 3306 -x password -e mysql
 ```
  
- ## Sequelize Example 
+## Sequelize Example 
  ```js
  const models = require('./../models');
  
@@ -61,10 +63,13 @@ $ sequelize-auto -o "./models" -d dbname -h hostname -u username -p 3306 -x pass
 ```
 
 ## Create Migration & Create Model
-[바로가기](/nodejs_serverside/Sequelize/Migration/)
+
+[바로가기](/nodejs-serverside/sequelize/migration/)
 
 ## C(create)
-[바로가기](/nodejs_serverside/Sequelize/CRUD/C/)
+
+[바로가기](/nodejs-serverside/sequelize/crud/c/)
 
 ## R(read)
-[바로가기](/nodejs_serverside/Sequelize/CRUD/R/)
+
+[바로가기](/nodejs-serverside/sequelize/crud/r/)

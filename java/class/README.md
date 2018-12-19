@@ -1,9 +1,8 @@
 ---
 prev: /java/
 ---
-## Class
+# Class
 
-### 자바에서의 클래스를 살펴보자.
 * 클래스 작성
 
 * 객체 생성 및 사용
@@ -15,7 +14,7 @@ prev: /java/
 * 추상 클래스
 
 * 
-#### 클래스 작성
+## 클래스 작성
 
 ```java
 public class Car {
@@ -58,7 +57,7 @@ public class Car {
 }
 ```
 
-#### 객체 생성 및 사용
+## 객체 생성 및 사용
 
 ```java 
 Car mycar = new Car("Blue", 2000);
@@ -88,7 +87,7 @@ if ( mycar.isfire ){
 // BMW is Fire!!
 ```
 
-#### 객체 생성 과정 이해하기
+## 객체 생성 과정 이해하기
 
 ```
 Car mycar;
@@ -105,7 +104,7 @@ Car mycar2 = mycar;
 
 그렇기때문에 위의 mycar2 객체변수는 mycar의 참조값을 넘겨받는것이고, mycar의 내용을 복사받는게 아니라 참조값만을 넘겨받는것이다.
 
-#### 상속하기 
+## 상속하기 
 
 ```java 
 public class Bmw extends Car {
@@ -115,7 +114,7 @@ public class Bmw extends Car {
 // class 자식클래스 extends 부모클래스
 ```
 
-#### 추상 클래스 ( Abstract Class )
+## 추상 클래스 ( Abstract Class )
 
 추상 클래스는 구현이 덜되었거나, 아직은 미완성인 클래스이기때문에 추상클래스라고 부른다. 미완성 메소드, 즉 추상메소드를 단 하나라도 포함하고있는 클래스를 추상클래스라고 한다.
 
@@ -129,7 +128,7 @@ abstract class 클래스이름 {
 
 > 추상 클래스는 미완성 클래스이기때문에 객체를 생성하지못한다. 추상 클래스는 객체가 가지는 특성들을 추상화시켜놓았을뿐, 아직 구체화되지못한 클래스이므로, 이 추상클래스를 상속하는 하위클래스에서 구체화시키도록하는 방법을 사용한다. 주의할점은 자식클래스가 상속을 받고 추상메소드를 하나라도 남겨놓았다면 자식클래스도 추상클래스가 된다 
 
-#### Object Identity vs Object Equality
+## Object Identity vs Object Equality
 
 Object Identity는 참조값(reference)가 같은 경우를 말하며,
 Object Equality는 참조값은 다를수도있으면서도 "객체의 내용"이 같은 경우를 말한다. 
@@ -195,7 +194,7 @@ str3는 Shallow copy되어 str1과 같은 참조값을 갖게된다.
 또한 System.identityHashCode 메소드를 확인하면 둘의 참조값이 같은것을 볼수있다.
 
 반면 str2와 str1은 각자 따로 new 연산자로 생성이 되었기때문에 다른 객체로써 힙에 따로 할당된것이다. 그렇기에 "=="연산의 결과가 false로 나온다.
-### References
+## References
 
 [자바에서 변수와 메소드에 대하여 / 클래스 메소드, 클래스 변수 posted by Jbee](http://asfirstalways.tistory.com/160?category=660807)
 

@@ -1,7 +1,7 @@
 ---
 prev: /aws/
 ---
-### `A도메인으로 온 요청을 B도메인으로 redirection 시키고 싶다면? (Route53 + S3)`
+# `A도메인으로 온 요청을 B도메인으로 redirection 시키고 싶다면? (Route53 + S3)`
 
 서비스를 운영하다보면 기존의 도메인을 새로운 도메인으로 바꾸는 상황이 발생하곤한다. 
 사용자들은 A라는 도메인으로 이 서비스를 알고있지만 앞으로는 B도메인으로 사용하도록 하길 원한다면 어떻게 해야할까?
@@ -24,7 +24,7 @@ Record Type은 A – IPv4 address. Alias는 Yes, Alias Target은 방금 생성�
 
 기존 도메인이 https인경우에는 아래 레퍼런스 링크를 참고하면된다.
 
-### References
+## References
 
 [Redirecting a domain with HTTPS using Amazon S3 and CloudFront
 ](https://simonecarletti.com/blog/2016/08/redirect-domain-https-amazon-cloudfront/)

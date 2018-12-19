@@ -1,26 +1,14 @@
 ---
 prev: /
 ---
-## Vue.js 
+# Vue.js 
 
-## `Vue.js 설정`
+- [설정](/vuejs/initialization/)
 
-[바로가기](/vuejs/initialization/)
+- [튜토리얼](/vuejs/tutorials/)
 
-## `Vue.js 튜토리얼`
+- [팁/코드조각](/vuejs/general/)
 
-[바로가기](/vuejs/tutorials/)
+- [유용한 자료 모음](/vuejs/references/)
 
-## `Vue.js 팁`
-
-[바로가기](/vuejs/general/)
-
-## `유용한 자료들 모음`
-
-[바로가기](/vuejs/references/)
-
-## `vuepress`
-
-Vue-powered Static Site Generator
-
-[바로가기](/vuejs/vuepress/)
+- [뷰프레스](/vuejs/vuepress/)

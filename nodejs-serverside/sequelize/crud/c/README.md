@@ -1,7 +1,8 @@
 ---
 prev: /nodejs_serverside/Sequelize/
 ---
-## Create data
+# Create Operation in Sequelize
+
 ```js
 const models = require('./../models')
 var router = express.Router()

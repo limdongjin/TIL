@@ -3,17 +3,11 @@ prev: /
 ---
 # Elastic Search 
 
-## Elasticsearch 팁 
+- [Elasticsearch 팁](/elasticsearch/general/)
 
-[바로가기](/elasticsearch/general/)
+- [Python 에서 Elastic Search 사용하기](/elasticsearch/python/)
 
-## Python 에서 Elastic Search 사용하기 
-
-[바로가기](/elasticsearch/python/)
-
-## Query DSL
-
-[준비중](/elasticsearch/querydsl/)
+- [Query DSL](/elasticsearch/querydsl/)
 
 ## Useful References
 

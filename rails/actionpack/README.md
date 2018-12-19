@@ -1,9 +1,9 @@
 ---
 prev: /rails/
 ---
-## Action Pack 
+# Action Pack 
 
-### Action Pack README.rdoc 번역(의역)
+## Action Pack README.rdoc 번역(의역)
 
 Action Pack은 (웹에서의)요청을 handling하고 응답하는 프레임워크입니다. Action Pack은 여러가지 메커니즘을 제공합니다. 
 
@@ -24,6 +24,6 @@ Ruby on Rails 프레임 워크를 사용하면 사용자는 오직 Action Contro
 
 (2018.07.26 기준)
 
-### Reference 
+## Reference 
 
 [Rails 레포의 Action Pack 설명](https://github.com/rails/rails/tree/master/actionpack)

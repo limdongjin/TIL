@@ -1,11 +1,11 @@
 ---
 prev: /rails/deploy/
 ---
-# AWS Elastic Beanstalk for Rails  
+# Rails Deployment with AWS Elastic Beanstalk
 
 Rails 웹 프로젝트를 배포를 하기위한 문서이다.
 
-### AWS 설정 for Elastic Beanstalk
+## AWS 설정 for Elastic Beanstalk
 
 0. AWS 로그인 
 
@@ -37,7 +37,7 @@ Rails 웹 프로젝트를 배포를 하기위한 문서이다.
      2) 권한 추가 버튼을 클릭
      3) 권한 설정 : "기본 정책 직접 연결" 선택 및 정책 추가 및 계속 다음단계 진행후 완료
    ```
-### Rails 프로젝트 배포 with Elastic Beanstalk  (1) 초기 설정
+## 1. 초기 설정
 
 ```
 $ cd RailsProjectFolder 
@@ -56,7 +56,7 @@ $ eb init
 # 필수 #
 .gitignore에 .elasticbeanstalk/ 폴더를 추가한다. 
 ```
-### Rails 프로젝트 배포 with Elastic Beanstalk  (2) 배포 시작! 완료!
+## 2. 배포 시작! 완료!
 
 ```
 $ git add -A && git commit -m "eb deploy start"
@@ -65,7 +65,7 @@ $ eb create myfirstdeploy
   # eb create <deploy_name>
 ```
 
-### Rails + Elastic Beanstalk 관련 유용한 자료 모음 
+## Rails + Elastic Beanstalk 관련 유용한 자료 모음 
 
 [How to set up a Rails 4.2 app on AWS with Elastic Beanstalk and PostgreSQL posted by Julian Tescher](https://hackernoon.com/how-to-set-up-a-rails-4-2-app-on-aws-with-elastic-beanstalk-and-postgresql-3f9f29c046e2)
 

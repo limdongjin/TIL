@@ -1,9 +1,9 @@
 ---
 prev: /java/
 ---
-## Introduction to Java Programming
+# Introduction to Java Programming
 
-### 자바가 무엇인가요? 그리고 어떻게 실행되나요? 
+## 자바가 무엇인가요? 그리고 어떻게 실행되나요? 
 
 자바는 JVM(Java Virtual Machine)위에서 돌아가는 프로그래밍언어이다. 
 이러한 특징이 자바가 플랫폼 독립적으로 실행되도록 만들어준다. 그렇다면 자바의 실행과정을 간략히 보도록하자.
@@ -30,7 +30,7 @@ JVM에서 실행할수있는 Bytecode형식의 실행파일을 만드는것이�
 이에 대해서는 추후에 문서를 작성하겠다.
 
 
-### References
+## References
 
 [점프 투 자바](https://wikidocs.net/887)
 

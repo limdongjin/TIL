@@ -1,14 +1,16 @@
 ---
 prev: /nodejs_serverside/Sequelize/
 ---
-### Create Model & table
+# Migration in Sequelize
+
+## Create Model & table
 
 ```bash
 $ sequelize model:generate --name Post --attributes title:string,content:text,category:text
 $ sequelize db:migrate
 ```
 
-### Add Column
+## Add Column
 해당 command를 입력하면 아래와 같은 파일이 생기는 것을 볼수있다.
 ```bash
 $ sequelize migration:create --name add_column_to_table 

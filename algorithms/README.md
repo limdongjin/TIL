@@ -1,9 +1,8 @@
 ---
 prev: /
 ---
-## 알고리즘/ProblemSolving 
+# 알고리즘/ProblemSolving 
 
-### Analysis of Algorithms
+- [Analysis of Algorithms](/algorithms/analysis/)
 
-[바로가기](/algorithms/analysis/)
 

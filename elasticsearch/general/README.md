@@ -1,9 +1,9 @@
 ---
 prev: /elasticsearch/
 ---
-## Elasticsearch 팁
+# Elasticsearch 팁
 
-### date_detection으로 에러가 난다면? 
+## date_detection으로 에러가 난다면? 
 
 ```shell
 PUT /mymyindex
@@ -16,7 +16,7 @@ PUT /mymyindex
 }
 ```
 
-### AWS Elasticsearch Service 액세스 정책 설정
+## AWS Elasticsearch Service 액세스 정책 설정
 
 ```
 // elasticsearch + kibana + cognito 조합 (1)
@@ -72,7 +72,7 @@ PUT /mymyindex
 }
 ```
 
-### AWS Elasticsearch Service 한글 형태소 분석기 붙이기
+## AWS Elasticsearch Service 한글 형태소 분석기 붙이기
 
 Index를 처음 생성할때 settings에 형태소 분석기를 설정해주면 된다
 (AWS Elasticsearch Service는 seunjeon 형태소 분석기를 지원한다.)
@@ -101,6 +101,6 @@ Index를 처음 생성할때 settings에 형태소 분석기를 설정해주면 
 }
 ```
 
-### References
+## References
 
 [AWS Elasticsearch Service 개발자문서 - 액세스 제어 파트](https://docs.aws.amazon.com/ko_kr/elasticsearch-service/latest/developerguide/es-ac.html)

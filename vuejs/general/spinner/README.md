@@ -1,15 +1,15 @@
 ---
 prev: /vuejs/general/
 ---
-## Vue.js에 Spinner 적용하기
+# Vue.js에 Spinner 적용하기
 
-### Vue.js Spinner 라이브러리
+## Vue.js Spinner 라이브러리
 
 [epic-spinners](https://github.com/epicmaxco/epic-spinners)
 
 [vue-spinner](https://github.com/greyby/vue-spinner)
 
-### Spinner를 어떻게 적용하는가? - 1
+## Spinner를 어떻게 적용하는가? - 1
 
 ```html
 <template>
@@ -29,4 +29,6 @@ data() {
 }
 ```
 
-### Spinner를 어떻게 적용하는가? - 2
+## Spinner를 어떻게 적용하는가? - 2
+
+준비중

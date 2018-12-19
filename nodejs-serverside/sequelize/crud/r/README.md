@@ -1,6 +1,8 @@
 ---
 prev: /nodejs_serverside/Sequelize/
 ---
+# Read Operation in Sequelize
+
 ## Read Data by id
 ```js
 router.get('/:id', (req, res)=>{
@@ -14,7 +16,7 @@ router.get('/:id', (req, res)=>{
 })
 ```
 
-## Read Datas
+## Read Data All
 
 just all data
 ```js
@@ -28,6 +30,9 @@ router.get('/', function (req, res, next) {
     })
 })
 ```
+
+## Read Datas by condition
+
 where query
 ```js
 /* GET posts listing. */

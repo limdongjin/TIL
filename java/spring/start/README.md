@@ -1,14 +1,14 @@
 ---
 prev: /java/spring/getstarted/
 ---
-## Get Started Spring MVC with IntelliJ + Maven 
+# Get Started Spring MVC with IntelliJ + Maven 
 
 인텔리제이에서 스프링 MVC를 초기설정하고 
 Hello World를 페이지에 띄우는 튜토리얼이다.
 
 그리고 Maven을 이용하여 의존성관리를 할것이다.
 
-### create Intellij Maven Project
+## create Intellij Maven Project
 
 New Project - Maven - Uncheck "Create from archetype"
 ![](/images/spring0.png)
@@ -17,7 +17,7 @@ New Project - Maven - Uncheck "Create from archetype"
 
 ![](/images/spring2.png)
 
-### Add Spring MVC Framework
+## Add Spring MVC Framework
 
 Click "Add Framework Support"
 ![](/images/spring3.png)
@@ -26,7 +26,7 @@ Check "Spring MVC"
 ![](/images/spring4.png)
 
 
-### web/WEB-INF/web.xml
+## web/WEB-INF/web.xml
 
 Change servlet-mapping url pattern ( from *form to / )
 
@@ -36,7 +36,7 @@ before web.xml
 after web.xml
 ![](/images/spring6.png)
 
-### Project Structure - Artifacts
+## Project Structure - Artifacts
 
 ![](/images/spring7.png)
 
@@ -48,7 +48,7 @@ Double click Spring MVC-x.x.x RELEASE
 
 Click Apply
 
-### web/WEB-INF/dispatcher-servlet.xml
+## web/WEB-INF/dispatcher-servlet.xml
 
 setup Annotation, Component-scan
 
@@ -80,7 +80,7 @@ after
 </beans>
 ```
 
-### pom.xml
+## pom.xml
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -120,13 +120,13 @@ after
 </project>
 ```
 
-### Views
+## Views
 
 create "views" Directory, and Move index.jsp to "views" Directory
 
 ![](/images/spring9.png)
 
-### Controller 
+## Controller 
 
 create "Controller" package, and create HomeController.java 
 
@@ -136,7 +136,7 @@ write Some code
 
 ![](/images/spring11.png)
 
-### Run 
+## Run 
 
 Click "Edit Configuration"
 
@@ -150,4 +150,4 @@ Click "Apply"
 
 ![](/images/spring14.png)
 
-### Success!
+## Success!

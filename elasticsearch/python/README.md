@@ -39,9 +39,7 @@ es = Elasticsearch(
 )
 ```
 
-## 사용법 
-
-### `Document 조회` GET /itisindex/itistype/itisid
+## `Document 조회` GET /itisindex/itistype/itisid
 
 ```shell
 // shell 
@@ -55,7 +53,7 @@ curl -XGET https://search.example.net:9999/itisindex/itistype/100
 es.get(index='itisindex', doc_type='itistype', id='100')
 ```
 
-### `검색 API` GET /_search
+## `검색 API` GET /_search
 
 ```shell
 //shell
@@ -94,7 +92,7 @@ es.search(body={
 # })
 ```
 
-### `Index 추가` PUT /mymyindex 
+## `Index 추가` PUT /mymyindex 
 ```shell
 // shell
 
@@ -112,7 +110,7 @@ es.indices.create(index='mymyindex', body={
     "mappings": { ... }
 })
 ```
-### `Document 추가` PUT /mymyindex/mymytype/myid
+## `Document 추가` PUT /mymyindex/mymytype/myid
 ```shell
 //shell 
 
@@ -132,7 +130,7 @@ es.index(index='mymyindex', doc_type='mymytype', id='105', body={
 })
 ```
 
-### `Bulk Insert` 
+## `Bulk Insert` 
 
 ```python
 import elasticsearch
@@ -169,7 +167,7 @@ doc3 = {
 elasticsearch.helpers.bulk(es, [doc1, doc2, doc3])
 ```
 
-### `RAW REST API 호출` perform_request
+## `RAW REST API 호출` perform_request
 
 elasticsearch-py 라이브러리에 원하는 기능이 없다면 perform_request()를 이용하는 것이 편하다. 
 

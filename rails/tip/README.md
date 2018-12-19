@@ -1,23 +1,23 @@
 ---
 prev: /rails/
 ---
-## Ruby/Rails 팁 모음
+# Ruby/Rails 팁 모음
 
-### 테이블 하나 드랍하기
+## Rails Console에서 테이블 하나 드랍하기
 
 ```bash
 $ rails console
 > ActiveRecord::Migration.drop_table(:table_name)
 ```
 
-### rails console에서 sql파일 실행시키기
+## Rails Console에서 sql파일 실행시키기
 
 ```ruby
 $ rails console
 > ActiveRecord::Base.connection.execute(IO.read(“your_file.sql”))
 ```
 
-### rails console에서 이미지 다운 받기
+## Rails Console에서 이미지 다운 받기
 
 ```ruby
 $ rails console # 물론 rails에 종속성은 없다
@@ -27,7 +27,7 @@ $ rails console # 물론 rails에 종속성은 없다
 > end
 ```
 
-### rails에 로딩 스피너 적용하기! (feat, turbolinks)
+## Rails에 로딩 스피너 적용하기! (feat, turbolinks)
 
 
 ```javascript
@@ -93,7 +93,7 @@ $(document).on('turbolinks:request-end', function () {
 }
 ```
 
-### foo[:key] to foo.key
+## foo[:key] to foo.key
 
 ```ruby
 foo = { :mykey => "myvalue", :hello => "world" }

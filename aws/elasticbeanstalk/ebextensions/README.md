@@ -1,9 +1,9 @@
 ---
 prev: /aws/elasticbeanstalk/
 ---
-## ebextensions 설정하기
+# ebextensions 설정하기
 
-### `01_nginx.config`
+## `01_nginx.config`
 
 ```
 files:
@@ -96,6 +96,6 @@ container_commands:
     command: "sudo service nginx reload"
 ```
 
-## 유용한 링크들
+## Ebextension 설정 관련 유용한 자료들
 
 [Elastic Beanstalk Configuration files posted by 우아한형제들 기술블로그](http://woowabros.github.io/woowabros/2017/08/07/ebextension.html)

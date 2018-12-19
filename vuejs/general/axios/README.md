@@ -1,7 +1,7 @@
 ---
 prev: /vuejs/general/
 ---
-## Axios 시작하기
+# Axios로 form submit ajax request 보내기
 
 ```
 // main.js 
