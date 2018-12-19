@@ -1,5 +1,5 @@
 ---
-prev: /nodejs_serverside/Sequelize/
+prev: /nodejs-serverside/sequelize/
 ---
 # Migration in Sequelize
 

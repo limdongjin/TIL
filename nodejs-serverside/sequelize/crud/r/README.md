@@ -1,5 +1,5 @@
 ---
-prev: /nodejs_serverside/Sequelize/
+prev: /nodejs-serverside/sequelize/
 ---
 # Read Operation in Sequelize
 

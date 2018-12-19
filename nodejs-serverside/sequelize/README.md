@@ -1,5 +1,5 @@
 ---
-prev: /nodejs_serverside/
+prev: /nodejs-serverside/
 ---
 # Sequelize 
 
