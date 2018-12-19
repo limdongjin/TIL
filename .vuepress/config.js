@@ -32,6 +32,7 @@ module.exports = {
         '@vuepress/blog',
         '@vuepress/back-to-top',
         '@vuepress/google-analytics',
+        '@vuepress/active-header-links'
     ],
     configureWebpack: {
         resolve: {
