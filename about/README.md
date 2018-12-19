@@ -67,4 +67,10 @@
 - 1전공: 컴퓨터공학
 - 2전공(복수전공): 경제학
 
+## Development Skill
 
+### Ruby On Rails Web Service
+
+- 3년 이상
+
+###
