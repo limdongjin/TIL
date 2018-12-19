@@ -1,6 +1,6 @@
 # About
 
-## SNS
+## Link
 
 [페이스북 링크](https://www.facebook.com/geniuslim27)
 
@@ -130,9 +130,10 @@
 
 ### AWS
 
-- EC2, Elastic Beanstalk, S3, RDS, Route53, CloudFront, ElasticCache, Lambda 사용 경험 및 실제 서비스 적용 경험
+- EC2, Elastic Beanstalk, S3, RDS, Route53, CloudFront, ElasticCache, Lambda 사용 경험
+- 실서비스 인프라 구축 및 적용 경험 
 
 ### GIT
 
 - git을 이용한 협업 경험
-- 기본적인 개념, 사용법, 브랜치에 대한 교육 진행 경험
+- 기본적인 개념, 사용법, 브랜치에 대한 교육 진행 경험 
