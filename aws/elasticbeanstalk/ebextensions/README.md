@@ -1,7 +1,17 @@
 ---
 prev: /aws/elasticbeanstalk/
+title: AWS Elastic Beanstalk의 ebextension 설정을 해보자! 
+meta: 
+  - name: description
+    content: AWS Elastic Beanstalk의 기본적인 nginx ebextension 설정에 대해서. 
+  - property: og:title
+    content: AWS Elastic Beanstalk의 ebextension 설정을 해보자! 
+  - property: og:description
+    content: AWS Elastic Beanstalk의 기본적인 nginx ebextension 설정에 대해서. 
+  - property: og:url
+    content: https://limdongjin.github.io/aws/elasticbeanstalk/ebextensions
 ---
-# ebextensions 설정하기
+# AWS Elastic Beanstalk의 ebextensions 설정을 해보자!
 
 ## `01_nginx.config`
 
@@ -99,3 +109,5 @@ container_commands:
 ## Ebextension 설정 관련 유용한 자료들
 
 [Elastic Beanstalk Configuration files posted by 우아한형제들 기술블로그](http://woowabros.github.io/woowabros/2017/08/07/ebextension.html)
+
+<Disqus />

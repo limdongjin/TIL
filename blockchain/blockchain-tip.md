@@ -1,5 +1,15 @@
 ---
 prev: /blockchain/
+title: 블록체인 관련 유용한 자료 모음
+meta: 
+  - name: description
+    content: 블록체인 관련 유용한 자료 모음, 블로그, 백서, 툴
+  - property: og:title
+    content: 블록체인 관련 유용한 자료 모음
+  - property: og:description
+    content: 블록체인 관련 유용한 자료 모음, 블로그, 백서, 툴
+  - property: og:url
+    content: https://limdongjin.github.io/blockchain/blockchain-tip
 ---
 # 블록체인 관련 유용한 자료 모음
 
@@ -54,3 +64,5 @@ prev: /blockchain/
 ## 블록체인 개발 관련 툴/서비스
 
 [Remix : 솔리디티 IDE 사이트](http://remix.ethereum.org/#optimize=false&version=soljson-v0.4.20+commit.3155dd80.js)
+
+<Disqus />

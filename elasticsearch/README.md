@@ -20,3 +20,5 @@ prev: /
 [elasticsearch 깃북](https://elasticsearch.oofbird.net/getting-started.html)
 
 [elasticsearch_적용 및 활용_정리 - 슬라이드쉐어](https://www.slideshare.net/JunyiSong1/elasticsearch-45936425)
+
+<Disqus />

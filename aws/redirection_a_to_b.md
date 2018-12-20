@@ -1,5 +1,15 @@
 ---
 prev: /aws/
+title: A도메인으로 온 요청을 B도메인으로 redirection 시키고 싶다면? (Route53 + S3)
+meta: 
+  - name: description
+    content: A도메인으로 온 요청을 B도메인으로 redirection 시키고 싶다면? (Route53 + S3) 
+  - property: og:title
+    content: A도메인으로 온 요청을 B도메인으로 redirection 시키고 싶다면? (Route53 + S3) 
+  - property: og:description
+    content: A도메인으로 온 요청을 B도메인으로 redirection 시키고 싶다면? (Route53 + S3) 
+  - property: og:url
+    content: https://limdongjin.github.io/aws/redirection_a_to_b
 ---
 # `A도메인으로 온 요청을 B도메인으로 redirection 시키고 싶다면? (Route53 + S3)`
 
@@ -28,3 +38,5 @@ Record Type은 A – IPv4 address. Alias는 Yes, Alias Target은 방금 생성�
 
 [Redirecting a domain with HTTPS using Amazon S3 and CloudFront
 ](https://simonecarletti.com/blog/2016/08/redirect-domain-https-amazon-cloudfront/)
+
+<Disqus />

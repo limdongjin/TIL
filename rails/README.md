@@ -13,3 +13,4 @@ prev: /
 
 - [Mailer](/rails/mailer/)
 
+<Disqus />

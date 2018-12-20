@@ -1,5 +1,15 @@
 ---
 prev: /
+title: uncategorize 유용한 자료 모음 
+meta: 
+  - name: description
+    content: uncategorize 유용한 자료 모음 
+  - property: og:title
+    content: uncategorize 유용한 자료 모음 
+  - property: og:description
+    content: uncategorize 유용한 자료 모음 
+  - property: og:url
+    content: https://limdongjin.github.io/etc
 ---
 # etc
 
@@ -52,3 +62,5 @@ prev: /
 [개발자의 흔한 취미: 오픈소스 개발 - mingrammer](https://speakerdeck.com/mingrammer/gaebaljayi-heunhan-cwimi-opeunsoseu-gaebal)
 
 [백엔드 개발자가 되고싶어요 - mingrammer](https://speakerdeck.com/mingrammer/become-a-backend-developer)
+
+<Disqus />

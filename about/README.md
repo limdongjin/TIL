@@ -1,3 +1,16 @@
+---
+prev: /
+title: Dongjin Lim, 초고수 소프트웨어 엔지니어를 향하여
+meta: 
+  - name: description
+    content: 소개페이지입니다.
+  - property: og:title
+    content: Dongjin Lim, 초고수 소프트웨어 엔지니어를 향하여
+  - property: og:description
+    content:  소개페이지입니다.
+  - property: og:url
+    content: https://limdongjin.github.io/about
+---
 # About
 
 ## Link
@@ -137,3 +150,5 @@
 
 - git을 이용한 협업 경험
 - 기본적인 개념, 사용법, 브랜치에 대한 교육 진행 경험 
+
+<Disqus />

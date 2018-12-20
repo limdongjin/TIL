@@ -1,5 +1,15 @@
 ---
 prev: /elasticsearch/
+title: Python에서 Elastic Search 연결하고 CRUD, Bulk해보기  
+meta: 
+  - name: description
+    content: Python에서 Elastic Search를 연결하고 CRUD해보기, Bulk해보기  
+  - property: og:title
+    content: Python에서 Elastic Search를 연결하고 CRUD해보기, Bulk해보기  
+  - property: og:description
+    content: Python에서 Elastic Search를 연결하고 CRUD해보기,  Bulk해보기
+  - property: og:url
+    content: https://limdongjin.github.io/elasticsearch/python
 ---
 # Python에서 Elastic Search 사용하기 
 
@@ -186,3 +196,5 @@ es.transport.perform_request(
 [elasticsearch-py 공식문서](https://elasticsearch-py.readthedocs.io/en/master/api.html#elasticsearch)
 
 [AWS Elasticsearch Service 개발자 안내서](https://docs.aws.amazon.com/ko_kr/elasticsearch-service/latest/developerguide/es-indexing-programmatic.html)
+
+<Disqus />

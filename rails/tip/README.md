@@ -1,5 +1,15 @@
 ---
 prev: /rails/
+title: Ruby On Rails 유용한 자료, 팁 모음
+meta: 
+  - name: description
+    content: Ruby On Rails 유용한 자료, 팁 모음, 코드조각, 학습에 좋은글들
+  - property: og:title
+    content: Ruby On Rails 유용한 자료, 팁 모음
+  - property: og:description
+    content: Ruby On Rails 유용한 자료, 팁 모음, 코드조각, 학습에 좋은글들
+  - property: og:url
+    content: https://limdongjin.github.io/rails/tip
 ---
 # Ruby/Rails 팁 모음
 
@@ -161,3 +171,5 @@ foo = JSON.parse(foo.to_json, object_class: OpenStruct)
 [ruby에서 net/http를 이용한 json api call posted by Seotory](https://blog.seotory.com/post/2016/03/ruby-json-api-call-with-nethttp)
 
 [SOLID Object-Oriented Design Principles with Ruby Examples posted by RubyGarage](https://rubygarage.org/blog/solid-principles-of-ood)
+
+<Disqus />

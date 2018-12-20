@@ -1,7 +1,7 @@
 ---
 prev: /java/
 ---
-# Servlet
+# 서블릿(Servlet)알아보기 / 주요 예제 코드!
 
 ## What is Servlet
 

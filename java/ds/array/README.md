@@ -1,7 +1,7 @@
 ---
 prev: /java/ds/
 ---
-# Array in Java
+# 자바로 알아보는 Array
 
 이 문서는 Java의 기본적인 Array를 다룬다.
 

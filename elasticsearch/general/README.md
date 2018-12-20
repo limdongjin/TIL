@@ -1,5 +1,15 @@
 ---
 prev: /elasticsearch/
+title: Elastic Search 팁 모음 
+meta: 
+  - name: description
+    content: date_detection 에러, aws elastic search 액세스 정책, 한글 형태소 분석기
+  - property: og:title
+    content: Elastic Search 팁 모음 
+  - property: og:description
+    content: date_detection 에러, aws elastic search 액세스 정책, 한글 형태소 분석기
+  - property: og:url
+    content: https://limdongjin.github.io/elasticsearch/general
 ---
 # Elasticsearch 팁
 
@@ -104,3 +114,5 @@ Index를 처음 생성할때 settings에 형태소 분석기를 설정해주면 
 ## References
 
 [AWS Elasticsearch Service 개발자문서 - 액세스 제어 파트](https://docs.aws.amazon.com/ko_kr/elasticsearch-service/latest/developerguide/es-ac.html)
+
+<Disqus />

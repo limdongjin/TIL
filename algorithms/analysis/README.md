@@ -1,7 +1,17 @@
 ---
 prev: /algorithms/
+title: 알고리즘 평가방법. 시간 복잡도
+meta: 
+  - name: description
+    content: 알고리즘의 평가방법중 하나인 시간복잡도에 대헤 알아봅니다.
+  - property: og:title
+    content: 알고리즘 평가방법. 시간복잡도
+  - property: og:description
+    content:  알고리즘의 평가방법중 하나인 시간복잡도에 대헤 알아봅니다.
+  - property: og:url
+    content: https://limdongjin.github.io/algorithms/analysis
 ---
-# Analysis of Algorithms
+# 알고리즘 평가 방법 :: 시간 복잡도 
 
 ## 알고리즘을 어떻게 평가할것인가?
 
@@ -66,3 +76,5 @@ for i in range(1, N):
 ## References
 
 [프로그래밍 대회에서 배우는 알고리즘 문제해결전략1 04장](http://www.yes24.co.kr/24/goods/8006522)
+
+<Disqus />

@@ -1,7 +1,17 @@
 ---
 prev: /java/
+title: 자바로 알아보는 클래스, 객체, 상속, 추상클래스, Object Equality, Identity
+meta: 
+  - name: description
+    content: 자바의 클래스 작성법 부터 객체 생성법, 사용법을 익히고 객체의 생성 과정을 이해합니다.그리고 상속, 추상클래스, 객체 Identity, Equality를 이해합니다. 
+  - property: og:title
+    content: 자바로 알아보는 클래스, 객체, 상속, 추상클래스, Object Equality, Identity
+  - property: og:description
+    content: 자바의 클래스 작성법 부터 객체 생성법, 사용법을 익히고 객체의 생성 과정을 이해합니다.그리고 상속, 추상클래스, 객체 Identity, Equality를 이해합니다. 
+  - property: og:url
+    content: https://limdongjin.github.io/java/class
 ---
-# Class
+# 자바로 알아보는 클래스, 객체, 상속, 추상클래스, Object Equality, Identity
 
 * 클래스 작성
 
@@ -194,6 +204,7 @@ str3는 Shallow copy되어 str1과 같은 참조값을 갖게된다.
 또한 System.identityHashCode 메소드를 확인하면 둘의 참조값이 같은것을 볼수있다.
 
 반면 str2와 str1은 각자 따로 new 연산자로 생성이 되었기때문에 다른 객체로써 힙에 따로 할당된것이다. 그렇기에 "=="연산의 결과가 false로 나온다.
+
 ## References
 
 [자바에서 변수와 메소드에 대하여 / 클래스 메소드, 클래스 변수 posted by Jbee](http://asfirstalways.tistory.com/160?category=660807)
@@ -203,3 +214,5 @@ str3는 Shallow copy되어 str1과 같은 참조값을 갖게된다.
 [MIT "Software Conversation" Course 강의자료 15](http://web.mit.edu/6.005/www/fa15/classes/15-equality/)
 
 [케빈님의 유튜브 Java: 그가 final로 도배 하는 이유 / 컴파일러 너 내 String 어떻게 했어?! 영상](https://www.youtube.com/watch?v=lcPfxmn0otA&t=7151s)
+
+<Disqus />

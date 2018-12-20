@@ -1,7 +1,17 @@
 ---
 prev: /rails/
+title: Ruby On Rails 메일 보내기 기능 구현하기!!
+meta: 
+  - name: description
+    content: Ruby On Rails 메일 보내기 기능 구현하기!! 메일 내용 꾸미기 + 비동기 전송법 
+  - property: og:title
+    content: Ruby On Rails 메일 보내기 기능 구현하기!! 
+  - property: og:description
+    content:  Ruby On Rails 메일 보내기 기능 구현하기!! 메일 내용 꾸미기 + 비동기 전송법 
+  - property: og:url
+    content: https://limdongjin.github.io/rails/mailer
 ---
-# Mail 보내기 기능
+# Ruby On Rails 메일 보내기 기능 구현하기!!
 
 [mailgun](https://www.mailgun.com/) 이라는 SMTP 서비스를 이용하여 튜토리얼이 진행될것이다.
 
@@ -112,3 +122,5 @@ end
 ## Reference
 
 [Action_mailer 문서](https://guides.rubyonrails.org/action_mailer_basics.html)
+
+<Disqus />

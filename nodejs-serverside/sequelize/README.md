@@ -1,5 +1,15 @@
 ---
 prev: /nodejs-serverside/
+title: Nodejs의 SQL을 지원하는 ORM. Sequelize
+meta: 
+  - name: description
+    content: Sequelize의 설치법과 기본적인 CRUD 사용법을 알아본다. 
+  - property: og:title
+    content:  Nodejs의 SQL을 지원하는 ORM. Sequelize
+  - property: og:description
+    content: Sequelize의 설치법과 기본적인 CRUD 사용법을 알아본다. 
+  - property: og:url
+    content: https://limdongjin.github.io/nodejs-serverside/sequelize
 ---
 # Sequelize 
 
@@ -73,3 +83,5 @@ $ sequelize-auto -o "./models" -d dbname -h hostname -u username -p 3306 -x pass
 ## R(read)
 
 [바로가기](/nodejs-serverside/sequelize/crud/r/)
+
+<Disqus />

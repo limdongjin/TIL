@@ -1,7 +1,7 @@
 ---
 prev: /java/
 ---
-# Introduction to Java Programming
+# 자바 실행 과정 파악하기 1
 
 ## 자바가 무엇인가요? 그리고 어떻게 실행되나요? 
 

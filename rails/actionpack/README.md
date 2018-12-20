@@ -27,3 +27,5 @@ Ruby on Rails 프레임 워크를 사용하면 사용자는 오직 Action Contro
 ## Reference 
 
 [Rails 레포의 Action Pack 설명](https://github.com/rails/rails/tree/master/actionpack)
+
+<Disqus />

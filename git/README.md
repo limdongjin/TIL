@@ -1,5 +1,15 @@
 ---
 prev: /
+title: 최강의 협업도구 GIT / Github
+meta: 
+  - name: description
+    content: 최강의 협업도구 GIT / Github에 대해 알아보자! 
+  - property: og:title
+    content: 최강의 협업도구 GIT / GITHUB 
+  - property: og:description
+    content: 최강의 협업도구 GIT / Github에 대해 알아보자 
+  - property: og:url
+    content: https://limdongjin.github.io/git
 ---
 # `git/github`
 
@@ -66,3 +76,5 @@ git checkout 브랜치이름
 [깃 팁모음](https://github.com/mingrammer/git-tips)
 
 [Markdown 간단하게 정리하기](http://blog.eomdev.com/github/2015/12/11/github-markdown.html])
+
+<Disqus />

@@ -4,3 +4,5 @@ prev: /
 # 자료구조
 
 - [자료구조 in 자바 ](/java/ds/)
+
+<Disqus />

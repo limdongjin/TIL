@@ -1,7 +1,8 @@
 ---
 prev: /nodejs-serverside/sequelize/
+title: How to Nodejs Sequelize Migration
 ---
-# Migration in Sequelize
+# Migration in Sequelize 
 
 ## Create Model & table
 
@@ -55,3 +56,5 @@ module.exports = {
   }
 };
 ```
+
+<Disqus />

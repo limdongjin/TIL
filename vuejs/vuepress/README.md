@@ -20,3 +20,7 @@ prev: /vuejs/
 [VuePress in all its glory posted by Nosa Obaseki](https://blog.logrocket.com/vuepress-in-all-its-glory-2f682e4f70c0)
 
 [VuePress Examples 1.3.7](https://vuepress-examples.netlify.com/)
+
+[한글 vuepress 자료 블로:: 유기체의 다락방](https://62che.com/blog)
+
+<Disqus />

@@ -14,7 +14,12 @@ module.exports = {
         ['link', { rel: 'apple-touch-icon', href: `/images/logo-144.png` }],
         ['link', { rel: 'mask-icon', href: '/images/logo-144.png', color: '#3eaf7c' }],
         ['meta', { name: 'msapplication-TileImage', content: '/images/logo-144.png' }],
-        ['meta', { name: 'msapplication-TileColor', content: '#000000' }]
+        ['meta', { name: 'msapplication-TileColor', content: '#000000' }],
+        ['meta', { property: 'og:type', content: 'website' }],
+        ['meta', { property: 'og:title', content: 'limdongjin.github.io' }],
+        ['meta', { property: 'og:description', content: '공부하면서 정리하는 블로그' }],
+        ['meta', { property: 'og:image', content: 'https://limdongjin.github.io/images/logo-144.png'}],
+        ['meta', { property: 'og:url', content: 'https://limdongjin.github.io'}]
     ],
     themeConfig: {
         nav: [
