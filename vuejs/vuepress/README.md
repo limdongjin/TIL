@@ -504,6 +504,6 @@ module.exports = {
 
 [VuePress Examples 1.3.7](https://vuepress-examples.netlify.com/)
 
-[한글 vuepress 자료 올려주는 블로그:: 유기체의 다락방](https://62che.com/blog)
+[개인블로그 :: 유기체의 다락방](https://62che.com/blog)
 
 <Disqus />
