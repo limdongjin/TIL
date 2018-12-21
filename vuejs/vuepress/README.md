@@ -1,17 +1,19 @@
 ---
 sidebar: auto
-title: Tutorial. Vuepress로 기술문서 빠르게 만들어보자! (국내 최초 Vuepress 총정리 문서) 
+title: Tutorial. Vuepress로 기술문서 빠르게 만들어보자!
 meta: 
   - name: description
-    content: 소개페이지입니다.
+    content: 신상 정적사이트 생성기 Vuepress를 배워보자
   - property: og:title
-    content: Dongjin Lim, 초고수 소프트웨어 엔지니어를 향하여
+    content: Tutorial. Vuepress로 기술문서 빠르게 만들어보자!
   - property: og:description
-    content:  소개페이지입니다.
+    content:  신상 정적사이트 생성기 Vuepress를 배워보자
   - property: og:url
-    content: https://limdongjin.github.io/about
+    content: https://limdongjin.github.io/vuejs/vuepress
+  - property: og:image
+    content: https://limdongjin.github.io/images/vuepress-logo.png
 ---
-# Tutorial :: Vuepress로 기술문서 빠르게 만들어보자! (국내 최초 Vuepress 총정리 문서) 
+# Tutorial :: Vuepress로 기술문서 빠르게 만들어보자!
 
 :::warning
 이 문서는 vuepress 1.0.0.alpha.30버전을 기준으로 작성되었습니다.
@@ -34,7 +36,8 @@ vuepress가 정식 릴리즈가 될때 이 문서와 내용이 약간 달라질�
 :::
 
 :::tip
-현재 https://limdongjin.github.io는 Vuepress의 기본 테마를 기반으로 제작되었습니다.
+현재 https://limdongjin.github.io 는 Vuepress의 기본 테마를 기반으로 제작되었습니다.
+[limdongjin/TIL](https://github.com/limdongjin/TIL)
 :::
 
 ## 기본적인 설치 및 빌드
@@ -50,17 +53,29 @@ mkdir docs
 
 # 마크다운 파일을 생성한다. 
 echo '# Hello VuePress' > docs/README.md
+```
 
-# development 모드로 Vuepress 켜기
-vuepress docs:dev
+package.json
+```js
+{
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
+```
+
+```bash
+# Development Mode
+yarn docs:dev
 
 # build to static files
-vuepress docs:build
+yarn docs:build
 ```
 
 ## Vuepress는 어떻게 Routing이 되는가?
 
-vuepress는 기본적으로 디렉토리 구조로 url이 routing됩니다.
+vuepress는 기본적으로 디렉토리 구조와 파일이름으로 url이 routing됩니다.
 
 | Relative Path | Page Routing |
 |---|---|
@@ -71,7 +86,7 @@ vuepress는 기본적으로 디렉토리 구조로 url이 routing됩니다.
 ## About Configuration
 
 vuepress는 config파일이 없더라도 빌드할수있지만, vuepress가 지원해주는 기능들을 사용하거나 커스터마이징하기위해서는
-config파일/폴더를 생성하여야 합니다! 
+config파일(또는 폴더)를 생성하는것이 좋습니다.! 
 
 <br />
 vuepress는 .vuepress폴더에 설정이나 테마,플러그인등을 작성하게 되어있습니다.
@@ -108,7 +123,7 @@ vuepress는 .vuepress폴더에 설정이나 테마,플러그인등을 작성하�
 ```
 
 :::tip
-더 자세한 내용은 공식문서를 참고해보세요! [Vuepress 디렉토리 구조](https://vuepress.vuejs.org/guide/directory-structure.html)
+이에대한 더 자세한 내용은 공식문서를 참고해보세요! [Vuepress 디렉토리 구조](https://vuepress.vuejs.org/guide/directory-structure.html)
 :::
 
 ## 기본적인 설정파일 .vuepress/config.js
@@ -123,7 +138,7 @@ config.js에 vuepress의 기본적인 설정을 하거나, 플러그인 추가, 
 cd docs
 
 mkdir .vuepress
-touch cofig.js
+touch .vuepress/config.js
 ```
 
 ```js
@@ -137,7 +152,7 @@ module.exports = {
 ## 기본 Nav Bar 
 
 ```bash
-# current directory: /docs/
+# current directory: ~/docs
 
 mkdir about
 echo '# About Page' > about/README.md
@@ -164,22 +179,20 @@ navbar, sidebar 등의 테마관련 설정은 themeConfig에 설정하게됩니�
 :::
 
 :::danger
-nav,sidebar 라우팅에서 'about/'이 아닌 '/about'으로 설정할경우에
+nav,sidebar 라우팅에서 '/about/'이 아닌 '/about'으로 설정할경우에
 '/about.md'를 렌더링하게됩니다.
 :::
 
 ## 드랍다운이 되는 Nav Bar
 
 ```bash
-# current directory: /docs/
+# current directory: ~/docs
 
 # 아직 about폴더를 아직 만들지않았다면,
-mkdir about 
+mkdir about
 
-touch about/me.md
 echo '# About ME' > about/me.md
 
-touch about/blog.md
 echo '# About Blog' > about/blog.md
 ```
 
@@ -212,7 +225,7 @@ nav bar에 대한 더 자세한 내용 => [Default theme > Nav Bar](https://vuep
 vuepress에는 Sidebar에 대한 다양한 설정법을 제공해주고있는데 여기서 가장 간단한 방법은 markdown파일의 `Front Matter`에 `sidebar: auto`설정을 작성해주는것이다.
 
 ``` bash{3}
-# current directory: /docs/
+# current directory: ~/docs
 
 touch foo-nav.md
 ```
@@ -223,24 +236,14 @@ sidebar: auto
 ---
 # 샵하나는 제목으로 자동 설정됩니다. 
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-
 ## 섹션1
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-
 ### 섹션1-1
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-
 ### 섹션1-2
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-
 ## 섹션2
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-
 ## 섹션3
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 ```
@@ -277,9 +280,8 @@ meta:
   - property: og:description
     content: 문서의 description
   - property: og:url
-    content: https://mysite.com/hello
+    content: https://mysite.com/hello.html
 ---
-
 # 제목!
 ...
 ## 내용1
@@ -290,25 +292,34 @@ meta:
 
 ## 공통 Head 태그 설정하기
 
-```js{3,4,5,6,7,8,9,10}
-// .vuepress/config.js
+```js{6,7,8,9}
+// docs/.vuepress/config.js
 module.exports = {
+  // ... 
+  // themeConfig: { ... }...
+  // ...
   head: [
     ['link', { rel: 'icon', href: '/logo.png' }],
-    ['meta', { property: 'og:type', content: 'website' }],
-    ['meta', { property: 'og:title', content: 'limdongjin.github.io' }],
-    ['meta', { property: 'og:description', content: '공부하면서 정리하는 블로그' }],
-    ['meta', { property: 'og:image', content: 'https://limdongjin.github.io/images/logo-144.png'}],
-    ['meta', { property: 'og:url', content: 'https://limdongjin.github.io'}]
+    ['link', { rel: 'manifest', href: '/manifest.json' }]
   ]
 }
 ```
+
+:::warning
+같은 attribute 이름을 가진 태그를 frontmatter에도 추가하고 공통 Head태그에도 추가한경우에는,
+html head에는 저 태그들 둘다 추가된다.......ㅠㅠㅠ 
+:::
 
 ## Public 폴더 
 
 :::danger
 "/logo.png"에 접근을 하기위해서는 .vuepress/public 폴더에 logo.png파일을 위치시켜야합니다.
 :::
+
+```bash
+mkdir .vuepress/public
+# move logo.png to .vuepress/public
+```
 
 ## 쓸만한 플러그인 추가하기1. `back-to-top`
 
@@ -327,12 +338,18 @@ package.json에 등록된 플러그인 버전과 vuepress버전을 같게 설정
 :::
 
 ### Usage
-```js{3}
-// .vuepress/config.js
+```js{5}
+// docs/.vuepress/config.js
 module.exports = {
+  // ...
+  // ...
   plugins: ['@vuepress/back-to-top'] 
 }
 ```
+
+:::tip
+짧은 페이지에서는 버튼이 나타나지않으며, 일정이상 스크롤이 내려간상태에서 버튼이 표시되는것같습니다.
+:::
 
 ## 쓸만한 플러그인 추가하기2. pwa
 
@@ -351,8 +368,9 @@ package.json에 등록된 플러그인 버전과 vuepress버전을 같게 설정
 ### config파일에 플러그인 등록 
 
 ```js
-// .vuepress/config.js
+// docs/.vuepress/config.js
 module.exports = {
+    // ...
     head: [
         ['link', { rel: 'icon', href: `/images/logo-144.png` }],
         ['link', { rel: 'manifest', href: '/manifest.json' }]
@@ -372,6 +390,8 @@ module.exports = {
 .vuepress/public/images 폴더에 logo-144.png 이미지를 넣습니다.
 
 ```bash
+# current directory: ~/docs
+
 touch .vuepress/public/manifest.json
 ```
 
@@ -449,7 +469,7 @@ ex) " ```js{3} "형식
 ## 쓸만한 markdown 기본 extension 3. LineNumbers
 
 ```js{3,4,5}
-// .vuepress/config.js
+// docs/.vuepress/config.js
 module.exports = {
   markdown: {
     lineNumbers: true
