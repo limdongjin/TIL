@@ -1,5 +1,4 @@
 ---
-prev: /blockchain/
 title: 블록체인 관련 유용한 자료 모음
 meta: 
   - name: description
@@ -65,4 +64,6 @@ meta:
 
 [Remix : 솔리디티 IDE 사이트](http://remix.ethereum.org/#optimize=false&version=soljson-v0.4.20+commit.3155dd80.js)
 
+<ClientOnly>
 <Disqus />
+</ClientOnly>

@@ -1,6 +1,3 @@
----
-prev: /
----
 # Vue.js 
 
 - [설정](/vuejs/initialization/)

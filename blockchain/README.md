@@ -1,6 +1,4 @@
----
-prev: /
----
+
 # 블록체인
 
 - [비트코인](/blockchain/bitcoin/)
@@ -9,4 +7,6 @@ prev: /
 
 - [블록체인 관련 유용한 자료 모음](/blockchain/blockchain-tip.md)
 
+<ClientOnly>
 <Disqus />
+</ClientOnly>

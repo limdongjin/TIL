@@ -1,6 +1,4 @@
----
-prev: /java/design-pattern/
----
+
 # 자바로 알아보는 디자인패턴1. Template Method Pattern 
 
 ## What is Template Method Pattern 

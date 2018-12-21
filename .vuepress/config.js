@@ -1,7 +1,3 @@
-// const dirTree = require('directory-tree');
-// const path = require('path');
-//
-// const projets = dirTree(path.join(__dirname, '../algorithms'), {extensions:/\.md/});
 module.exports = {
     title: 'limdongjin',
     description: '도큐멘팅!',
@@ -132,17 +128,29 @@ module.exports = {
                 'references/',
                 'tutorials/',
                 'vuepress/'
+            ],
+            '/': [
+                ''
             ]
         },
-        displayAllHeaders: true,
+        // displayAllHeaders: true,
         lastUpdated: 'Last Updated'
     },
     plugins: [
         '@vuepress/blog',
         '@vuepress/back-to-top',
-        '@vuepress/google-analytics',
-        '@vuepress/active-header-links',
-        '@vuepress/medium-zoom'
+        // '@vuepress/google-analytics',
+        ['@vuepress/active-header-links', {
+            sidebarLinkSelector: '.sidebar-link',
+            headerAnchorSelector: '.header-anchor',
+            headerTopOffset: 120
+        }],
+        '@vuepress/medium-zoom',
+        ['@vuepress/pwa', {
+            serviceWorker: true,
+            updatePopup: true
+        }],
+        '@vuepress/pagination'
     ],
     configureWebpack: {
         resolve: {
@@ -152,7 +160,6 @@ module.exports = {
         }
     },
     ga: 'UA-131016591-1',
-    serviceWorker: true,
     markdown: {
         lineNumbers: true
     }

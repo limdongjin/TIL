@@ -1,6 +1,4 @@
----
-prev: /
----
+
 # 객체지향
 
 ## 클래스란?
@@ -72,4 +70,6 @@ brother = new Person(); // 만들어져있는 이름에 메모리를 할당하�
 
 [참조타입부터 클래스까지 posted by Kate Kim](https://medium.com/@katekim720/%EC%B0%B8%EC%A1%B0%ED%83%80%EC%9E%85%EB%B6%80%ED%84%B0-%ED%81%B4%EB%9E%98%EC%8A%A4%EA%B9%8C%EC%A7%80-e7982964b6c7)
 
+<ClientOnly>
 <Disqus />
+</ClientOnly>

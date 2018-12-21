@@ -1,5 +1,4 @@
 ---
-prev: /rails/
 title: Ruby On Rails 메일 보내기 기능 구현하기!!
 meta: 
   - name: description
@@ -123,4 +122,6 @@ end
 
 [Action_mailer 문서](https://guides.rubyonrails.org/action_mailer_basics.html)
 
+<ClientOnly>
 <Disqus />
+</ClientOnly>

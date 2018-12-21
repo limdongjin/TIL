@@ -1,6 +1,4 @@
----
-prev: /
----
+
 # Elastic Search 
 
 - [Elasticsearch 팁](/elasticsearch/general/)
@@ -21,4 +19,6 @@ prev: /
 
 [elasticsearch_적용 및 활용_정리 - 슬라이드쉐어](https://www.slideshare.net/JunyiSong1/elasticsearch-45936425)
 
+<ClientOnly>
 <Disqus />
+</ClientOnly>

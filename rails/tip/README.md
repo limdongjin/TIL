@@ -1,5 +1,4 @@
 ---
-prev: /rails/
 title: Ruby On Rails 유용한 자료, 팁 모음
 meta: 
   - name: description
@@ -172,4 +171,6 @@ foo = JSON.parse(foo.to_json, object_class: OpenStruct)
 
 [SOLID Object-Oriented Design Principles with Ruby Examples posted by RubyGarage](https://rubygarage.org/blog/solid-principles-of-ood)
 
+<ClientOnly>
 <Disqus />
+</ClientOnly>

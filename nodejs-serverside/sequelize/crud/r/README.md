@@ -1,6 +1,4 @@
----
-prev: /nodejs-serverside/sequelize/
----
+
 # Read Operation in Sequelize
 
 ## Read Data by id
@@ -51,4 +49,6 @@ router.get('/', function (req, res, next) {
 })
 ```
 
+<ClientOnly>
 <Disqus />
+</ClientOnly>

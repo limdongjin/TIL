@@ -1,5 +1,4 @@
 ---
-prev: /nodejs-serverside/sequelize/
 title: How to Nodejs Sequelize Migration
 ---
 # Migration in Sequelize 
@@ -57,4 +56,6 @@ module.exports = {
 };
 ```
 
+<ClientOnly>
 <Disqus />
+</ClientOnly>

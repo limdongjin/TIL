@@ -1,6 +1,4 @@
----
-prev: /rails/deploy/
----
+
 # Rails Deployment with AWS Elastic Beanstalk
 
 Rails 웹 프로젝트를 배포를 하기위한 문서이다.
@@ -73,4 +71,6 @@ $ eb create myfirstdeploy
 
 [(한글)RubyonRails AWS Elastic Beanstalk setting posted by ahntae](https://medium.com/ufofactory-org/rubyonrails-aws-elastic-beanstalk-setting-80181ae7b2ea)
 
+<ClientOnly>
 <Disqus />
+</ClientOnly>

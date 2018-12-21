@@ -1,6 +1,4 @@
----
-prev: /vuejs/
----
+
 # Vue.js 팁
 
 - [스피너 적용하기](/vuejs/general/spinner/)

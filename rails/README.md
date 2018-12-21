@@ -1,6 +1,4 @@
----
-prev: /
----
+
 # RubyOnRails 
  
 - [Install (Windows)`](/rails/install/)
@@ -13,4 +11,6 @@ prev: /
 
 - [Mailer](/rails/mailer/)
 
-<Disqus />
+<ClientOnly>
+    <Disqus />
+</ClientOnly>

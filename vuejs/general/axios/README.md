@@ -1,6 +1,4 @@
----
-prev: /vuejs/general/
----
+
 # Axios로 form submit ajax request 보내기
 
 ```

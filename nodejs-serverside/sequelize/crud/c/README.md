@@ -1,6 +1,4 @@
----
-prev: /nodejs-serverside/sequelize/
----
+
 # Create Operation in Sequelize
 
 ```js
@@ -17,4 +15,6 @@ router.post('/', (req, res)=>{
 })
 ```
 
+<ClientOnly>
 <Disqus />
+</ClientOnly>

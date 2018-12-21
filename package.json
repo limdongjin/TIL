@@ -8,6 +8,8 @@
     "@vuepress/plugin-blog": "^1.0.0-alpha.0",
     "@vuepress/plugin-google-analytics": "^1.0.0-alpha.0",
     "@vuepress/plugin-medium-zoom": "^1.0.0-alpha.0",
+    "@vuepress/plugin-pagination": "^1.0.0-alpha.0",
+    "@vuepress/plugin-pwa": "^1.0.0-alpha.0",
     "vuepress": "^1.0.0-alpha.29"
   }
 }

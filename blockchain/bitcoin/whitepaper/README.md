@@ -1,6 +1,4 @@
----
-prev: /blockchain/bitcoin/
----
+
 # 비트코인 백서 정리 및 요약
 
 ## 1. Introduction 

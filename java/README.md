@@ -1,6 +1,4 @@
----
-prev: /
----
+
 # Java
 
 - [Introduction to Java Programming](/java/introduction/)

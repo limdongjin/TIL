@@ -1,6 +1,4 @@
----
-prev: /java/spring/
----
+
 # Get Started Spring
 
 ## Get Started with **Intellij IDEA** , **Maven** , **XML**

@@ -1,6 +1,4 @@
----
-prev: /database/
----
+
 # Dynamodb
 
 ## Reference

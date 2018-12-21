@@ -1,6 +1,4 @@
----
-prev: /java/ds/
----
+
 # 자바로 알아보는 Array
 
 이 문서는 Java의 기본적인 Array를 다룬다.
@@ -122,3 +120,7 @@ for(int elem : intArr){
 [Arrays :: study.cs50.net ](https://study.cs50.net/arrays)
 
 [Arrays part in Oracle Java Tutorial](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
+
+<ClientOnly>
+<Disqus />
+</ClientOnly>

@@ -1,5 +1,4 @@
 ---
-prev: /nodejs-serverside/
 title: Nodejs의 SQL을 지원하는 ORM. Sequelize
 meta: 
   - name: description
@@ -84,4 +83,6 @@ $ sequelize-auto -o "./models" -d dbname -h hostname -u username -p 3306 -x pass
 
 [바로가기](/nodejs-serverside/sequelize/crud/r/)
 
+<ClientOnly>
 <Disqus />
+</ClientOnly>

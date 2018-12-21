@@ -1,6 +1,4 @@
----
-prev: /java/
----
+
 ## 맥북에서 톰캣(Tomcat)을 brew로 설치해보자!
 
 ### What is Tomcat?

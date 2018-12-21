@@ -1,5 +1,5 @@
 ---
-prev: /
+
 title: uncategorize 유용한 자료 모음 
 meta: 
   - name: description
@@ -63,4 +63,6 @@ meta:
 
 [백엔드 개발자가 되고싶어요 - mingrammer](https://speakerdeck.com/mingrammer/become-a-backend-developer)
 
+<ClientOnly>
 <Disqus />
+</ClientOnly>

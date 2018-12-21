@@ -1,5 +1,5 @@
 ---
-prev: /
+
 title: NLP,ML 유용한 쟈료 모음!
 meta: 
   - name: description
@@ -88,4 +88,6 @@ meta:
 [Recent Trends in Deep Learning Based
  Natural Language Processing, Tom Young, Devamanyu Hazarika, Soujanya Poria, Erik Cambria](https://arxiv.org/pdf/1708.02709.pdf)
 
+<ClientOnly>
 <Disqus />
+</ClientOnly>

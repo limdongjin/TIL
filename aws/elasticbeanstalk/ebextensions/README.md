@@ -1,5 +1,4 @@
 ---
-prev: /aws/elasticbeanstalk/
 title: AWS Elastic Beanstalk의 ebextension 설정을 해보자! 
 meta: 
   - name: description
@@ -110,4 +109,6 @@ container_commands:
 
 [Elastic Beanstalk Configuration files posted by 우아한형제들 기술블로그](http://woowabros.github.io/woowabros/2017/08/07/ebextension.html)
 
+<ClientOnly>
 <Disqus />
+</ClientOnly>

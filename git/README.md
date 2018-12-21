@@ -1,5 +1,4 @@
 ---
-prev: /
 title: 최강의 협업도구 GIT / Github
 meta: 
   - name: description
@@ -77,4 +76,6 @@ git checkout 브랜치이름
 
 [Markdown 간단하게 정리하기](http://blog.eomdev.com/github/2015/12/11/github-markdown.html])
 
+<ClientOnly>
 <Disqus />
+</ClientOnly>

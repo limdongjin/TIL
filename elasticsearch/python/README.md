@@ -1,5 +1,4 @@
 ---
-prev: /elasticsearch/
 title: Python에서 Elastic Search 연결하고 CRUD, Bulk해보기  
 meta: 
   - name: description
@@ -197,4 +196,6 @@ es.transport.perform_request(
 
 [AWS Elasticsearch Service 개발자 안내서](https://docs.aws.amazon.com/ko_kr/elasticsearch-service/latest/developerguide/es-indexing-programmatic.html)
 
+<ClientOnly>
 <Disqus />
+</ClientOnly>

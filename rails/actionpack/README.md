@@ -1,6 +1,4 @@
----
-prev: /rails/
----
+
 # Action Pack 
 
 ## Action Pack README.rdoc 번역(의역)
@@ -28,4 +26,6 @@ Ruby on Rails 프레임 워크를 사용하면 사용자는 오직 Action Contro
 
 [Rails 레포의 Action Pack 설명](https://github.com/rails/rails/tree/master/actionpack)
 
+<ClientOnly>
 <Disqus />
+</ClientOnly>
