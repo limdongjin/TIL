@@ -350,9 +350,13 @@ package.json에 등록된 플러그인 버전과 vuepress버전을 같게 설정
 
 ### config파일에 플러그인 등록 
 
-```js{4,5,6}
+```js
 // .vuepress/config.js
 module.exports = {
+    head: [
+        ['link', { rel: 'icon', href: `/images/logo-144.png` }],
+        ['link', { rel: 'manifest', href: '/manifest.json' }]
+    ],
     plugins: [
         ['@vuepress/pwa', {
             serviceWorker: true,
@@ -457,7 +461,7 @@ module.exports = {
 
 이 기능에 대한 설명은 아래 링크로 대체합니다.
 
-[한글 vuepress 자료 올려주는 블로그:: 유기체의 다락방](https://62che.com/blog/vuepress/%EB%8C%93%EA%B8%80-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EC%97%B0%EB%8F%99%ED%95%98%EA%B8%B0.html)
+[유기체의 다락방](https://62che.com/blog/vuepress/%EB%8C%93%EA%B8%80-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EC%97%B0%EB%8F%99%ED%95%98%EA%B8%B0.html)
 
 :::tip
 [소스코드](https://github.com/limdongjin/TIL/blob/master/.vuepress/components/Disqus.vue)
