@@ -139,7 +139,7 @@ module.exports = {
     plugins: [
         '@vuepress/blog',
         '@vuepress/back-to-top',
-        // '@vuepress/google-analytics',
+        '@vuepress/google-analytics', // 1.0.0.alpha.0 버전에서는 에러가 발생했지만 1.0.0.alpha.29로 높여서 해결하였음.
         ['@vuepress/active-header-links', {
             sidebarLinkSelector: '.sidebar-link',
             headerAnchorSelector: '.header-anchor',
