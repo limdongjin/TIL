@@ -26,7 +26,7 @@ vuepress가 정식 릴리즈가 될때 이 문서와 내용이 약간 달라질�
 
 ## Vuepress는 무엇인가
 
-1. Vuepress는 Vue.js로 개발되어진 정정 사이트 생성기입니다.
+1. Vuepress는 Vue.js로 개발되어진 정적 사이트 생성기입니다.
 2. 기술문서작성을 위해 최적화된 기본테마를 제공해줍니다.
 3. Plugin API를 제공해주어서 플러그인을 제작하거나 적용할수있습니다.
 4. Theming System을 제공해주어서 Vue.js를 이용하여 Theme를 제작하거나 다른 개발자가 만든 Theme를 적용하기에도 쉽습니다.
@@ -264,12 +264,13 @@ auto로 설정하기에는 sidebar가 복잡할것같은경우에는 공식문�
 ## SEO를 위해 페이지에 meta 태그를 설정해주기 (predefined frontmatter)
 
 검색엔진최적화(SEO)를 위해서는 페이지의 제목,내용등의 메타정보가 설정되야한다. 
-<meta name="title">은 샵하나 내용을 자동으로 추가해주고있지만, 
-아직 vuepress는 오픈그래프,description 등의 meta태그를 설정해주고있지않아서 일일이 넣어줘야한다...
+title 태그는 vuepress가 자동으로 추가해주고있지만, 
+아직 오픈그래프,description 등의 meta태그를 설정해주고있지않아서 일일이 넣어줘야한다...
 
 (물론 자동으로 페이지의 제목,내용 등을 메타태그에 넣어지도록 해주는 플러그인을 만들수도있을것이다.
  능력자님들이 얼른 seo 플러그인을 만들어주리라 믿습니다...)
 
+아래와 같은 문법으로 md파일에 meta태그를 추가할수있다. 
 ```md
 ---
 meta: 
@@ -290,7 +291,19 @@ meta:
 ...
 ```
 
-## 공통 Head 태그 설정하기
+저렇게 md파일을 작성해주면 아래와같이 html태그로 렌더링이 된다. 
+```html 
+<head>
+    ...
+    <meta name="description" content="문서의 description">
+    <meta property="og:title" content="문서의 title">
+    <meta property="og:description" content="문서의 description">
+    <meta property="og:url" content="https://mysite.com/hello.html">
+    ....
+</head>
+```
+
+## 공통 head 태그 설정하기
 
 ```js{6,7,8,9}
 // docs/.vuepress/config.js
@@ -349,6 +362,10 @@ module.exports = {
 
 :::tip
 짧은 페이지에서는 버튼이 나타나지않으며, 일정이상 스크롤이 내려간상태에서 버튼이 표시되는것같습니다.
+:::
+
+:::warning
+아쉽게도 모바일에서는 back-to-top 버튼이 표시가 안되는것같다. 
 :::
 
 ## 쓸만한 플러그인 추가하기2. pwa
@@ -504,6 +521,13 @@ module.exports = {
 
 [VuePress Examples 1.3.7](https://vuepress-examples.netlify.com/)
 
-[개인블로그 :: 유기체의 다락방](https://62che.com/blog)
+[유기체의 다락방](https://62che.com/blog)
 
 <Disqus />
+
+
+
+
+
+
+
