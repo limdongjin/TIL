@@ -1,5 +1,4 @@
-
-# Get Started Spring MVC with **Intellij IDEA** and **Gradle**
+# 인텔리제이(IntelliJ)에서 Gradle + Spring MVC 시작하기! (설치)
 
 인텔리제이에서 스프링 MVC를 초기설정하고 
 Hello World를 페이지에 띄우는 튜토리얼이다.

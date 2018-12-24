@@ -1,5 +1,4 @@
-
-# Create Operation in Sequelize
+# Nodejs SQL ORM Sequelize 입문 3. 생성(Create) 
 
 ```js
 const models = require('./../models')

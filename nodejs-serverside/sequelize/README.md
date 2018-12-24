@@ -1,5 +1,4 @@
 ---
-title: Nodejs의 SQL을 지원하는 ORM. Sequelize
 meta: 
   - name: description
     content: Sequelize의 설치법과 기본적인 CRUD 사용법을 알아본다. 
@@ -10,7 +9,7 @@ meta:
   - property: og:url
     content: https://limdongjin.github.io/nodejs-serverside/sequelize
 ---
-# Sequelize 
+# Nodejs SQL ORM Sequelize 입문 1. 설치 및 환경설정
 
 ## What is Sequelize?
 Sequelize는 Node.js의 ORM중 하나이며, SQL계열의 DBMS를 지원하는 ORM이다. 

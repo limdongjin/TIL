@@ -1,4 +1,3 @@
-
 # RubyOnRails 
  
 - [Install (Windows)`](/rails/install/)

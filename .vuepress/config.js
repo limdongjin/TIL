@@ -1,6 +1,8 @@
 module.exports = {
     title: 'limdongjin',
     description: '도큐멘팅!',
+    email: 'geniuslim27@gmail.com',
+    url: 'https://limdongjin.github.io',
     head: [
         ['link', { rel: 'icon', href: `/images/logo-144.png` }],
         ['link', { rel: 'manifest', href: '/manifest.json' }],
@@ -14,133 +16,171 @@ module.exports = {
         ['meta', { property: 'og:type', content: 'website' }]
     ],
     themeConfig: {
+        repo: 'limdongjin',
         nav: [
             { text: 'Home', link: '/' },
-            { text: 'About', link: '/about/'},
-            { text: 'Github', link: 'https://github.com/limdongjin' },
-            { text: 'Facebook', link: 'https://www.facebook.com/geniuslim27' },
-            { text: 'LinkedIn', link: 'https://www.linkedin.com/in/dongjin-lim-98115a137/' }
+            { text: 'Blog', link: '/blog/' },
+            { text: 'About', link: '/about/'}
         ],
-        sidebar: {
-            '/algorithms/': [
-                '',
-                'analysis/'
-            ],
-            '/algorithms/analysis/': [
-                '',
-                '/algorithms/',
-                '/algorithms/analysis/'
-            ],
-            '/aws/': [
-                '',
-                'elasticbeanstalk/',
-                'elasticbeanstalk/ebextensions/',
-                'redirection_a_to_b'
-            ],
-            '/blockchain/': [
-                '',
-                'bitcoin/',
-                'bitcoin/whitepaper/',
-                'ethereum/',
-                'ethereum/whitepaper/',
-                'blockchain-tip'
-            ],
-            '/database/': [
-                '',
-                'dynamodb/'
-            ],
-            '/datastructure/': [
-                '',
-                '/java/ds/'
-            ],
-            '/elasticsearch/': [
-                '',
-                'general/',
-                'python/',
-                'querydsl/'
-            ],
-            '/etc/': [
-                ''
-            ],
-            '/git/': [
-                ''
-            ],
-            '/java/': [
-                '',
-                'introduction/',
-                'ds/',
-                'ds/array/',
-                'design-pattern/',
-                'design-pattern/template-pattern/',
-                'class/',
-                'helloworld10/',
-                'tomcat/',
-                'servlet/',
-                'spring/',
-                'spring/start/',
-                'spring/start/start-with-gradle',
-                'spring/start/start-with-gradle-xml'
-            ],
-            '/js/': [
-                ''
-            ],
-            '/nlp/': [
-                ''
-            ],
-            '/nodejs_serverless/': [
-                ''
-            ],
-            '/nodejs-serverside/': [
-                '',
-                'sequelize/',
-                'sequelize/migration/',
-                'sequelize/crud/c/',
-                'sequelize/crud/r/'
-            ],
-            '/oop/': [
-                ''
-            ],
-            '/rails/': [
-                '',
-                'actionpack/',
-                'deploy/',
-                'deploy/using_elasticbeanstalk.md',
-                'install/',
-                'mailer/',
-                'tip/'
-            ],
-            '/tools/': [
-                '',
-                'rubymine/'
-            ],
-            '/vuejs/': [
-                '',
-                'general/',
-                'general/axios/',
-                'general/editor/',
-                'general/imagerender/',
-                'general/spinner/',
-                'initialization/',
-                'references/',
-                'tutorials/',
-                'vuepress/'
-            ],
-            '/': [
-                ''
-            ]
-        },
-        // displayAllHeaders: true,
+        sidebar: [
+            {
+                title: 'Vuepress',
+                collapsable: true,
+                children: [
+                    '/vuejs/vuepress/'
+                ]
+            },
+            {
+                title: 'Java',
+                collapsable: true,
+                children: [
+                    '/java/useful-reference-java',
+                    '/java/introduction/',
+                    '/java/ds/array/',
+                    '/java/design-pattern/template-pattern/',
+                    '/java/design-pattern/useful-reference-java-pattern',
+                    '/java/class/',
+                    '/java/helloworld10/',
+                    '/java/tomcat/',
+                    '/java/servlet/',
+                    '/java/spring/start/',
+                    '/java/spring/start/start-with-gradle',
+                    '/java/spring/start/start-with-gradle-xml'
+
+                ]
+            },
+            {
+                title: 'Algorithms',
+                collapsable: true,
+                children: [
+                    '/algorithms/',
+                    '/algorithms/analysis/'
+                ]
+            },
+            {
+                title: 'Vue.js',
+                collapsable: true,
+                children: [
+                    '/vuejs/references/',
+                    '/vuejs/general/axios/',
+                    '/vuejs/general/editor/',
+                    '/vuejs/general/imagerender/',
+                    '/vuejs/general/spinner/'
+                ]
+            },
+            {
+                title: 'AWS',
+                collapsable: true,
+                children: [
+                    '/aws/redirection_a_to_b'
+                ]
+            },
+            {
+                title: 'AWS Elastic Beanstalk',
+                collapsable: true,
+                children: [
+                    '/aws/elasticbeanstalk/useful_reference_eb',
+                    '/aws/elasticbeanstalk/ebextensions/',
+                    '/aws/elasticbeanstalk/ebextensions/useful_reference_ebex'
+                ]
+            },
+            {
+                title: 'Blockchain',
+                collapsable: true,
+                children: [
+                    '/blockchain/bitcoin/whitepaper/',
+                    '/blockchain/ethereum/whitepaper/',
+                    '/blockchain/blockchain-tip'
+                ]
+            },
+            {
+                title: 'Database',
+                collapsable: true,
+                children: [
+                    '/database/dynamodb/useful-reference-dynamodb'
+                ]
+            },
+            {
+                title: 'DataStructure',
+                collapsable: true,
+                children: [
+                    '/java/ds/array/'
+                ]
+            },
+            {
+                title: 'Elastic Search',
+                collapsable: true,
+                children: [
+                    '/elasticsearch/useful-reference-es.md',
+                    '/elasticsearch/general/',
+                    '/elasticsearch/python/'
+                ]
+            },
+            {
+                title: 'GIT',
+                collapsable: true,
+                children: [
+                    '/git/'
+                ]
+            },
+            {
+                title: 'Javascript',
+                collapsable: true,
+                children: [
+                    '/js/useful-reference-js'
+                ]
+            },
+            {
+                title: 'nodejs',
+                collapsable: true,
+                children: [
+                    '/nodejs-serverside/sequelize/',
+                    '/nodejs-serverside/sequelize/migration/',
+                    '/nodejs-serverside/sequelize/crud/c/',
+                    '/nodejs-serverside/sequelize/crud/r/',
+                ]
+            },
+            {
+                title: 'OOP',
+                collapsable: true,
+                children: [
+                    '/oop/'
+                ]
+            },
+            {
+                title: 'Rails',
+                collapsable: true,
+                children: [
+                    '/rails/mailer/',
+                    '/rails/tip/',
+                    '/rails/tip/useful-codeblock-ror'
+                ]
+            },
+            {
+                title: 'NLP',
+                collapsable: true,
+                children: [
+                    '/nlp/useful-reference-nlp'
+                ]
+            },
+            {
+                title: 'ETC',
+                collapsable: true,
+                children: [
+                    '/etc/',
+                    '/nodejs_serverless/useful-reference-serverless',
+                    '/tools/'
+                ]
+            }
+        ],
+        displayAllHeaders: false,
         lastUpdated: 'Last Updated'
     },
     plugins: [
         '@vuepress/blog',
         '@vuepress/back-to-top',
         '@vuepress/google-analytics', // 1.0.0.alpha.0 버전에서는 에러가 발생했지만 1.0.0.alpha.29로 높여서 해결하였음.
-        ['@vuepress/active-header-links', {
-            sidebarLinkSelector: '.sidebar-link',
-            headerAnchorSelector: '.header-anchor',
-            headerTopOffset: 120
-        }],
+        '@vuepress/active-header-links',
         '@vuepress/medium-zoom',
         ['@vuepress/pwa', {
             serviceWorker: true,

@@ -1,7 +1,4 @@
----
-title: How to Nodejs Sequelize Migration
----
-# Migration in Sequelize 
+# Nodejs SQL ORM Sequelize 입문 2. Migration
 
 ## Create Model & table
 

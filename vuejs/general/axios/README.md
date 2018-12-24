@@ -1,5 +1,4 @@
-
-# Axios로 form submit ajax request 보내기
+# Vue.js에서 Axios로 form submit ajax request 보내기
 
 ```
 // main.js 

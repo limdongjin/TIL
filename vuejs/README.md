@@ -1,8 +1,5 @@
 # Vue.js 
 
-- [설정](/vuejs/initialization/)
-
-- [튜토리얼](/vuejs/tutorials/)
 
 - [팁/코드조각](/vuejs/general/)
 

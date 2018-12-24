@@ -1,5 +1,4 @@
-
-# Read Operation in Sequelize
+# Nodejs SQL ORM Sequelize 입문 4. 읽기(Read)
 
 ## Read Data by id
 ```js

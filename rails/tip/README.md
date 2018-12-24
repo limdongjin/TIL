@@ -12,108 +12,6 @@ meta:
 ---
 # Ruby/Rails 팁 모음
 
-## Rails Console에서 테이블 하나 드랍하기
-
-```bash
-$ rails console
-> ActiveRecord::Migration.drop_table(:table_name)
-```
-
-## Rails Console에서 sql파일 실행시키기
-
-```ruby
-$ rails console
-> ActiveRecord::Base.connection.execute(IO.read(“your_file.sql”))
-```
-
-## Rails Console에서 이미지 다운 받기
-
-```ruby
-$ rails console # 물론 rails에 종속성은 없다
-> require 'open-uri'
-> open('image.png', 'wb') do |file|
->  file << open('http://example.com/image.png').read
-> end
-```
-
-## Rails에 로딩 스피너 적용하기! (feat, turbolinks)
-
-
-```javascript
-/* app/assets/javascripts/application.js */
-...
-$(document).on('turbolinks:request-start', function () {
-    // 요청이 진행중인 상태에 수행할 작업을 작성한다
-    
-    // ex)
-    // 스피너외의 영역에 loaded라는 클래스를 주었다 
-    // 스피너 영역을 loading-spinner라는 클래스를 주었다 
-    $('.loaded').hide(); // 로딩 스피너가 돌아갈때도 굳이 나머지영역을 날리고싶지않다면 hide를 안해도 무방하다.
-    $('.loading-spinner').show(); 
-});
-
-$(document).on('turbolinks:request-end', function () {
-    // 요청이 완료된 상태에 수행할 작업을 작성한다. 
-    
-    //ex)
-    $('.loaded').show();
-    $('.loading-spinner').hide(); // 로딩이 완료됬으므로 스피너를 화면에서 숨긴다.
-});
-...
-```
-
-```html
-<!-- application.html.erb -->
-...
-<div class="your_custom_classes loaded">
-<%= yield %>
-</div>
-...
-<div class="loading-spinner">
-</div>
-```
-
-```css 
-/* application.css */
-...
-<!-- spinner css를 작성한다. -->
-<!-- 밑에 코드는 스피너 예제이므로 자유롭게 스피너를 새롭게 작성해도 무방하다. -->
-
-.loading-spinner:before {
-  content: "";
-  box-sizing: border-box;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  height: 60px;
-  width: 60px;
-  background: rgba(0,0,0,.0);
-  border-radius: 50%;
-  border: 3px solid #a51832; 
-  border-top-color: #a51832;
-  border-bottom: 3px solid #a51832; 
-  animation: spin 1.5s linear infinite;
-}
-
-@keyframes spin {
-  to {
-    transform: rotate(360deg);
-  }
-}
-```
-
-## foo[:key] to foo.key
-
-```ruby
-foo = { :mykey => "myvalue", :hello => "world" }
-
-foo = JSON.parse(foo.to_json, object_class: OpenStruct)
-
-# foo.hello 
-# => "world"
-```
-
-
 ## 사용해본 유용한 rails 젬 모음 
 
 1. devise : 회원인증 기능 구현을 도와주는 젬 ( 소셜로그인, 토큰인증 등의 부가적인 기능도 구현할수있도록 도와준다. 문서화가 정말 잘되어있다) 
@@ -170,6 +68,20 @@ foo = JSON.parse(foo.to_json, object_class: OpenStruct)
 [ruby에서 net/http를 이용한 json api call posted by Seotory](https://blog.seotory.com/post/2016/03/ruby-json-api-call-with-nethttp)
 
 [SOLID Object-Oriented Design Principles with Ruby Examples posted by RubyGarage](https://rubygarage.org/blog/solid-principles-of-ood)
+
+## Rails + Elastic Beanstalk 관련 유용한 자료 모음 
+   
+[How to set up a Rails 4.2 app on AWS with Elastic Beanstalk and PostgreSQL posted by Julian Tescher](https://hackernoon.com/how-to-set-up-a-rails-4-2-app-on-aws-with-elastic-beanstalk-and-postgresql-3f9f29c046e2)
+   
+[How to Deploy a Ruby on Rails Application to Elastic Beanstalk posted by Jason Swett](https://www.awsrails.com/rails-elastic-beanstalk/)
+   
+[(한글)RubyonRails AWS Elastic Beanstalk setting posted by ahntae](https://medium.com/ufofactory-org/rubyonrails-aws-elastic-beanstalk-setting-80181ae7b2ea)
+
+
+## Rails 환경 설정 관련 자료 
+
+[윈도우 RoR 세팅](http://slides.com/takeu/deck#/19)
+
 
 <ClientOnly>
 <Disqus />
