@@ -3,11 +3,11 @@ sidebar: false
 title: Dongjin Lim, 초고수 소프트웨어 엔지니어를 향하여
 meta: 
   - name: description
-    content: 소개페이지입니다.
+    content: Who is DongJin LIM?
   - property: og:title
     content: Dongjin Lim, 초고수 소프트웨어 엔지니어를 향하여
   - property: og:description
-    content:  소개페이지입니다.
+    content:  Who is DongJin LIM?
   - property: og:url
     content: https://limdongjin.github.io/about
 ---
@@ -31,7 +31,7 @@ meta:
 
 #### 기술적 기여 사항
 
-- Rails Web Framework 백엔드 개발 총 책임 및 PWA등의 프론트엔드 개발 일부분 기여 
+- Rails Web Framework 백엔드 개발 총 책임 및 PWA등의 프론트엔드 개발 기여 
 - 확장성있는 서비스 아키텍쳐 설계및 구현 / AWS Elastic Beanstalk, S3, RDS, CloudFront, Route53, ElasticCache(Redis) 
 - Model - Service - Controller - Views 구조의 Rails 디자인패턴
 - Progressive Web App (PWA) / 캐싱, 푸시알림, 오프라인 사용가능성 구현
@@ -50,10 +50,8 @@ meta:
 - 2018 스마일게이트 SGM 창작부문 선정
 - 2017 멋쟁이사자처럼 전국 아이디어톤 우승
 - 2017 멋쟁이사자처럼 전국 해커톤 우승
-- 2018 서강대학교 창업경진대회 우승
+- 2018 서강대학교 창업경진대회 2위
 - 스마트 창작터 우수시장검증팀 선정
-- [한겨레신문 기사 보도](http://www.hani.co.kr/arti/politics/politics_general/855700.html)
-- [KBS 스페셜](http://onair.kbs.co.kr/index.html?source=episode&sname=vod&stype=vod&program_code=T2016-0065&program_id=PS-2018131675-01-000&section_code=05&broadcast_complete_yn=N&local_station_code=00&section_sub_code=06)
 - (2018.12 기준) "투정" 페이지 페이스북 좋아요 8704명 달성
 - (2018.12 기준) MAU 1만명
 
@@ -67,6 +65,12 @@ meta:
 - [데이터 분석 인프라]AWS Elastic Search Service(Kibana)
 - [법안API]Node.js ( Express.js )
 - [법안API 인프라]AWS Lambda, API Gateway
+
+#### 언론 보도
+
+- [경향신문 < 사람과 사람 > 지면 메인 기사 보도](http://news.khan.co.kr/kh_news/khan_art_view.html?art_id=201806212133015)
+- [한겨레신문 기사 보도](http://www.hani.co.kr/arti/politics/politics_general/855700.html)
+- [KBS 스페셜 <기계와의 대화법>](http://onair.kbs.co.kr/index.html?source=episode&sname=vod&stype=vod&program_code=T2016-0065&program_id=PS-2018131675-01-000&section_code=05&broadcast_complete_yn=N&local_station_code=00&section_sub_code=06)
 
 #### 서비스 관련 링크
 
@@ -144,7 +148,7 @@ meta:
 ### AWS
 
 - EC2, Elastic Beanstalk, S3, RDS, Route53, CloudFront, ElasticCache, Lambda 사용 경험
-- 실서비스 인프라 구축 및 적용 경험 
+- 실제 매출이 나는 서비스의 안정적인 설계,관리,배포,개발 경험
 
 ### GIT
 

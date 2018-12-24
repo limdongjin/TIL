@@ -1,13 +1,13 @@
 ---
 sidebar: auto
-title: Tutorial. Vuepress로 기술문서 빠르게 만들어보자!
+title: Tutorial. 뷰프레스(Vuepress)로 기술문서 빠르게 만들어보자!
 meta: 
   - name: description
-    content: 신상 정적사이트 생성기 Vuepress를 배워보자
+    content: 뷰프레스 입문. 마크다운만 알고있다면 기술문서 금방 만드는 마법!
   - property: og:title
-    content: Tutorial. Vuepress로 기술문서 빠르게 만들어보자!
+    content: Tutorial. 뷰프레스(Vuepress)로 기술문서 빠르게 만들어보자!
   - property: og:description
-    content:  신상 정적사이트 생성기 Vuepress를 배워보자
+    content: 뷰프레스 입문. 마크다운만 알고있다면 기술문서 금방 만드는 마법!
   - property: og:url
     content: https://limdongjin.github.io/vuejs/vuepress
   - property: og:image
@@ -17,6 +17,10 @@ meta:
 
 :::warning
 이 문서는 vuepress 1.0.0.alpha.30버전을 기준으로 작성되었습니다.
+
+[데스크탑 화면](/images/site-desktop.png)
+
+[모바일 화면](/images/site-mobild.png)
 :::
 
 :::warning
@@ -28,7 +32,7 @@ vuepress가 정식 릴리즈가 될때 이 문서와 내용이 약간 달라질�
 
 1. Vuepress는 Vue.js로 개발되어진 정적 사이트 생성기입니다.
 2. 기술문서작성을 위해 최적화된 기본테마를 제공해줍니다.
-3. Plugin API를 제공해주어서 플러그인을 제작하거나 적용할수있습니다.
+3. Plugin API를 제공해주어서 플러그인을 제작하거나 적용할수있습니다.( 뷰프레스가 공식적으로 지원해주는 플러그인을 사용하면 Google Analytics, PWA를 손쉽게 적용가능함. )
 4. Theming System을 제공해주어서 Vue.js를 이용하여 Theme를 제작하거나 다른 개발자가 만든 Theme를 적용하기에도 쉽습니다.
 
 ::: tip
