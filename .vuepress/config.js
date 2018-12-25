@@ -13,7 +13,8 @@ module.exports = {
         ['link', { rel: 'mask-icon', href: '/images/logo-144.png', color: '#3eaf7c' }],
         ['meta', { name: 'msapplication-TileImage', content: '/images/logo-144.png' }],
         ['meta', { name: 'msapplication-TileColor', content: '#000000' }],
-        ['meta', { property: 'og:type', content: 'website' }]
+        ['meta', { property: 'og:type', content: 'website' }],
+        ['meta', { property: 'og:image', content: '/images/main-image-min.jpg'}]
     ],
     themeConfig: {
         repo: 'limdongjin',
