@@ -10,7 +10,7 @@ meta:
     content: A도메인으로 온 요청을 B도메인으로 redirection 시키고 싶다면? (Route53 + S3)
   - property: og:url
     content: https://limdongjin.github.io/aws/redirection_a_to_b
-tags: ["route53","s3"]
+tags: ["route53","s3", "aws"]
 ---
 # `A도메인으로 온 요청을 B도메인으로 redirection 시키고 싶다면? (Route53 + S3)`
 

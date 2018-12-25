@@ -1,5 +1,6 @@
 ---
 title: AWS Ebextension 설정 관련 유용한 자료들
+tags: ["aws", "elasticbeanstalk"]
 ---
 # AWS Ebextension 설정 관련 유용한 자료들
 
