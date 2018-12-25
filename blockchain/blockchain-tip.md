@@ -1,6 +1,6 @@
 ---
 title: 블록체인 관련 유용한 자료 모음
-meta: 
+meta:
   - name: description
     content: 블록체인 관련 유용한 자료 모음, 블로그, 백서, 툴
   - property: og:title
@@ -9,10 +9,11 @@ meta:
     content: 블록체인 관련 유용한 자료 모음, 블로그, 백서, 툴
   - property: og:url
     content: https://limdongjin.github.io/blockchain/blockchain-tip
+tags: ["블록체인"]
 ---
 # 블록체인 관련 유용한 자료 모음
 
-## 블로그 자료 
+## 블로그 자료
 
 개인 블로그, 스팀잇, 브런치, 티스토리, 깃북 등
 
@@ -63,6 +64,8 @@ meta:
 ## 블록체인 개발 관련 툴/서비스
 
 [Remix : 솔리디티 IDE 사이트](http://remix.ethereum.org/#optimize=false&version=soljson-v0.4.20+commit.3155dd80.js)
+
+<TagLinks />
 
 <ClientOnly>
 <Disqus />

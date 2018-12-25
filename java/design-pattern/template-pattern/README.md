@@ -1,10 +1,14 @@
+---
+title: 템플릿 메소드 패턴 Template Method Pattern (feat, java)
+tags: ["자바", "디자인패턴","템플릿메소드패턴"]
+---
 # 템플릿 메소드 패턴 Template Method Pattern (feat, java)
 
-## What is Template Method Pattern 
+## What is Template Method Pattern
 
 > In software engineering, the template method pattern is a behavioral design pattern that defines the program skeleton of an algorithm in an operation, deferring some steps to subclasses. - Design Patterns: Elements of Reusable Object-Oriented Software
 
-알고리즘의 골격을 정해두고, 알고리즘 골격의 일부 스텝의 구현은 서브 클래스에서 오버라이드해서 재정의하도록 하는 디자인 패턴이다. 
+알고리즘의 골격을 정해두고, 알고리즘 골격의 일부 스텝의 구현은 서브 클래스에서 오버라이드해서 재정의하도록 하는 디자인 패턴이다.
 
 ## 언제 Template Method Pattern 을 주로 사용하는가(or 사용할수있는가?)
 
@@ -19,10 +23,10 @@ Template Method 패턴의 샘플 UML class Diagram 은 다음과 같은 모습�
 
 <img src="/images/uml-template-pattern.jpg">
 
-Base Class에는 templateMethod라는 메소드가 있는데, Template Method Pattern 에서 알고리즘의 골격을 나타내는 메소드를 "Template Method"라고 부른다. Base Class의 메소드인 "Template Method"에서 서브클래스에서 구현하게될 메소드들을 호출하면서 알고리즘의 골격을 정의하게 된다. 
+Base Class에는 templateMethod라는 메소드가 있는데, Template Method Pattern 에서 알고리즘의 골격을 나타내는 메소드를 "Template Method"라고 부른다. Base Class의 메소드인 "Template Method"에서 서브클래스에서 구현하게될 메소드들을 호출하면서 알고리즘의 골격을 정의하게 된다.
 
-<br> 
-피상속 클래스에서는 Base Class의 abstract 메소드를 오버라이딩하여 구현히게된다. 
+<br>
+피상속 클래스에서는 Base Class의 abstract 메소드를 오버라이딩하여 구현히게된다.
 
 ## Example :: Build House using Template Method Pattern
 
@@ -104,8 +108,8 @@ public class BuildGlassHouseMethod extends BuildHouseMethod {
 }
 ```
 
-위와 같이 BuildWoodenHouseMethod 클래스와 BuildGlassHouseMethod 클래스가 구현이 된것을 볼수있다. 
-우리는 이를 House 객체에 주입하는 방식으로 사용할수있다. 
+위와 같이 BuildWoodenHouseMethod 클래스와 BuildGlassHouseMethod 클래스가 구현이 된것을 볼수있다.
+우리는 이를 House 객체에 주입하는 방식으로 사용할수있다.
 
 ```
 // 위의 집 짓는 객체를 House 객체에 주입하는 방식을 사용하였다.
@@ -161,3 +165,7 @@ Build Window!
 [Gamma, Erich; Helm, Richard; Johnson, Ralph; Vlissides, John (1994). "Template Method". Design Patterns. Addison-Wesley. ](#)
 
 [Sample UML image reference](http://w3sdesign.com/?gr=b10&ugr=struct)
+
+<TagLinks />
+
+<Disqus />

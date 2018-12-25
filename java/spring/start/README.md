@@ -1,6 +1,9 @@
+---
+tags: ["자바", "spring", "환경설정"]
+---
 # 인텔리제이(IntelliJ)에서 Maven + Spring MVC 시작하기! (설치)
 
-인텔리제이에서 스프링 MVC를 초기설정하고 
+인텔리제이에서 스프링 MVC를 초기설정하고
 Hello World를 페이지에 띄우는 튜토리얼이다.
 
 그리고 Maven을 이용하여 의존성관리를 할것이다.
@@ -89,12 +92,12 @@ after
     <groupId>com.dongjin</groupId>
     <artifactId>HelloWorldSpringMaven</artifactId>
     <version>1.0-SNAPSHOT</version>
-    
+
     <!-- Check your Spring Version -->
     <properties>
         <spring.version>4.3.18.RELEASE</spring.version>
     </properties>
-    
+
     <!-- add Dependency ( check your spring version )-->
     <dependencies>
         <dependency>
@@ -123,9 +126,9 @@ create "views" Directory, and Move index.jsp to "views" Directory
 
 ![](/images/spring9.png)
 
-## Controller 
+## Controller
 
-create "Controller" package, and create HomeController.java 
+create "Controller" package, and create HomeController.java
 
 ![](/images/spring10.png)
 
@@ -133,7 +136,7 @@ write Some code
 
 ![](/images/spring11.png)
 
-## Run 
+## Run
 
 Click "Edit Configuration"
 
@@ -148,3 +151,7 @@ Click "Apply"
 ![](/images/spring14.png)
 
 ## Success!
+
+<TagLinks />
+
+<Disqus />

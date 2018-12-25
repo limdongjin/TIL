@@ -1,4 +1,6 @@
-
+---
+tags: ["자바"]
+---
 # HelloWorld 10번 출력하기 구현 예제 모음 using java
 
 ## for(), while(), items.forEach()
@@ -32,8 +34,8 @@ for(final Integer i : OneToTen){
 ```
 
 ### 4. for(type item : items) , Parallel ( no sequential )
-* 병렬처리로 Hello World 출력하기 
-* HelloWorld가 순서대로 출력되지는 않음.  
+* 병렬처리로 Hello World 출력하기
+* HelloWorld가 순서대로 출력되지는 않음.
 
 ```
 final int[] OneToTen = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
@@ -105,7 +107,7 @@ IntStream.range(1, 11)
 
 ### 10. IntStream.rangeClosed(..).forEach(..)
 
-```java 
+```java
 IntStream.rangeClosed(1, 10) // start inclusive, end inclusive
            .forEach(
                i -> System.out.println("Hello World " + i)
@@ -115,7 +117,7 @@ IntStream.rangeClosed(1, 10) // start inclusive, end inclusive
 
 ## Stream
 
-### 11. Stream.iterate(..).limit(..).forEach(..) 
+### 11. Stream.iterate(..).limit(..).forEach(..)
 
 ```java
 Stream.iterate(1, n -> n + 1)
@@ -127,7 +129,7 @@ Stream.iterate(1, n -> n + 1)
 
 ### 12. Stream with List1
 
-```java 
+```java
 final List<Integer> OneToTenList = Arrays
                                      .asList(
                                          new Integer[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
@@ -140,7 +142,7 @@ OneToTenList.stream()
 
 ### 13. Stream with List2 (no sequential)
 
-```java 
+```java
 final List<Integer> OneToTenList = new ArrayList<>();
 Stream.iterate(1, n -> n+1)
         .limit(10)
@@ -165,3 +167,7 @@ OneToTenList.parallelStream()
                    System.out.println("Hello World " + i);
                 });
 ```
+
+<TagLinks />
+
+<Disqus />

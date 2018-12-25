@@ -1,21 +1,22 @@
 ---
-
-title: uncategorize 유용한 자료 모음 
-meta: 
+title: uncategorize 유용한 자료 모음
+description: uncategorize 유용한 자료 모음
+meta:
   - name: description
-    content: uncategorize 유용한 자료 모음 
+    content: uncategorize 유용한 자료 모음
   - property: og:title
-    content: uncategorize 유용한 자료 모음 
+    content: uncategorize 유용한 자료 모음
   - property: og:description
-    content: uncategorize 유용한 자료 모음 
+    content: uncategorize 유용한 자료 모음
   - property: og:url
     content: https://limdongjin.github.io/etc
+tags: ["유용한자료모음"]
 ---
 # etc
 
 카테고리화하기전 자료 저장하는 문서
 
-## 유용한 자료 모음 
+## 유용한 자료 모음
 
 [지킬(Jekyll)로 홈페이지/블로그 만들기 posted by lawfully](http://lawfully.kr/smart/jekyll.html#%EC%84%B1%EC%A7%88-%EA%B8%89%ED%95%9C-%EC%82%AC%EB%9E%8C%EC%9D%84-%EC%9C%84%ED%95%9C-%EC%9A%94%EC%95%BD)
 
@@ -35,7 +36,7 @@ meta:
 
 [발표에 대한 생각 posted by outsider](https://blog.outsider.ne.kr/994)
 
-## 유용한 플랫폼 모음 
+## 유용한 플랫폼 모음
 
 [velog 개발자 글쓰기 플랫폼](https://velog.io/)
 
@@ -62,6 +63,8 @@ meta:
 [개발자의 흔한 취미: 오픈소스 개발 - mingrammer](https://speakerdeck.com/mingrammer/gaebaljayi-heunhan-cwimi-opeunsoseu-gaebal)
 
 [백엔드 개발자가 되고싶어요 - mingrammer](https://speakerdeck.com/mingrammer/become-a-backend-developer)
+
+<TagLinks />
 
 <ClientOnly>
 <Disqus />

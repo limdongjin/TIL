@@ -16,16 +16,11 @@
     export default {
         props: ["page"],
         computed: {
-            posts() {
-                let currentPage = this.page ? this.page : this.$page.path;
-                return this.$site.pages
-                    .filter(x => {
-                        return x.path.match(new RegExp(`(${currentPage})(?=.*html)`));
-                    })
-                    .sort((a, b) => {
-                        return new Date(b.frontmatter.date) - new Date(a.frontmatter.date);
-                    });
+            posts(){
+                let category_name = this.$props.page
+                console.log(this.$categories._metaMap[category_name].posts)
+                return this.$categories._metaMap[category_name].posts
             }
         }
-    };
+    }
 </script>

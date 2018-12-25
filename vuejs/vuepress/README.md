@@ -1,7 +1,7 @@
 ---
 sidebar: auto
 title: Tutorial. 뷰프레스(Vuepress)로 기술문서 빠르게 만들어보자!
-meta: 
+meta:
   - name: description
     content: 뷰프레스 입문. 마크다운만 알고있다면 기술문서 금방 만드는 마법!
   - property: og:title
@@ -12,6 +12,7 @@ meta:
     content: https://limdongjin.github.io/vuejs/vuepress
   - property: og:image
     content: https://limdongjin.github.io/images/vuepress-logo.png
+tags: ["vue", "vuepress", "튜토리얼"]
 ---
 # Tutorial :: Vuepress로 기술문서 빠르게 만들어보자!
 
@@ -24,7 +25,7 @@ meta:
 :::
 
 :::warning
-vuepress가 정식 릴리즈가 될때 이 문서와 내용이 약간 달라질수도있습니다....ㅠ 
+vuepress가 정식 릴리즈가 될때 이 문서와 내용이 약간 달라질수도있습니다....ㅠ
 그때는 다시 문서를 빠르게 버전업하여 재배포하겠습니다.
 :::
 
@@ -36,7 +37,7 @@ vuepress가 정식 릴리즈가 될때 이 문서와 내용이 약간 달라질�
 4. Theming System을 제공해주어서 Vue.js를 이용하여 Theme를 제작하거나 다른 개발자가 만든 Theme를 적용하기에도 쉽습니다.
 
 ::: tip
-현재(2018.12) Vuepress는 1.0.0.alpha.30까지 출시되어있습니다. 
+현재(2018.12) Vuepress는 1.0.0.alpha.30까지 출시되어있습니다.
 :::
 
 :::tip
@@ -55,7 +56,7 @@ yarn add -D vuepress@next
 
 mkdir docs
 
-# 마크다운 파일을 생성한다. 
+# 마크다운 파일을 생성한다.
 echo '# Hello VuePress' > docs/README.md
 ```
 
@@ -86,18 +87,18 @@ vuepress는 기본적으로 디렉토리 구조와 파일이름으로 url이 rou
 | /README.md | / |
 | /guide/README.md | /guide/ |
 | /hello.md | /hello.html |
- 
+
 ## About Configuration
 
 vuepress는 config파일이 없더라도 빌드할수있지만, vuepress가 지원해주는 기능들을 사용하거나 커스터마이징하기위해서는
-config파일(또는 폴더)를 생성하는것이 좋습니다.! 
+config파일(또는 폴더)를 생성하는것이 좋습니다.!
 
 <br />
 vuepress는 .vuepress폴더에 설정이나 테마,플러그인등을 작성하게 되어있습니다.
-그리고 기본적으로 설정을 config.js 파일에 주로 작성하게됩니다. 
+그리고 기본적으로 설정을 config.js 파일에 주로 작성하게됩니다.
 
 <br />
-아래 디렉토리 구조는 vuepress 공식문서에서 추천하는 디렉토리 구조입니다. 
+아래 디렉토리 구조는 vuepress 공식문서에서 추천하는 디렉토리 구조입니다.
 커스터마이징하는 정도에 따라서 아래 디렉토리 구조에서 선택하는 폴더나 파일이 달라집니다.
 
 ```
@@ -116,12 +117,12 @@ vuepress는 .vuepress폴더에 설정이나 테마,플러그인등을 작성하�
 │   │   │   └── ssr.html
 │   │   ├── config.js (Optional)
 │   │   └── enhanceApp.js (Optional)
-│   │ 
+│   │
 │   ├── README.md
 │   ├── guide
 │   │   └── README.md
 │   └── config.md
-│ 
+│
 └── package.json
 
 ```
@@ -133,7 +134,7 @@ vuepress는 .vuepress폴더에 설정이나 테마,플러그인등을 작성하�
 ## 기본적인 설정파일 .vuepress/config.js
 
 주로 docs/.vuepress/config.js에 코드를 많이 작성하게 됩니다.
-config.js에 vuepress의 기본적인 설정을 하거나, 플러그인 추가, 사이트 메타정보 설정 등을 하게됩니다. 
+config.js에 vuepress의 기본적인 설정을 하거나, 플러그인 추가, 사이트 메타정보 설정 등을 하게됩니다.
 
 <br />
 간단히 말하면 .vuepress/config.js는 설정의 중심 파일정도로 생각하면 될것같습니다.
@@ -153,7 +154,7 @@ module.exports = {
 }
 ```
 
-## 기본 Nav Bar 
+## 기본 Nav Bar
 
 ```bash
 # current directory: ~/docs
@@ -162,7 +163,7 @@ mkdir about
 echo '# About Page' > about/README.md
 ```
 
-가장 기본적인 Nav Bar는 아래 코드를 통해 구현할수있다. 
+가장 기본적인 Nav Bar는 아래 코드를 통해 구현할수있다.
 
 ```js{6,7,8,9}
 // docs/.vuepress/config.js
@@ -238,7 +239,7 @@ touch foo-nav.md
 ---
 sidebar: auto
 ---
-# 샵하나는 제목으로 자동 설정됩니다. 
+# 샵하나는 제목으로 자동 설정됩니다.
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 ## 섹션1
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
@@ -255,8 +256,8 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 그다음 /foo-nav.html를 url로 쳐서 접속해보면, #을 기준으로 Sidebar가 생성된것을 볼수있습니다.
 
 :::tip
-두 --- 사이의 값을 Front Matter Variable이라하며 Vuepress에서는 이 Front Matter Variable을 이용하여 페이지 설정을 하게된다. 
-또한 커스텀 플러그인을 제작하거나 커스텀 테마을 제작하는 등의 커스터마이징을 할때 frontmatter를 활용할수도있다. 
+두 --- 사이의 값을 Front Matter Variable이라하며 Vuepress에서는 이 Front Matter Variable을 이용하여 페이지 설정을 하게된다.
+또한 커스텀 플러그인을 제작하거나 커스텀 테마을 제작하는 등의 커스터마이징을 할때 frontmatter를 활용할수도있다.
 [Frontmatter](https://vuepress.vuejs.org/guide/frontmatter.html)
 :::
 
@@ -267,17 +268,17 @@ auto로 설정하기에는 sidebar가 복잡할것같은경우에는 공식문�
 
 ## SEO를 위해 페이지에 meta 태그를 설정해주기 (predefined frontmatter)
 
-검색엔진최적화(SEO)를 위해서는 페이지의 제목,내용등의 메타정보가 설정되야한다. 
-title 태그는 vuepress가 자동으로 추가해주고있지만, 
+검색엔진최적화(SEO)를 위해서는 페이지의 제목,내용등의 메타정보가 설정되야한다.
+title 태그는 vuepress가 자동으로 추가해주고있지만,
 아직 오픈그래프,description 등의 meta태그를 설정해주고있지않아서 일일이 넣어줘야한다...
 
 (물론 자동으로 페이지의 제목,내용 등을 메타태그에 넣어지도록 해주는 플러그인을 만들수도있을것이다.
  능력자님들이 얼른 seo 플러그인을 만들어주리라 믿습니다...)
 
-아래와 같은 문법으로 md파일에 meta태그를 추가할수있다. 
+아래와 같은 문법으로 md파일에 meta태그를 추가할수있다.
 ```md
 ---
-meta: 
+meta:
   - name: description
     content: 문서의 description
   - property: og:title
@@ -295,8 +296,8 @@ meta:
 ...
 ```
 
-저렇게 md파일을 작성해주면 아래와같이 html태그로 렌더링이 된다. 
-```html 
+저렇게 md파일을 작성해주면 아래와같이 html태그로 렌더링이 된다.
+```html
 <head>
     ...
     <meta name="description" content="문서의 description">
@@ -312,7 +313,7 @@ meta:
 ```js{6,7,8,9}
 // docs/.vuepress/config.js
 module.exports = {
-  // ... 
+  // ...
   // themeConfig: { ... }...
   // ...
   head: [
@@ -324,10 +325,10 @@ module.exports = {
 
 :::warning
 같은 attribute 이름을 가진 태그를 frontmatter에도 추가하고 공통 Head태그에도 추가한경우에는,
-html head에는 저 태그들 둘다 추가된다.......ㅠㅠㅠ 
+html head에는 저 태그들 둘다 추가된다.......ㅠㅠㅠ
 :::
 
-## Public 폴더 
+## Public 폴더
 
 :::danger
 "/logo.png"에 접근을 하기위해서는 .vuepress/public 폴더에 logo.png파일을 위치시켜야합니다.
@@ -340,8 +341,8 @@ mkdir .vuepress/public
 
 ## 쓸만한 플러그인 추가하기1. `back-to-top`
 
-back-to-top 플러그인은 페이지의 가장 위로 올라가게하는 버튼을 제공해준다. 
-이 튜토리얼 문서의 5시방향의 ^모양의 버튼이 바로 그것이다. 
+back-to-top 플러그인은 페이지의 가장 위로 올라가게하는 버튼을 제공해준다.
+이 튜토리얼 문서의 5시방향의 ^모양의 버튼이 바로 그것이다.
 <br />
 
 ### Install
@@ -360,7 +361,7 @@ package.json에 등록된 플러그인 버전과 vuepress버전을 같게 설정
 module.exports = {
   // ...
   // ...
-  plugins: ['@vuepress/back-to-top'] 
+  plugins: ['@vuepress/back-to-top']
 }
 ```
 
@@ -369,12 +370,12 @@ module.exports = {
 :::
 
 :::warning
-아쉽게도 모바일에서는 back-to-top 버튼이 표시가 안되는것같다. 
+아쉽게도 모바일에서는 back-to-top 버튼이 표시가 안되는것같다.
 :::
 
 ## 쓸만한 플러그인 추가하기2. pwa
 
-Progressive Web App을 손쉽게 구현해주는 플러그인이다. 
+Progressive Web App을 손쉽게 구현해주는 플러그인이다.
 개발자는 manifest.json파일과 144x144 크기의 logo파일만 준비해두면된다.
 
 ### Install
@@ -386,7 +387,7 @@ yarn add -D @vuepress/plugin-pwa@next
 package.json에 등록된 플러그인 버전과 vuepress버전을 같게 설정해주세요.
 :::
 
-### config파일에 플러그인 등록 
+### config파일에 플러그인 등록
 
 ```js
 // docs/.vuepress/config.js
@@ -407,7 +408,7 @@ module.exports = {
 
 ### manifest.json 생성 및 로고 이미지
 
-.vuepress/public/manifest.json을 생성하고 
+.vuepress/public/manifest.json을 생성하고
 .vuepress/public/images 폴더에 logo-144.png 이미지를 넣습니다.
 
 ```bash
@@ -416,7 +417,7 @@ module.exports = {
 touch .vuepress/public/manifest.json
 ```
 
-```json 
+```json
 {
   "name": "LimdongjinBlog",
   "short_name": "dongjin",
@@ -527,11 +528,8 @@ module.exports = {
 
 [유기체의 다락방](https://62che.com/blog)
 
+<TagLinks />
+
 <Disqus />
-
-
-
-
-
 
 

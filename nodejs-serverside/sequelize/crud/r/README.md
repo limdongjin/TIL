@@ -1,3 +1,6 @@
+---
+tags: ["nodejs","sequelize"]
+---
 # Nodejs SQL ORM Sequelize 입문 4. 읽기(Read)
 
 ## Read Data by id
@@ -34,7 +37,7 @@ where query
 ```js
 /* GET posts listing. */
 router.get('/', function (req, res, next) {
-  models.Post.findAll({ 
+  models.Post.findAll({
   where: {
       author_id: 3
   }
@@ -47,6 +50,8 @@ router.get('/', function (req, res, next) {
     })
 })
 ```
+
+<TagLinks />
 
 <ClientOnly>
 <Disqus />

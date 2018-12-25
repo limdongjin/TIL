@@ -1,6 +1,9 @@
+---
+tags: ["자바","spring","환경설정"]
+---
 # 인텔리제이(IntelliJ)에서 Gradle + Spring MVC 시작하기! (설치)
 
-인텔리제이에서 스프링 MVC를 초기설정하고 
+인텔리제이에서 스프링 MVC를 초기설정하고
 Hello World를 페이지에 띄우는 튜토리얼이다.
 
 그리고 Gradle을 이용하여 의존성관리를 할것이며 Tomcat을 사용할것.
@@ -148,7 +151,7 @@ mkdir src/main/webapp/WEB-INF/view
 mv src/main/webapp/index.jsp src/main/webapp/WEB-INF/view/index.jsp
 ```
 
-```html 
+```html
 <!-- index.jsp -->
 <%--
   Created by IntelliJ IDEA.
@@ -192,4 +195,6 @@ Uncheck "Delegate IDE build/run actions to gradle"
 
 ![](/images/run.png)
 
+<TagLinks />
 
+<Disqus />

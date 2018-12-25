@@ -1,5 +1,6 @@
 ---
 title: 다이나모디비(Dynamodb) 유용한 자료 모음
+tags: ["dynamodb", "유용한자료모음"]
 ---
 # 다이나모디비(Dynamodb) 유용한 자료 모음
 
@@ -10,3 +11,7 @@ title: 다이나모디비(Dynamodb) 유용한 자료 모음
 [DynamoDB 처음 시도하기](http://webframeworks.kr/tutorials/weplanet/trying-dynamodb/)
 
 [Node.js로 Amazon DynamoDB 사용하기](https://brunch.co.kr/@hee072794/74)
+
+<TagLinks />
+
+<Disqus />

@@ -1,3 +1,7 @@
+---
+title: 자바 유용한 자료 모음
+tags: ["자바","유용한자료모음"]
+---
 # 자바 유용한 자료 모음
 
 [생활코딩 자바 강의](https://opentutorials.org/course/1223/4551)
@@ -37,3 +41,7 @@
 [tutorialspoint java](http://www.tutorialspoint.com/java/index.htm)
 
 [java-design-patterns repository](https://github.com/iluwatar/java-design-patterns)
+
+<TagLinks />
+
+<Disqus />

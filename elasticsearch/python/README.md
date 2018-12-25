@@ -1,20 +1,22 @@
 ---
-title: Python에서 Elastic Search 연결하고 CRUD, Bulk해보기  
-meta: 
+title: Python에서 Elastic Search 연결하고 CRUD, Bulk해보기
+description: Python에서 Elastic Search를 연결하고 CRUD해보기, Bulk해보기
+meta:
   - name: description
-    content: Python에서 Elastic Search를 연결하고 CRUD해보기, Bulk해보기  
+    content: Python에서 Elastic Search를 연결하고 CRUD해보기, Bulk해보기
   - property: og:title
-    content: Python에서 Elastic Search를 연결하고 CRUD해보기, Bulk해보기  
+    content: Python에서 Elastic Search를 연결하고 CRUD해보기, Bulk해보기
   - property: og:description
     content: Python에서 Elastic Search를 연결하고 CRUD해보기,  Bulk해보기
   - property: og:url
     content: https://limdongjin.github.io/elasticsearch/python
+tags: ["elasticsearch", "파이썬"]
 ---
-# Python에서 Elastic Search 사용하기 
+# Python에서 Elastic Search 사용하기
 
-## AWS Elasticsearch Service 연결하기 
+## AWS Elasticsearch Service 연결하기
 
-AWS Elasticsearch service의 Access 정책을 IAM으로 설정한다. 그리고 필요한 패키지를 다운 받는다. 
+AWS Elasticsearch service의 Access 정책을 IAM으로 설정한다. 그리고 필요한 패키지를 다운 받는다.
 
 ```
 pip install elasticsearch
@@ -27,7 +29,7 @@ pip install requests-aws4auth
 ```
 from elasticsearch import Elasticsearch, RequestsHttpConnection
 from requests_aws4auth import AWS4Auth
-import os 
+import os
 
 AWS_ACCESS_KEY = os.environ['AWS_ACCESS_KEY']
 AWS_SECRET_KEY = os.environ['AWS_SECRET_KEY']
@@ -51,13 +53,13 @@ es = Elasticsearch(
 ## `Document 조회` GET /itisindex/itistype/itisid
 
 ```shell
-// shell 
+// shell
 
 curl -XGET https://search.example.net:9999/itisindex/itistype/100
 ```
 
 ```python
-// python 
+// python
 
 es.get(index='itisindex', doc_type='itistype', id='100')
 ```
@@ -74,54 +76,54 @@ curl -XGET https://search.example.net:9999/_search
 ```
 
 ```python
-//python 
+//python
 
-es.search(body={  
+es.search(body={
     "query": {
         ...
     }
 })
 
-# // example1 
-# es.search(body={ 
+# // example1
+# es.search(body={
 #   "query": {
 #      "match": {
-#        "col1": "hello"         
-#      }   
-#   }   
+#        "col1": "hello"
+#      }
+#   }
 # })
 
-# // example2 
-# es.search(body={ 
+# // example2
+# es.search(body={
 #   "query": {
 #      "wildcard": {
-#        "col1": "*elo*"         
-#      }   
-#   }   
+#        "col1": "*elo*"
+#      }
+#   }
 # })
 ```
 
-## `Index 추가` PUT /mymyindex 
+## `Index 추가` PUT /mymyindex
 ```shell
 // shell
 
 curl -XPUT https://search.example.net:9999/mymyindex
 {
-    "settings": { ... }, 
+    "settings": { ... },
     "mappings": { ... }
 }
 ```
 ```python
-// python 
+// python
 
 es.indices.create(index='mymyindex', body={
-    "settings": { ... }, 
+    "settings": { ... },
     "mappings": { ... }
 })
 ```
 ## `Document 추가` PUT /mymyindex/mymytype/myid
 ```shell
-//shell 
+//shell
 
 curl -XPUT https://search.example.net:9999/mymyindex/mymytype/105
 {
@@ -131,15 +133,15 @@ curl -XPUT https://search.example.net:9999/mymyindex/mymytype/105
 ```
 
 ```python
-//python 
+//python
 
-es.index(index='mymyindex', doc_type='mymytype', id='105', body={ 
+es.index(index='mymyindex', doc_type='mymytype', id='105', body={
    "col1": "hello world",
-   "itisfield": "hihi" 
+   "itisfield": "hihi"
 })
 ```
 
-## `Bulk Insert` 
+## `Bulk Insert`
 
 ```python
 import elasticsearch
@@ -178,7 +180,7 @@ elasticsearch.helpers.bulk(es, [doc1, doc2, doc3])
 
 ## `RAW REST API 호출` perform_request
 
-elasticsearch-py 라이브러리에 원하는 기능이 없다면 perform_request()를 이용하는 것이 편하다. 
+elasticsearch-py 라이브러리에 원하는 기능이 없다면 perform_request()를 이용하는 것이 편하다.
 
 ```python
 es.transport.perform_request(
@@ -195,6 +197,8 @@ es.transport.perform_request(
 [elasticsearch-py 공식문서](https://elasticsearch-py.readthedocs.io/en/master/api.html#elasticsearch)
 
 [AWS Elasticsearch Service 개발자 안내서](https://docs.aws.amazon.com/ko_kr/elasticsearch-service/latest/developerguide/es-indexing-programmatic.html)
+
+<TagLinks />
 
 <ClientOnly>
 <Disqus />

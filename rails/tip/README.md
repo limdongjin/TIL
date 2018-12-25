@@ -1,6 +1,6 @@
 ---
 title: Ruby On Rails 유용한 자료, 팁 모음
-meta: 
+meta:
   - name: description
     content: Ruby On Rails 유용한 자료, 팁 모음, 코드조각, 학습에 좋은글들
   - property: og:title
@@ -9,12 +9,13 @@ meta:
     content: Ruby On Rails 유용한 자료, 팁 모음, 코드조각, 학습에 좋은글들
   - property: og:url
     content: https://limdongjin.github.io/rails/tip
+tags: ["rails", "루비", "유용한자료모음"]
 ---
 # Ruby/Rails 팁 모음
 
-## 사용해본 유용한 rails 젬 모음 
+## 사용해본 유용한 rails 젬 모음
 
-1. devise : 회원인증 기능 구현을 도와주는 젬 ( 소셜로그인, 토큰인증 등의 부가적인 기능도 구현할수있도록 도와준다. 문서화가 정말 잘되어있다) 
+1. devise : 회원인증 기능 구현을 도와주는 젬 ( 소셜로그인, 토큰인증 등의 부가적인 기능도 구현할수있도록 도와준다. 문서화가 정말 잘되어있다)
 2. carrierwave : 파일 업로드 젬 ( 해당 젬을 사용하면 S3로의 업로드도 쉽게 구현가능하다. )
 3. mailgun_rails : 메일건이라는 메일 전송 서비스를 레일즈에 쉽게 연동하도록 도와주는 젬
 4. activeadmin : Admin 페이지 구현 젬 (유사한 젬으로 rails_db도 있지만 커스터마이징의 수월함이나 젬의 완성도는 activeadmin이 훨씬 높다고 생각한다.)
@@ -69,19 +70,20 @@ meta:
 
 [SOLID Object-Oriented Design Principles with Ruby Examples posted by RubyGarage](https://rubygarage.org/blog/solid-principles-of-ood)
 
-## Rails + Elastic Beanstalk 관련 유용한 자료 모음 
-   
+## Rails + Elastic Beanstalk 관련 유용한 자료 모음
+
 [How to set up a Rails 4.2 app on AWS with Elastic Beanstalk and PostgreSQL posted by Julian Tescher](https://hackernoon.com/how-to-set-up-a-rails-4-2-app-on-aws-with-elastic-beanstalk-and-postgresql-3f9f29c046e2)
-   
+
 [How to Deploy a Ruby on Rails Application to Elastic Beanstalk posted by Jason Swett](https://www.awsrails.com/rails-elastic-beanstalk/)
-   
+
 [(한글)RubyonRails AWS Elastic Beanstalk setting posted by ahntae](https://medium.com/ufofactory-org/rubyonrails-aws-elastic-beanstalk-setting-80181ae7b2ea)
 
 
-## Rails 환경 설정 관련 자료 
+## Rails 환경 설정 관련 자료
 
 [윈도우 RoR 세팅](http://slides.com/takeu/deck#/19)
 
+<TagLinks />
 
 <ClientOnly>
 <Disqus />

@@ -1,14 +1,15 @@
 ---
 title: NLP,ML 유용한 쟈료 모음!
-meta: 
+meta:
   - name: description
-    content: NLP,ML 유용한 쟈료 모음! 
+    content: NLP,ML 유용한 쟈료 모음!
   - property: og:title
-    content: NLP,ML 유용한 쟈료 모음! 
+    content: NLP,ML 유용한 쟈료 모음!
   - property: og:description
-    content: NLP,ML 유용한 쟈료 모음! 
+    content: NLP,ML 유용한 쟈료 모음!
   - property: og:url
     content: https://limdongjin.github.io/nlp/useful-reference-nlp
+tags: ["nlp", "ml", "유용한자료모음"]
 ---
 # NLP/ML 유용한 자료 모음
 
@@ -24,13 +25,13 @@ meta:
 
 [Euriion](http://euriion.com/?p=535)
 
-## NLP/ML/데이터분석 유용한 툴 또는 서비스 모음 
+## NLP/ML/데이터분석 유용한 툴 또는 서비스 모음
 
 [koNLPy 파이썬 형태소 분석기](http://konlpy.org/ko/v0.4.4/)
 
 [제플린](https://www.zepl.com/U97PE52NC/spaces/S_ZEPL/40557eef2b2642a2a9880a63c61e4df7)
 
-## NLP/ML 학습에 도움되는 슬라이드/강연 모음 
+## NLP/ML 학습에 도움되는 슬라이드/강연 모음
 
 [자바, 미안하다! 파이썬 한국어 NLP by Lucy Park](https://www.slideshare.net/lucypark/py-con-2014-38531830)
 
@@ -78,14 +79,16 @@ meta:
 
 [공돌이의 수학정리노트 wikidocs](https://wikidocs.net/book/563)
 
-## NLP/ML관련 유용한 레포지토리 모음 
+## NLP/ML관련 유용한 레포지토리 모음
 
 [Awesome Korean NLP Papers :: NLP 논문 모음 레포지토리](https://github.com/papower1/Awesome-Korean-NLP-Papers)
 
-## NLP/ML 논문 모음 
+## NLP/ML 논문 모음
 
 [Recent Trends in Deep Learning Based
  Natural Language Processing, Tom Young, Devamanyu Hazarika, Soujanya Poria, Erik Cambria](https://arxiv.org/pdf/1708.02709.pdf)
+
+<TagLinks />
 
 <ClientOnly>
 <Disqus />

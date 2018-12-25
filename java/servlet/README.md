@@ -1,4 +1,6 @@
-
+---
+tags: ["자바", "서블릿"]
+---
 # 서블릿(Servlet)알아보기 / 주요 예제 코드!
 
 ## What is Servlet
@@ -15,12 +17,12 @@ Techopedia에서의 서블릿의 정의는 아래와 같다.
 
 간단히 말하면 서블릿은 javax.servlet.Servlet 인터페이스의 구현체이다. 그리고 서블릿은 (톰캣과 같은)컨테이너에 의해서 생성,호출, 소멸한다.
 
-<br> 
+<br>
 웹요청이 들어오면, DD로 부터 이 요청에 해당하는 서블릿을 찾은후에 스레드를 생성하게된다. ( 만일 서블릿객체가 아직 생성이 안되어있다면 생성자를 통해 생성한다.) 이 스레드에 서블릿 객체가 갖고있는 service() 메소드를 실행하고, 요청의 타입에 따라 doGet(), doPost()등의 메소드 중에 하나가 실행된다. 그리고  doGet(), doPost() 메소드는 요청을 처리하여 응답을 보내게된다.
 
 ## Example1
 
-```java 
+```java
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -40,20 +42,20 @@ public class FirstServlet extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         req.setCharacterEncoding("UTF-8");
         resp.setContentType("text/html;charset=utf-8");
-        
+
         PrintWriter printWriter = resp.getWriter();
         printWriter.print("<h1>One To Ten Printer Page! </h1>");
-        
+
         IntStream.range(1, 11)
                 .mapToObj(i -> i + "<br>")
                 .forEach(printWriter::print);
-        
+
         printWriter.close();
     }
 
 }
 ```
-Example1은 "/hello"라는 url의 GET 요청이 들어왔을때 1 ~ 10까지의 수를 출력하여 브라우저에 html로 응답을 보내주게된다. 
+Example1은 "/hello"라는 url의 GET 요청이 들어왔을때 1 ~ 10까지의 수를 출력하여 브라우저에 html로 응답을 보내주게된다.
 그리고 코드를 보면 알수있다시피 **getWriter** 메소드를 통해 PrintWriter 클래스의 객체를 얻을수있다. 또한 PrintWriter클래스의 객체인 **printWriter** 객체의 **print** 메소드를 이용하면 응답을 위한 html 코드를 만들수있다.
 
 ## Example2
@@ -66,7 +68,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
-        
+
 @WebServlet("/params")  /* /params?id=아이디파라미터 */
 public class ThirdServlet extends HttpServlet {
     public ThirdServlet() {
@@ -88,7 +90,7 @@ public class ThirdServlet extends HttpServlet {
 }
 ```
 
-Example2는 "/params?id=myidparam"과 같은 GET 요청이 들어왔을때 id 파라미터의 내용을 출력하여 화면에 출력해준다. 
+Example2는 "/params?id=myidparam"과 같은 GET 요청이 들어왔을때 id 파라미터의 내용을 출력하여 화면에 출력해준다.
 req 객체의 **getParameter** 메소드를 사용하면 요청파라미터 값을 반환받을수있다.
 
 ### Example3 ( Servlet Config )
@@ -185,7 +187,7 @@ public class FiveServlet extends HttpServlet {
 }
 ```
 
-Example4는 Servlet Context의 간단한 예시이다. Servlet 간에 정보를 공유해야 할때 주로 사용한다. 예제에서는 web.xml에서 **context-param**에 값을 설정할수있다는것을 보여준다. 
+Example4는 Servlet Context의 간단한 예시이다. Servlet 간에 정보를 공유해야 할때 주로 사용한다. 예제에서는 web.xml에서 **context-param**에 값을 설정할수있다는것을 보여준다.
 또한 **getServletContext().getInitParameter**를 통해 접근할수있음을 볼수있다.
 
 ## Example5 (jsp forward)
@@ -206,7 +208,7 @@ Example4는 Servlet Context의 간단한 예시이다. Servlet 간에 정보를 
 
 ```
 
-```java 
+```java
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -233,7 +235,7 @@ public class SixServlet extends HttpServlet {
 }
 ```
 
-Example5는 jsp파일로 포워딩하는 예시이다. 
+Example5는 jsp파일로 포워딩하는 예시이다.
 
 
 ## References
@@ -243,3 +245,7 @@ Example5는 jsp파일로 포워딩하는 예시이다.
 [techopedia Java Servlet](https://www.techopedia.com/definition/12874/java-servlet)
 
 [Java™ Servlet Specification ver 3.1](https://javaee.github.io/servlet-spec/downloads/servlet-3.1/Final/servlet-3_1-final.pdf)
+
+<TagLinks />
+
+<Disqus />

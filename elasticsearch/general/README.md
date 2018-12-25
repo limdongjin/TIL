@@ -1,18 +1,19 @@
 ---
-title: Elastic Search 팁 모음 
-meta: 
+title: Elastic Search 팁 모음
+meta:
   - name: description
     content: date_detection 에러, aws elastic search 액세스 정책, 한글 형태소 분석기
   - property: og:title
-    content: Elastic Search 팁 모음 
+    content: Elastic Search 팁 모음
   - property: og:description
     content: date_detection 에러, aws elastic search 액세스 정책, 한글 형태소 분석기
   - property: og:url
     content: https://limdongjin.github.io/elasticsearch/general
+tags: ["elasticsearch", "팁"]
 ---
 # Elasticsearch 팁
 
-## date_detection으로 에러가 난다면? 
+## date_detection으로 에러가 난다면?
 
 ```shell
 PUT /mymyindex
@@ -86,21 +87,21 @@ PUT /mymyindex
 Index를 처음 생성할때 settings에 형태소 분석기를 설정해주면 된다
 (AWS Elasticsearch Service는 seunjeon 형태소 분석기를 지원한다.)
 ```
-{'settings': 
-     {'index': 
-          {'analysis': 
-               {'analyzer': 
-                    {'korean': 
+{'settings':
+     {'index':
+          {'analysis':
+               {'analyzer':
+                    {'korean':
                          {
-                             'type': 'custom', 
+                             'type': 'custom',
                              'tokenizer': 'seunjeon_default_tokenizer'
                           }
-                     }, 
-                'tokenizer': 
-                    {'seunjeon_default_tokenizer': 
+                     },
+                'tokenizer':
+                    {'seunjeon_default_tokenizer':
                          {
-                             'type': 'seunjeon_tokenizer', 
-                             'index_eojeol': False, 
+                             'type': 'seunjeon_tokenizer',
+                             'index_eojeol': False,
                              'user_words': ['헬로우', '호우']
                          }
                     }
@@ -113,6 +114,8 @@ Index를 처음 생성할때 settings에 형태소 분석기를 설정해주면 
 ## References
 
 [AWS Elasticsearch Service 개발자문서 - 액세스 제어 파트](https://docs.aws.amazon.com/ko_kr/elasticsearch-service/latest/developerguide/es-ac.html)
+
+<TagLinks />
 
 <ClientOnly>
 <Disqus />

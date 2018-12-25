@@ -1,7 +1,10 @@
+---
+tags: ["vue", "팁"]
+---
 # Vue.js에서 Axios로 form submit ajax request 보내기
 
 ```
-// main.js 
+// main.js
 
 ...
 import VueAxios from 'vue-axios'
@@ -20,12 +23,12 @@ Vue.use(VueAxios, axios)
 const baseURI = `http://localhost:3000`
 var qs = require('qs')
 
-this.axios.post(`${baseURI}/posts`, 
+this.axios.post(`${baseURI}/posts`,
     qs.stringify({
         title: this.title,
         content: this.content,
         category: this.category
-    }), 
+    }),
     {
         headers: {'Content-Type': 'application/x-www-form-urlencoded'}
     })
@@ -38,3 +41,5 @@ this.axios.post(`${baseURI}/posts`,
 ...
 
 ```
+
+<TagLinks />

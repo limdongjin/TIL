@@ -1,14 +1,17 @@
-# 유용한 Tool 모음 
+---
+tags: ["유용한자료모음"]
+---
+# 유용한 Tool 모음
 
-## `개발툴` 
+## `개발툴`
 
 ### Intellij IDEA
 
 Java 개발을 매우 편하게 할수있게 도와주는 IDE
 
-### Ruby Mine 
+### Ruby Mine
 
-Rails 개발을 할때 정말 강력한 IDE!! 
+Rails 개발을 할때 정말 강력한 IDE!!
 
 - 강력한 자동 완성
 - code style linter
@@ -54,11 +57,11 @@ Rails 개발을 할때 정말 강력한 IDE!!
 
 ### Idea VIM plugin
 
-vim 명렁어를 거의다 쓰면서 제트브레인 기능을 사용할수있다. 
+vim 명렁어를 거의다 쓰면서 제트브레인 기능을 사용할수있다.
 
-### 다이어그램 기능 
+### 다이어그램 기능
 
-클래스/모듈의 다이어그램을 볼수 있다. 
+클래스/모듈의 다이어그램을 볼수 있다.
 
 - Class Diagram : 클래스 이름앞에서 기능을 실행시키면 클래스의 구조도를 다이어그램으로 확인가능하다. 또한 다이어그램의 요소를 클릭하면 해당 요소의 소스로 이동한다. ( RubyMine, Pycharm)
 
@@ -72,3 +75,5 @@ vim 명렁어를 거의다 쓰면서 제트브레인 기능을 사용할수있�
 - Rubymine은 클래스다이어그램 외에도 Gem Dependency다이어그램과 Model Diagram도 지원한다.
 
 - mac 단축키: cmd + option + u
+
+<TagLinks />

@@ -19,8 +19,9 @@ module.exports = {
         repo: 'limdongjin',
         nav: [
             { text: 'Home', link: '/' },
+            { text: 'About', link: '/about/'},
             { text: 'Blog', link: '/blog/' },
-            { text: 'About', link: '/about/'}
+            { text: 'Tags', link: '/_tags/' }
         ],
         sidebar: [
             {

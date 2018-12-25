@@ -1,14 +1,16 @@
 ---
-title: AWS Elastic Beanstalk의 ebextension 설정을 해보자! 
-meta: 
+title: AWS Elastic Beanstalk의 ebextension 설정을 해보자!
+description: AWS Elastic Beanstalk의 기본적인 nginx ebextension 설정에 대해서.
+meta:
   - name: description
-    content: AWS Elastic Beanstalk의 기본적인 nginx ebextension 설정에 대해서. 
+    content: AWS Elastic Beanstalk의 기본적인 nginx ebextension 설정에 대해서.
   - property: og:title
-    content: AWS Elastic Beanstalk의 ebextension 설정을 해보자! 
+    content: AWS Elastic Beanstalk의 ebextension 설정을 해보자!
   - property: og:description
-    content: AWS Elastic Beanstalk의 기본적인 nginx ebextension 설정에 대해서. 
+    content: AWS Elastic Beanstalk의 기본적인 nginx ebextension 설정에 대해서.
   - property: og:url
     content: https://limdongjin.github.io/aws/elasticbeanstalk/ebextensions
+tags: ["aws", "elasticbeanstalk"]
 ---
 # AWS Elastic Beanstalk의 ebextensions 설정을 해보자!
 
@@ -44,7 +46,7 @@ files:
 
       server {
         listen 80;
-        server_name domainname.com; ### 여기에 도메인 이름을 적도록 하자!!  
+        server_name domainname.com; ### 여기에 도메인 이름을 적도록 하자!!
 
         if ($time_iso8601 ~ "^(\d{4})-(\d{2})-(\d{2})T(\d{2})") {
           set $year $1;
@@ -104,3 +106,5 @@ container_commands:
   01_reload_nginx:
     command: "sudo service nginx reload"
 ```
+
+<TagLinks />

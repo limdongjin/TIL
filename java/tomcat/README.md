@@ -1,9 +1,11 @@
-
+---
+tags: ["톰캣", "환경설정"]
+---
 ## 맥북에서 톰캣(Tomcat)을 brew로 설치해보자!
 
 ### What is Tomcat?
 
-The Apache Tomcat® software is an open source implementation of the Java Servlet, JavaServer Pages, Java Expression Language and Java WebSocket technologies. 
+The Apache Tomcat® software is an open source implementation of the Java Servlet, JavaServer Pages, Java Expression Language and Java WebSocket technologies.
 
 ### Install ( for Mac )
 
@@ -43,3 +45,7 @@ $ /Library/Tomcat/bin/startup.sh
 ```
 
 6. Check "http://localhost:8080"
+
+<TagLinks />
+
+<Disqus />

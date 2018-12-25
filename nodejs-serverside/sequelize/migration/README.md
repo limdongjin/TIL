@@ -1,3 +1,6 @@
+---
+tags: ["nodejs","sequelize"]
+---
 # Nodejs SQL ORM Sequelize 입문 2. Migration
 
 ## Create Model & table
@@ -10,7 +13,7 @@ $ sequelize db:migrate
 ## Add Column
 해당 command를 입력하면 아래와 같은 파일이 생기는 것을 볼수있다.
 ```bash
-$ sequelize migration:create --name add_column_to_table 
+$ sequelize migration:create --name add_column_to_table
 ```
 migrations/#@!!@-add_column_to_table.js
 ```js
@@ -18,14 +21,14 @@ migrations/#@!!@-add_column_to_table.js
 
 module.exports = {
   up: (queryInterface, Sequelize) => {
-      
-      /* 
+
+      /*
       주석
       */
   },
 
   down: (queryInterface, Sequelize) => {
-    
+
       /*
       주석
       */
@@ -44,14 +47,16 @@ module.exports = {
           'Posts',
           'like',
           Sequelize.INTEGER
-        );  
+        );
   },
 
   down: (queryInterface, Sequelize) => {
- 
+
   }
 };
 ```
+
+<TagLinks />
 
 <ClientOnly>
 <Disqus />
