@@ -29,6 +29,10 @@ vuepress가 정식 릴리즈가 될때 이 문서와 내용이 약간 달라질�
 그때는 다시 문서를 빠르게 버전업하여 재배포하겠습니다.
 :::
 
+## Table of Contents
+
+[[toc]]
+
 ## Vuepress는 무엇인가
 
 1. Vuepress는 Vue.js로 개발되어진 정적 사이트 생성기입니다.
@@ -444,7 +448,7 @@ manifest설정에 대한 자세한 내용은 [MDN 문서](https://developer.mozi
 pwa 플러그인에대한 자세한 내용은 [vuepress 공식문서](https://vuepress.vuejs.org/plugin/official/plugin-pwa.html#customize-the-ui-of-sw-update-popup)에서 확인하세요.
 :::
 
-## 쓸만한 markdown 기본 extension 1. Custom Container
+## 쓸만한 마크다운 기본 extension 1. Custom Container
 
 ### tip
 :::tip
@@ -478,7 +482,7 @@ danger 박스!
 :::tip
 공식문서 [Custom Containers](https://vuepress.vuejs.org/guide/markdown.html#custom-containers)
 :::
-## 쓸만한 markdown 기본 extension 2. Line Highlighting in Code Blocks
+## 쓸만한 마크다운 기본 extension 2. Line Highlighting in Code Blocks
 
 코드블럭의 앞부분에 {라인번호,라인번호,라인번호}를 추가하여 해당 줄을 강조시킬수있다.
 
@@ -488,7 +492,7 @@ ex) " ```js{3} "형식
 공식문서 [Line Highlighting in Code Blocks](https://vuepress.vuejs.org/guide/markdown.html#line-highlighting-in-code-blocks)
 :::
 
-## 쓸만한 markdown 기본 extension 3. LineNumbers
+## 쓸만한 마크다운 기본 extension 3. LineNumbers
 
 ```js{3,4,5}
 // docs/.vuepress/config.js
@@ -497,6 +501,13 @@ module.exports = {
     lineNumbers: true
   }
 }
+```
+## 쓸만한 마크다운 기본 extension 4. Table of Contents
+
+오직 저 코드만 추가함으로써 목차를 만들어준다. [결과 예시](#table-of-contents)
+
+```md
+[[toc]]
 ```
 
 ## Disqus 댓글 기능 추가하기
