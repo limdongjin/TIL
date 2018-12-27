@@ -123,8 +123,6 @@ for(int elem : intArr){
 
 [Arrays part in Oracle Java Tutorial](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
 
-<TagLinks />
 
-<ClientOnly>
-<Disqus />
-</ClientOnly>
+
+

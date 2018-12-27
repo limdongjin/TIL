@@ -53,6 +53,6 @@ Vuex를 `step by step`으로 정말 친절하게 설명해주신다!!
 
 [(영어) Learn Vuex by Building a Notes App](https://coligo.io/learn-vuex-by-building-notes-app/)
 
-<TagLinks />
 
-<Disqus />
+
+

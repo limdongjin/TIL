@@ -152,6 +152,6 @@ Click "Apply"
 
 ## Success!
 
-<TagLinks />
 
-<Disqus />
+
+

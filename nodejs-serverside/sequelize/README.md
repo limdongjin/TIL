@@ -83,8 +83,6 @@ $ sequelize-auto -o "./models" -d dbname -h hostname -u username -p 3306 -x pass
 
 [바로가기](/nodejs-serverside/sequelize/crud/r/)
 
-<TagLinks />
 
-<ClientOnly>
-<Disqus />
-</ClientOnly>
+
+

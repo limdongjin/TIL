@@ -115,8 +115,6 @@ Index를 처음 생성할때 settings에 형태소 분석기를 설정해주면 
 
 [AWS Elasticsearch Service 개발자문서 - 액세스 제어 파트](https://docs.aws.amazon.com/ko_kr/elasticsearch-service/latest/developerguide/es-ac.html)
 
-<TagLinks />
 
-<ClientOnly>
-<Disqus />
-</ClientOnly>
+
+

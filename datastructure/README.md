@@ -2,6 +2,4 @@
 
 - [자료구조 in 자바 ](/java/ds/)
 
-<ClientOnly>
-<Disqus />
-</ClientOnly>
+

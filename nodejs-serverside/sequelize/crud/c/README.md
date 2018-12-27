@@ -17,8 +17,6 @@ router.post('/', (req, res)=>{
 })
 ```
 
-<TagLinks />
 
-<ClientOnly>
-<Disqus />
-</ClientOnly>
+
+

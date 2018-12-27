@@ -10,4 +10,4 @@ tags: ["aws", "elasticbeanstalk"]
 
 [Tutorial: How to add SSL certificates to Elastic Beanstalk and CloudFront posted by James Beswick](https://medium.com/in-development/how-to-add-ssl-certificates-to-elastic-beanstalk-and-cloudfront-452f68591ca5)
 
-<TagLinks />
+

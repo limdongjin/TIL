@@ -42,6 +42,6 @@ tags: ["자바","유용한자료모음"]
 
 [java-design-patterns repository](https://github.com/iluwatar/java-design-patterns)
 
-<TagLinks />
 
-<Disqus />
+
+

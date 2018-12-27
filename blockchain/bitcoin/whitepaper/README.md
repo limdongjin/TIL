@@ -147,6 +147,6 @@ A는 자신이 갖고 있는 이전 거래 내역( A의 장부 )에 B와의 새�
 
 [Bitcoin 백서 한글 번역본](https://cryptokiwi.kr/currency?id=btc&category=3&content_id=228)
 
-<TagLinks />
 
-<Disqus />
+
+

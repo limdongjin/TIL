@@ -1,5 +1,5 @@
-# RubyOnRails 
- 
+# RubyOnRails
+
 - [Install (Windows)`](/rails/install/)
 
 - [Deploy](/rails/deploy/)
@@ -11,5 +11,5 @@
 - [Mailer](/rails/mailer/)
 
 <ClientOnly>
-    <Disqus />
+
 </ClientOnly>

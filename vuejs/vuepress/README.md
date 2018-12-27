@@ -539,8 +539,8 @@ module.exports = {
 
 [유기체의 다락방](https://62che.com/blog)
 
-<TagLinks />
 
-<Disqus />
+
+
 
 

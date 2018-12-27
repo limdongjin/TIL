@@ -46,6 +46,6 @@ $ /Library/Tomcat/bin/startup.sh
 
 6. Check "http://localhost:8080"
 
-<TagLinks />
 
-<Disqus />
+
+

@@ -104,6 +104,6 @@ foo = JSON.parse(foo.to_json, object_class: OpenStruct)
 # => "world"
 ```
 
-<TagLinks />
 
-<Disqus />
+
+

@@ -7,4 +7,4 @@ tags: ["자바", "디자인패턴", "유용한자료모음"]
 
 [GoF의 디자인패턴 책](http://www.yes24.com/24/goods/17525598)
 
-<TagLinks />
+

@@ -79,6 +79,6 @@ for i in range(1, N):
 
 [프로그래밍 대회에서 배우는 알고리즘 문제해결전략1 04장](http://www.yes24.co.kr/24/goods/8006522)
 
-<TagLinks />
 
-<Disqus />
+
+

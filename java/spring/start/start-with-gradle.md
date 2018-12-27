@@ -193,6 +193,6 @@ Uncheck "Delegate IDE build/run actions to gradle"
 
 ![](/images/run.png)
 
-<TagLinks />
 
-<Disqus />
+
+

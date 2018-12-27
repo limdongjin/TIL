@@ -14,6 +14,6 @@ tags: ["elasticsearch", "유용한자료모음"]
 
 [elasticsearch_적용 및 활용_정리 - 슬라이드쉐어](https://www.slideshare.net/JunyiSong1/elasticsearch-45936425)
 
-<TagLinks />
 
-<Disqus />
+
+

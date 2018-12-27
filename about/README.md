@@ -1,7 +1,7 @@
 ---
 sidebar: false
 title: Dongjin Lim, 초고수 소프트웨어 엔지니어를 향하여
-meta: 
+meta:
   - name: description
     content: Who is DongJin LIM?
   - property: og:title
@@ -27,16 +27,16 @@ meta:
 
 ### 웹서비스 (주)투정 CTO ( Co-Founder )
 
-내 삶을 바꾸는 법안 쇼핑몰 투정. 
+내 삶을 바꾸는 법안 쇼핑몰 투정.
 
-청년 세대들의 삶의 문제를 해결해 줄 수 있지만 국회의 무관심으로 통과되지 않는 입법안을 발굴해 쇼핑몰 형태로 보여주는 웹서비스  
+청년 세대들의 삶의 문제를 해결해 줄 수 있지만 국회의 무관심으로 통과되지 않는 입법안을 발굴해 쇼핑몰 형태로 보여주는 웹서비스
 
 ( 2017.5 ~ )
 
 #### 기술적 기여 사항
 
-- Rails Web Framework 백엔드 개발 총 책임 및 PWA등의 프론트엔드 개발 기여 
-- 확장성있는 서비스 아키텍쳐 설계및 구현 / AWS Elastic Beanstalk, S3, RDS, CloudFront, Route53, ElasticCache(Redis) 
+- Rails Web Framework 백엔드 개발 총 책임 및 PWA등의 프론트엔드 개발 기여
+- 확장성있는 서비스 아키텍쳐 설계및 구현 / AWS Elastic Beanstalk, S3, RDS, CloudFront, Route53, ElasticCache(Redis)
 - Model - Service - Controller - Views 구조의 Rails 디자인패턴
 - Progressive Web App (PWA) / 캐싱, 푸시알림, 오프라인 사용가능성 구현
 - Elastic Search/Kibana를 이용하여 투정팀내에서 이용할수있는 법안 데이터 분석 인프라 구축
@@ -46,7 +46,7 @@ meta:
 - Mailgun 서비스 활용한 이메일 전송 기능 구현
 - 팀 내부 공유를 위한 법안 데이터 분석 ( python, pandas, scikit-learn, konlpy, matplotlib )
 
-#### 해당 서비스 성과 및 수상 내역 
+#### 해당 서비스 성과 및 수상 내역
 
 - 2017 "서강이 만드는 세상" 프로젝트 우수팀 선정
 - 2018 사회적기업 육성사업 8기 우수졸업
@@ -91,8 +91,8 @@ meta:
 ( 2017.4 ~ 2018.12 )
 
 #### 직접 강의 제작 및 진행 (2018.4 ~ 2018.12)
-  
-- RubyOnRails 강의 진행 (해시태그 구현 및 모델 이해 및 M:N이해)  
+
+- RubyOnRails 강의 진행 (해시태그 구현 및 모델 이해 및 M:N이해)
 - 깃/깃허브 강의 두차례 진행 (깃 기본적인 사용법 강의, 브랜치 강의)
 - 자바 스크립트 강의 진행( Ajax, 콜백개념 등)
 - PWA 강의 진행( 오프라인 웹서비스 구현, 푸시알림 구현)
@@ -113,14 +113,14 @@ meta:
 
 ## Technical Skills
 
-### Ruby On Rails 
+### Ruby On Rails
 
 - MAU 1만명정도의 실제 사용자가 사용하는 서비스 개발, 설계, 배포하는 등의 경험
 - Authentication, Social Authentication, Async Mail, Payment, Cache 등의 기능 구현
 - Rubymine IDE 숙련도 중상
-- 1년동안 Ruby On Rails 교육 진행 경험  
+- 1년동안 Ruby On Rails 교육 진행 경험
 
-### Python 
+### Python
 
 - 스크래퍼 구현 경혐( Beautiful Soup, Selenium, python mysql lib, django orm )
 - 데이터분석 라이브러리 사용 경험( Pandas, Matplotlib, Scikit-Learn, konlpy )
@@ -128,26 +128,26 @@ meta:
 
 ### Node.js (Server Side)
 
-- Express.js기반 REST API 개발 및 배포 경험 
+- Express.js기반 REST API 개발 및 배포 경험
 - Sequelize, Express.js, Passport.js 사용 경험
 
 ### Javascript (Frontend Side)
 
 - 기본적인 개념 숙지, sync-async/Callback/Promise 등의 개념 이해
 - 자바스크립트 입문 교육 진행 경험 (Callback, Ajax)
-- Progressive Web App 구현 및 실서비스 적용 경험 
+- Progressive Web App 구현 및 실서비스 적용 경험
 - Progressive Web App 입문 교욱 진행 경험
 
 ### C
 
-- 컴퓨터공학 전공 수업이 주로 C를 기반으로 진행됨. 
+- 컴퓨터공학 전공 수업이 주로 C를 기반으로 진행됨.
 - 메모리, 포인터에 대한 이해, 자료구조 구현 경험
 - 리눅스 환경에서 작동하는 에디터 구현
 - 스네이크게임, 테트리스 등의 간단한 프로그램 구현
 
 ### Elastic Search
 
-- CRUD, Bulk 등의 간단한 쿼리 사용 경험 
+- CRUD, Bulk 등의 간단한 쿼리 사용 경험
 
 ### AWS
 
@@ -157,8 +157,6 @@ meta:
 ### GIT
 
 - git을 이용한 협업 경험
-- 기본적인 개념, 사용법, 브랜치에 대한 교육 진행 경험 
+- 기본적인 개념, 사용법, 브랜치에 대한 교육 진행 경험
 
-<ClientOnly>
-<Disqus />
-</ClientOnly>
+

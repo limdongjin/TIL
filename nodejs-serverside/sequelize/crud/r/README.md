@@ -51,8 +51,6 @@ router.get('/', function (req, res, next) {
 })
 ```
 
-<TagLinks />
 
-<ClientOnly>
-<Disqus />
-</ClientOnly>
+
+

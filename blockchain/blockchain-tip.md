@@ -65,8 +65,6 @@ tags: ["블록체인"]
 
 [Remix : 솔리디티 IDE 사이트](http://remix.ethereum.org/#optimize=false&version=soljson-v0.4.20+commit.3155dd80.js)
 
-<TagLinks />
 
-<ClientOnly>
-<Disqus />
-</ClientOnly>
+
+

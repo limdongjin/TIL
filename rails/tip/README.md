@@ -83,8 +83,6 @@ tags: ["rails", "루비", "유용한자료모음"]
 
 [윈도우 RoR 세팅](http://slides.com/takeu/deck#/19)
 
-<TagLinks />
 
-<ClientOnly>
-<Disqus />
-</ClientOnly>
+
+

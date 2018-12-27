@@ -88,8 +88,6 @@ tags: ["nlp", "ml", "유용한자료모음"]
 [Recent Trends in Deep Learning Based
  Natural Language Processing, Tom Young, Devamanyu Hazarika, Soujanya Poria, Erik Cambria](https://arxiv.org/pdf/1708.02709.pdf)
 
-<TagLinks />
 
-<ClientOnly>
-<Disqus />
-</ClientOnly>
+
+

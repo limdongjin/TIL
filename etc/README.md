@@ -64,8 +64,6 @@ tags: ["유용한자료모음"]
 
 [백엔드 개발자가 되고싶어요 - mingrammer](https://speakerdeck.com/mingrammer/become-a-backend-developer)
 
-<TagLinks />
 
-<ClientOnly>
-<Disqus />
-</ClientOnly>
+
+

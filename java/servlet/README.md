@@ -246,6 +246,6 @@ Example5는 jsp파일로 포워딩하는 예시이다.
 
 [Java™ Servlet Specification ver 3.1](https://javaee.github.io/servlet-spec/downloads/servlet-3.1/Final/servlet-3_1-final.pdf)
 
-<TagLinks />
 
-<Disqus />
+
+

@@ -123,8 +123,6 @@ end
 
 [Action_mailer 문서](https://guides.rubyonrails.org/action_mailer_basics.html)
 
-<TagLinks />
 
-<ClientOnly>
-<Disqus />
-</ClientOnly>
+
+

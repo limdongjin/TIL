@@ -1,5 +1,6 @@
 ---
 sidebar: false
+disqus: true
 ---
 # Blog
 

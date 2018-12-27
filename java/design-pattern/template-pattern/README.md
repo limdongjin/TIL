@@ -166,6 +166,6 @@ Build Window!
 
 [Sample UML image reference](http://w3sdesign.com/?gr=b10&ugr=struct)
 
-<TagLinks />
 
-<Disqus />
+
+

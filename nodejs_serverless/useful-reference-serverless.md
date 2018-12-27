@@ -21,8 +21,6 @@ tags: ["서버리스", "유용한자료모음"]
 
 [프론트엔드 개발자 혼자 서버리스 개발하기 - 포스팅](https://walkinpcm.blogspot.com/2018/04/aws-1.html)
 
-<TagLinks />
 
-<ClientOnly>
-<Disqus />
-</ClientOnly>
+
+

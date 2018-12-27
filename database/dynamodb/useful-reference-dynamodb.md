@@ -12,6 +12,6 @@ tags: ["dynamodb", "유용한자료모음"]
 
 [Node.js로 Amazon DynamoDB 사용하기](https://brunch.co.kr/@hee072794/74)
 
-<TagLinks />
 
-<Disqus />
+
+

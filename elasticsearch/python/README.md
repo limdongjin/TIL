@@ -198,8 +198,6 @@ es.transport.perform_request(
 
 [AWS Elasticsearch Service 개발자 안내서](https://docs.aws.amazon.com/ko_kr/elasticsearch-service/latest/developerguide/es-indexing-programmatic.html)
 
-<TagLinks />
 
-<ClientOnly>
-<Disqus />
-</ClientOnly>
+
+

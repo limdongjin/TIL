@@ -42,4 +42,4 @@ this.axios.post(`${baseURI}/posts`,
 
 ```
 
-<TagLinks />
+

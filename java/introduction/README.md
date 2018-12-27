@@ -40,6 +40,6 @@ JVM에서 실행할수있는 Bytecode형식의 실행파일을 만드는것이�
 
 [자바가상머신, JVM이란 무엇인가? posted by Jbee](http://asfirstalways.tistory.com/158)
 
-<TagLinks />
 
-<Disqus />
+
+

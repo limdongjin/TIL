@@ -2,6 +2,4 @@
 
 - [DynamoDB](/database/dynamodb/)
 
-<ClientOnly>
-<Disqus />
-</ClientOnly>
+

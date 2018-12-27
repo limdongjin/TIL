@@ -56,8 +56,6 @@ module.exports = {
 };
 ```
 
-<TagLinks />
 
-<ClientOnly>
-<Disqus />
-</ClientOnly>
+
+

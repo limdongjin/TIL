@@ -1,5 +1,5 @@
 
-# Elastic Search 
+# Elastic Search
 
 - [Elasticsearch 팁](/elasticsearch/general/)
 
@@ -7,6 +7,4 @@
 
 - [Query DSL](/elasticsearch/querydsl/)
 
-<ClientOnly>
-<Disqus />
-</ClientOnly>
+
