@@ -1,7 +1,7 @@
 <template>
     <ParentLayout >
-        <TagLinks slot="page-bottom" v-if="this.$frontmatter.tags"/>
-        <Disqus slot="page-bottom" v-if="this.$frontmatter.tags"/>
+       <TagLinks slot="page-bottom" v-if="this.$frontmatter.tags" class="content"/>
+        <Disqus slot="page-bottom" v-if="this.$frontmatter.tags" class="content"/>
     </ParentLayout>
 </template>
 
