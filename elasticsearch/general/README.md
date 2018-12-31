@@ -111,6 +111,21 @@ Index를 처음 생성할때 settings에 형태소 분석기를 설정해주면 
 }
 ```
 
+## 기존 Elasticsearch 서버 데이터를 다른 서버의 Elascticsearch로 옮기고싶다면?
+
+### 1. elasticdump 설치
+```bash
+npm install elasticdump -g
+```
+
+### 2. 실행 예제
+더 다양한 예제는 [elaticdump 레포지토리](https://github.com/taskrabbit/elasticsearch-dump)에서 확인할수있음.
+```bash
+elasticdump \
+--input=https://old-server.com/myindex \
+--output=https://new-server.com/myindex
+```
+
 ## References
 
 [AWS Elasticsearch Service 개발자문서 - 액세스 제어 파트](https://docs.aws.amazon.com/ko_kr/elasticsearch-service/latest/developerguide/es-ac.html)
