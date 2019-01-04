@@ -29,7 +29,8 @@ module.exports = {
                 title: 'Vuepress',
                 collapsable: true,
                 children: [
-                    '/vuejs/vuepress/'
+                    '/vuejs/vuepress/',
+                    '/vuejs/vuepress/layout-extend'
                 ]
             },
             {

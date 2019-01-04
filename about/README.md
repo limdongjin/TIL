@@ -10,6 +10,7 @@ meta:
     content:  Who is DongJin LIM?
   - property: og:url
     content: https://limdongjin.github.io/about
+tags: ["about"]
 ---
 # About
 
