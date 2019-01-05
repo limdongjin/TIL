@@ -3,12 +3,6 @@ title: 블록체인 관련 유용한 자료 모음
 meta:
   - name: description
     content: 블록체인 관련 유용한 자료 모음, 블로그, 백서, 툴
-  - property: og:title
-    content: 블록체인 관련 유용한 자료 모음
-  - property: og:description
-    content: 블록체인 관련 유용한 자료 모음, 블로그, 백서, 툴
-  - property: og:url
-    content: https://limdongjin.github.io/blockchain/blockchain-tip
 tags: ["블록체인"]
 ---
 # 블록체인 관련 유용한 자료 모음

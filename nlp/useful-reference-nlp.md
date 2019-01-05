@@ -3,12 +3,6 @@ title: NLP,ML 유용한 쟈료 모음!
 meta:
   - name: description
     content: NLP,ML 유용한 쟈료 모음!
-  - property: og:title
-    content: NLP,ML 유용한 쟈료 모음!
-  - property: og:description
-    content: NLP,ML 유용한 쟈료 모음!
-  - property: og:url
-    content: https://limdongjin.github.io/nlp/useful-reference-nlp
 tags: ["nlp", "ml", "유용한자료모음"]
 ---
 # NLP/ML 유용한 자료 모음
