@@ -53,6 +53,13 @@ module.exports = {
                 ]
             },
             {
+                title: 'ProblemSolving',
+                collapsable: true,
+                children: [
+                    '/problemsolving/twosum'
+                ]
+            },
+            {
                 title: 'Algorithms',
                 collapsable: true,
                 children: [

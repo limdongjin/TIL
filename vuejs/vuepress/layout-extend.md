@@ -8,7 +8,7 @@ meta:
  - property: og:description
    content: 뷰프레스에 댓글 기능을 추가해보고 점진적으로 기능을 개선해본다.
  - property: og:url
-   content: https://limdongjin.github.io/vuejs/vuepress/layout-extend.md
+   content: https://limdongjin.github.io/vuejs/vuepress/layout-extend.html
  - property: og:image
    content: https://limdongjin.github.io/images/vuepress-logo.png
 tags: ["vue", "vuepress", "튜토리얼"]
