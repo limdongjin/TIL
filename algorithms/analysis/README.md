@@ -1,6 +1,5 @@
 ---
 title: 알고리즘 평가방법. 시간 복잡도
-description: 알고리즘의 평가방법중 하나인 시간복잡도에 대헤 알아봅니다.
 meta:
   - name: description
     content: 알고리즘의 평가방법중 하나인 시간복잡도에 대헤 알아봅니다.

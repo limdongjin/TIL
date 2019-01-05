@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "dev": "vuepress dev"
+    "dev": "vuepress dev",
+    "build": "vuepress build"
   },
   "devDependencies": {
     "@vuepress/plugin-active-header-links": "^1.0.0-alpha.30",

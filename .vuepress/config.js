@@ -213,13 +213,12 @@ module.exports = {
             frontmatter
         } = $page
 
-        let meta = frontmatter.meta;
-        let flag = false;
-
-        if (!meta) {
-            frontmatter.meta = [{"property": "og:image", "content": "/images/main-image-min.jpg"}];
+        meta = frontmatter.meta;
+        if(!frontmatter.hasOwnProperty('meta')){
+            frontmatter.meta = [{"property": "og:image", "content": "/images/main-image-min.jpg"}]
             return
         }
+        let flag = false;
         meta.forEach(elem => {
             if (elem.hasOwnProperty('property') && elem.property === 'og:image') {
                 console.log('og:image exist');
@@ -227,7 +226,7 @@ module.exports = {
             }
         })
         if (flag === false) {
-            frontmatter.meta += {"property": "og:image", "content": "/images/main-image-min.jpg"}
+            frontmatter.meta.push({"property": "og:image", "content": "/images/main-image-min.jpg"})
         }
     }
 }
