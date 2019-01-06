@@ -9,6 +9,7 @@
     import ParentLayout from '@parent-theme/layouts/Layout.vue'
     import TagLinks from '../components/TagLinks'
     import Disqus from '../components/Disqus'
+
     export default {
         components: {
             ParentLayout,

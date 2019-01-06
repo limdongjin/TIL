@@ -215,8 +215,6 @@ module.exports = {
         } = $page
         if(frontmatter.meta === undefined){
             frontmatter.meta = [{"property": "og:image", "content": "/images/main-image-min.jpg"}]
-            // frontmatter.meta.push({"property": "og:url", "content": "https://limdongjin.github.io"+ path})
-            // return
         }
 
         let flag = false;
@@ -225,7 +223,6 @@ module.exports = {
 
         frontmatter.meta.forEach(elem => {
             if (elem.hasOwnProperty('property') && elem.property === 'og:image') {
-                // console.log('og:image exist');
                 flag = true;
             }
             if(elem.hasOwnProperty('name') && elem.name === 'description'){
