@@ -28,22 +28,21 @@
         slot="bottom"
       />
     </Sidebar>
+        <Home v-if="$page.frontmatter.home"/>
 
-    <Home v-if="$page.frontmatter.home"/>
-
-    <Page
-      v-else
-      :sidebar-items="sidebarItems"
-    >
-      <slot
-        name="page-top"
-        slot="top"
-      />
-      <slot
-        name="page-bottom"
-        slot="bottom"
-      />
-    </Page>
+        <Page
+          v-else
+          :sidebar-items="sidebarItems"
+        >
+          <slot
+            name="page-top"
+            slot="top"
+          />
+          <slot
+            name="page-bottom"
+            slot="bottom"
+          />
+        </Page>
   </div>
 </template>
 
@@ -85,6 +84,7 @@ export default {
 
     shouldShowSidebar () {
       const { frontmatter } = this.$page
+
       return (
         !frontmatter.home &&
         frontmatter.sidebar !== false &&
@@ -132,6 +132,11 @@ export default {
   },
 
   methods: {
+    // custom method
+    afterLeave() {
+      this.$root.$emit("triggerScroll");
+    },
+
     toggleSidebar (to) {
       this.isSidebarOpen = typeof to === 'boolean' ? to : !this.isSidebarOpen
     },

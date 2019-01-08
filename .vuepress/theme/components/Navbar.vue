@@ -33,6 +33,7 @@
       <SearchBox v-else-if="$site.themeConfig.search !== false"/>
       <NavLinks class="can-hide"/>
     </div>
+
   </header>
 </template>
 

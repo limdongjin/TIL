@@ -208,9 +208,9 @@ module.exports = {
     markdown: {
         lineNumbers: true
     },
-    // globalUIComponents: [
-    //     'Disqus'
-    // ],
+    globalUIComponents: [
+        'Sidebaropenclose'
+    ],
     extendPageData($page) {
         const {
             frontmatter,

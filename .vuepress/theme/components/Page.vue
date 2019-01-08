@@ -2,12 +2,28 @@
   <div class="page">
     <slot name="top"/>
 
-    <Content/>
+    <div v-if="this.$frontmatter.image" class="main-image">
+      <div v-bind:style="{backgroundImage: `url(${$withBase(this.$frontmatter.image)})`}"></div>
+      <div>
+        <transition-group name="intro" v-on:enter="enter" appear>
+          <h1 key="1">{{this.$frontmatter.title}}</h1>
+          <!--<h2 key="2">{{data.workplace}}</h2>-->
+          <!--<p key="3">{{data.description}}</p>-->
+          <div key="4"></div>
+        </transition-group>
+      </div>
+    </div>
+
+    <!--<button style="background-color: #5d82a6; width: 100px; height: 100px" onclick="document.getElementsByClassName('theme-container')[0].classList.add('no-sidebar')"> Sidebar 접기/열기 </button>-->
+    <Sidebaropenclose />
+
+    <Content :custom="false"/>
 
     <!--/* start Custom Component -->
     <TagLinks class="content padding_bottom_zero" v-if="this.$frontmatter.tags"/>
 
     <Disqus class="content padding_top_zero" v-if="this.$frontmatter.tags"/>
+
     <!-- Custom Component end*/-->
 
     <div class="page-edit">
@@ -69,8 +85,6 @@
 
 <script>
 import { resolvePage, normalize, outboundRE, endingSlashRE } from '../util'
-import Disqus from './Disqus'
-import TagLinks from './TagLinks'
 
 export default {
   props: ['sidebarItems'],
@@ -143,8 +157,12 @@ export default {
       )
     }
   },
-
   methods: {
+    // custom method
+    enter: function(el, done) {
+      el.tagName === "DIV" ? el.classList.add("linePop") : null;
+    },
+
     createEditLink (repo, docsRepo, docsDir, docsBranch, path) {
       const bitbucket = /bitbucket.org/
       if (bitbucket.test(repo)) {
@@ -203,6 +221,9 @@ function find (page, items, offset) {
 <style lang="stylus">
 @require '../styles/wrapper.styl'
 
+.page
+  padding-bottom: 2rem
+
 // custom style
 .padding_top_zero {
   padding-top: 0 !important;
@@ -211,6 +232,54 @@ function find (page, items, offset) {
 .padding_bottom_zero {
   padding-bottom: 0 !important;
 }
+// custom style
+.main-image
+  display: flex
+  flex-wrap: wrap
+  justify-content: center
+  align-items: flex-start
+  max-width: 1500px
+  margin: 0 auto
+  > div
+    &:nth-of-type(1)
+      height: 37.5rem
+      flex: 4 1 350px
+      background-size: cover
+      background-position: center center
+    &:nth-of-type(2)
+      padding: 0 1rem 0 1rem
+      margin: 2rem
+      align-self: flex-end
+      flex: 1 1 350px
+      position: relative
+      div
+        position: absolute
+        width: 2px
+        left: 0
+        top: 50%
+        transform: translateY(-50%)
+        background-color: $accentColor
+//custom style
+.intro-enter-active
+  &:nth-child(1)
+    transition: all 500ms 800ms
+    transition-property: opacity, transform
+  &:nth-child(2)
+    transition: all 500ms 800ms
+    transition-property: opacity, transform
+  &:nth-child(3)
+    transition: all 500ms 1000ms
+    transition-property: opacity, transform
+.intro-enter
+  &:not(:last-child)
+    opacity: 0
+    transform: translateX(-0.8rem)
+.intro-enter-to
+  &:not(:last-child)
+    opacity: 1
+    transform: translateX(0px)
+.description-delay
+  transition: all 500ms 1000ms
 
 .page
   padding-bottom 2rem
@@ -247,6 +316,21 @@ function find (page, items, offset) {
     overflow auto // clear float
   .next
     float right
+
+// custom styles
+span p
+  color: lighten($textColor, 40%)
+span h2, span h1
+  margin: 0
+.linePop
+  animation: linePop 250ms 700ms ease-in-out forwards
+@keyframes linePop
+  0%
+    height: 0%
+    opacity: 0
+  100%
+    height: 100%
+    opacity: 1
 
 @media (max-width: $MQMobile)
   .page-edit
