@@ -2,12 +2,6 @@
 meta:
  - name: description
    content: leetcode twosum 문제를 풀어보자 feat, HashMap
- - property: og:title
-   content: Leetcode Twosum 문제 풀이
- - property: og:description
-   content: leetcode twosum 문제를 풀어보자 feat, HashHap
- - property: og:url
-   content: https://limdongjin.github.io/problemsolving/twosum.html
  - property: og:image
    content: https://limdongjin.github.io/images/LeetCode.png
 tags: ["problemsolving", "leetcode", "java", "hashmap"]

@@ -3,12 +3,6 @@ title: 최강의 협업도구 GIT / Github
 meta:
   - name: description
     content: 최강의 협업도구 GIT / Github에 대해 알아보자!
-  - property: og:title
-    content: 최강의 협업도구 GIT / GITHUB
-  - property: og:description
-    content: 최강의 협업도구 GIT / Github에 대해 알아보자
-  - property: og:url
-    content: https://limdongjin.github.io/git
 tags: ["git"]
 ---
 # `git/github`

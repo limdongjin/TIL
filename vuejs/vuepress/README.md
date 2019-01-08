@@ -4,12 +4,6 @@ title: Tutorial. 뷰프레스(Vuepress)로 기술문서 빠르게 만들어보�
 meta:
   - name: description
     content: 뷰프레스 입문. 마크다운만 알고있다면 기술문서 금방 만드는 마법!
-  - property: og:title
-    content: Tutorial. 뷰프레스(Vuepress)로 기술문서 빠르게 만들어보자!
-  - property: og:description
-    content: 뷰프레스 입문. 마크다운만 알고있다면 기술문서 금방 만드는 마법!
-  - property: og:url
-    content: https://limdongjin.github.io/vuejs/vuepress
   - property: og:image
     content: https://limdongjin.github.io/images/vuepress-logo.png
 tags: ["vue", "vuepress", "튜토리얼"]

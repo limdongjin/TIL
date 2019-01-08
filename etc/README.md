@@ -4,12 +4,6 @@ description: uncategorize 유용한 자료 모음
 meta:
   - name: description
     content: uncategorize 유용한 자료 모음
-  - property: og:title
-    content: uncategorize 유용한 자료 모음
-  - property: og:description
-    content: uncategorize 유용한 자료 모음
-  - property: og:url
-    content: https://limdongjin.github.io/etc
 tags: ["유용한자료모음"]
 ---
 # etc

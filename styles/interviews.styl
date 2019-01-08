@@ -1,0 +1,118 @@
+.interview-page
+  padding: $navbarHeight 2rem 0
+  max-width: 960px
+  margin: 0px auto
+
+.interviews
+  display: grid
+  grid-gap: 40px
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr))
+  padding: 0.5rem 0 2rem 0
+
+.interview
+  position: relative
+
+  img
+    width: 100%
+    transform: translateZ(0)
+    border-radius: 2px
+
+  h2, p
+    margin-bottom: 0
+
+  h2
+    margin-top: 0.5em
+
+  p
+    font-size: 0.9rem
+    font-weight: 400
+    margin-top: 0.6em
+    color: lighten($textColor, 50%)
+    transform: translateZ(0)
+
+@media (min-width: 813px)
+  .interview-page
+    .interview
+      &:nth-of-type(3n+5)
+        &:before
+          content: ''
+          width: 1px
+          background: #C0C0C0
+          // height: calc(100% - 40px)
+          height: 100%
+          position: absolute
+          top: 0
+          left: -20px
+
+        &:after
+          content: ''
+          width: 1px
+          background: #C0C0C0
+          // height: calc(100% - 40px)
+          height: 100%
+          position: absolute
+          top: 0
+          right: -20px
+
+      &:nth-child(n+1):nth-child(-n+3)
+        &:before
+          content: ''
+          width: 1px
+          background: #C0C0C0
+          // height: calc(100% - 40px)
+          height: 100%
+          position: absolute
+          top: 0
+          left: -20px
+
+  .home
+    .interview
+      &:nth-of-type(3n+2)
+        &:before
+          content: ''
+          width: 1px
+          background: #E5E5EA
+          // height: calc(100% - 40px)
+          height: 100%
+          position: absolute
+          top: 0
+          left: -20px
+
+        &:after
+          content: ''
+          width: 1px
+          background: #E5E5EA
+          // height: calc(100% - 40px)
+          height: 100%
+          position: absolute
+          top: 0
+          right: -20px
+
+  .first
+    grid-column: 1 / span 2
+    grid-row: 1 / span 2
+
+    &:after
+      content: ''
+      width: 3px
+      background: #F46F2C
+      height: 100%
+      position: absolute
+      top: 0
+      left: -20px
+      border-radius: 3px
+
+    div
+      height: 68.6%
+
+    img
+      height: 100%
+      width: 100%
+      object-fit: cover
+      object-position: center center
+
+    h2
+      font-size: 3rem
+
+    h3
+      font-size: 1.9rem

@@ -3,12 +3,6 @@ title: Elastic Search 팁 모음
 meta:
   - name: description
     content: date_detection 에러, aws elastic search 액세스 정책, 한글 형태소 분석기
-  - property: og:title
-    content: Elastic Search 팁 모음
-  - property: og:description
-    content: date_detection 에러, aws elastic search 액세스 정책, 한글 형태소 분석기
-  - property: og:url
-    content: https://limdongjin.github.io/elasticsearch/general
 tags: ["elasticsearch", "팁"]
 ---
 # Elasticsearch 팁

@@ -4,12 +4,6 @@ description: AWS Elastic Beanstalk의 기본적인 nginx ebextension 설정에 �
 meta:
   - name: description
     content: AWS Elastic Beanstalk의 기본적인 nginx ebextension 설정에 대해서.
-  - property: og:title
-    content: AWS Elastic Beanstalk의 ebextension 설정을 해보자!
-  - property: og:description
-    content: AWS Elastic Beanstalk의 기본적인 nginx ebextension 설정에 대해서.
-  - property: og:url
-    content: https://limdongjin.github.io/aws/elasticbeanstalk/ebextensions
 tags: ["aws", "elasticbeanstalk"]
 ---
 # AWS Elastic Beanstalk의 ebextensions 설정을 해보자!

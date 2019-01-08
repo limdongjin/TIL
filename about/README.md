@@ -4,12 +4,6 @@ title: Dongjin Lim, 초고수 소프트웨어 엔지니어를 향하여
 meta:
   - name: description
     content: Who is DongJin LIM?
-  - property: og:title
-    content: Dongjin Lim, 초고수 소프트웨어 엔지니어를 향하여
-  - property: og:description
-    content:  Who is DongJin LIM?
-  - property: og:url
-    content: https://limdongjin.github.io/about
 tags: ["about"]
 ---
 # About

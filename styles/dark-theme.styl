@@ -1,0 +1,71 @@
+@require './dark-config.styl'
+
+.dark
+  background-color: $bgPrimary
+  color: $textColor
+  min-height: 100vh
+  transition: $transition
+
+  body
+    color: $textColor
+
+  .home .interview p, .home .interview h2, .home .interview h3
+    color: #FFFFFF
+
+  .navbar
+    border-bottom: 1px solid $borderColor
+    background-color: $bgSecondary
+    transition: $transition
+
+  .sidebar
+    border-right: 1px solid $borderColor
+    background-color: $bgPrimary
+
+  p a code
+    color: $accentColor
+
+  kbd
+    background: #eee
+    border: solid 0.15rem #ddd
+    border-bottom: solid 0.25rem #ddd
+
+  span
+    p
+      color: lighten($textColor, 40%)
+
+  hr
+    border-top: 1px solid $borderColor
+
+  tr
+    border-top: 1px solid #dfe2e5
+
+    &:nth-child(2n)
+      background-color: #f6f8fa
+
+  th, td
+    border: 1px solid #dfe2e5
+
+  a.router-link-active, .nav-links a:hover
+    color: $textColor
+
+  .site-name
+    color: $textColor
+
+  .search-box input
+    background: $bgSecondary url(../search.svg) 0.6rem 0.5rem no-repeat
+    background-size: 1rem
+    color: $textColor
+    border-color: $borderColorLight
+
+  .switch-theme
+    transition: $transition
+    fill: #f77b2d
+  
+  .mixes 
+    h3
+      color: $textColor
+    
+    p 
+      color: lighten($textColor, 40%)
+    
+

@@ -208,25 +208,38 @@ module.exports = {
     markdown: {
         lineNumbers: true
     },
+    globalUIComponents: [
+        'Sidebaropenclose'
+    ],
     extendPageData($page) {
         const {
-            frontmatter
+            frontmatter,
+            path
         } = $page
-
-        meta = frontmatter.meta;
-        if(!frontmatter.hasOwnProperty('meta')){
+        if(frontmatter.meta === undefined){
             frontmatter.meta = [{"property": "og:image", "content": "/images/main-image-min.jpg"}]
-            return
         }
+
         let flag = false;
-        meta.forEach(elem => {
+        let flag2 = false;
+        let desc = "";
+
+        frontmatter.meta.forEach(elem => {
             if (elem.hasOwnProperty('property') && elem.property === 'og:image') {
-                console.log('og:image exist');
                 flag = true;
+            }
+            if(elem.hasOwnProperty('name') && elem.name === 'description'){
+                flag2 = true;
+                desc = elem.content
             }
         })
         if (flag === false) {
             frontmatter.meta.push({"property": "og:image", "content": "/images/main-image-min.jpg"})
         }
+        if (flag2 === true) {
+            frontmatter.meta.push({"property": "og:description", "content": desc})
+        }
+        frontmatter.meta.push({"property": "og:url", "content": "https://limdongjin.github.io"+ path})
+        frontmatter.meta.push({"property": "og:title", "content": frontmatter.title})
     }
 }
