@@ -208,6 +208,9 @@ module.exports = {
     markdown: {
         lineNumbers: true
     },
+    // globalUIComponents: [
+    //     'Disqus'
+    // ],
     extendPageData($page) {
         const {
             frontmatter,
