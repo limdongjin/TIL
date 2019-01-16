@@ -214,7 +214,8 @@ module.exports = {
     extendPageData($page) {
         const {
             frontmatter,
-            path
+            path,
+            title
         } = $page
         if(frontmatter.meta === undefined){
             frontmatter.meta = [{"property": "og:image", "content": "/images/main-image-min.jpg"}]
@@ -240,6 +241,6 @@ module.exports = {
             frontmatter.meta.push({"property": "og:description", "content": desc})
         }
         frontmatter.meta.push({"property": "og:url", "content": "https://limdongjin.github.io"+ path})
-        frontmatter.meta.push({"property": "og:title", "content": frontmatter.title})
+        frontmatter.meta.push({"property": "og:title", "content": title})
     }
 }
