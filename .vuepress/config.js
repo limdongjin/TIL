@@ -55,7 +55,8 @@ module.exports = {
                 title: 'ProblemSolving',
                 collapsable: true,
                 children: [
-                    '/problemsolving/twosum'
+                    '/problemsolving/twosum',
+                    '/problemsolving/add-two-numbers'
                 ]
             },
             {
