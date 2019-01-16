@@ -1,6 +1,6 @@
 # RubyOnRails
 
-- [Install (Windows)`](/rails/install/)
+- [Install (Windows)`](//)
 
 - [Deploy](/rails/deploy/)
 

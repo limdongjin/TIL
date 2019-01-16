@@ -196,52 +196,15 @@ module.exports = {
             serviceWorker: true,
             updatePopup: true
         }],
-        '@vuepress/pagination'
+        '@vuepress/pagination',
+        '@limdongjin/vuepress-plugin-sidebar-on-off',
+        [ '@limdongjin/vuepress-plugin-simple-seo', {
+            default_image: '/images/main-image-min.jpg',
+            root_url: 'https://limdongjin.github.io'
+        }]
     ],
-    configureWebpack: {
-        resolve: {
-            alias: {
-                '@alias': 'images'
-            }
-        }
-    },
     ga: 'UA-131016591-1',
     markdown: {
         lineNumbers: true
-    },
-    globalUIComponents: [
-        'Sidebaropenclose'
-    ],
-    extendPageData($page) {
-        const {
-            frontmatter,
-            path,
-            title
-        } = $page
-        if(frontmatter.meta === undefined){
-            frontmatter.meta = [{"property": "og:image", "content": "/images/main-image-min.jpg"}]
-        }
-
-        let flag = false;
-        let flag2 = false;
-        let desc = "";
-
-        frontmatter.meta.forEach(elem => {
-            if (elem.hasOwnProperty('property') && elem.property === 'og:image') {
-                flag = true;
-            }
-            if(elem.hasOwnProperty('name') && elem.name === 'description'){
-                flag2 = true;
-                desc = elem.content
-            }
-        })
-        if (flag === false) {
-            frontmatter.meta.push({"property": "og:image", "content": "/images/main-image-min.jpg"})
-        }
-        if (flag2 === true) {
-            frontmatter.meta.push({"property": "og:description", "content": desc})
-        }
-        frontmatter.meta.push({"property": "og:url", "content": "https://limdongjin.github.io"+ path})
-        frontmatter.meta.push({"property": "og:title", "content": title})
     }
 }
