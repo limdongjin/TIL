@@ -15,7 +15,7 @@
     </div>
 
     <!--<button style="background-color: #5d82a6; width: 100px; height: 100px" onclick="document.getElementsByClassName('theme-container')[0].classList.add('no-sidebar')"> Sidebar 접기/열기 </button>-->
-    <Sidebaropenclose />
+    <!--<Sidebaropenclose />-->
 
     <Content :custom="false"/>
 
