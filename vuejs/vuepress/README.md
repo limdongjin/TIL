@@ -268,10 +268,7 @@ auto로 설정하기에는 sidebar가 복잡할것같은경우에는 공식문�
 
 검색엔진최적화(SEO)를 위해서는 페이지의 제목,내용등의 메타정보가 설정되야한다.
 title 태그는 vuepress가 자동으로 추가해주고있지만,
-아직 오픈그래프,description 등의 meta태그를 설정해주고있지않아서 일일이 넣어줘야한다...
-
-(물론 자동으로 페이지의 제목,내용 등을 메타태그에 넣어지도록 해주는 플러그인을 만들수도있을것이다.
- 능력자님들이 얼른 seo 플러그인을 만들어주리라 믿습니다...)
+아직 vuepress에서는 오픈그래프,description 등의 meta태그를 설정해주고있지않아서 일일이 넣어줘야한다...
 
 아래와 같은 문법으로 md파일에 meta태그를 추가할수있다.
 ```md
@@ -514,6 +511,11 @@ module.exports = {
 [소스코드](https://github.com/limdongjin/TIL/blob/master/.vuepress/components/Disqus.vue)
 :::
 
+## @limdongjin/vuepress-plugin-simple-seo
+
+SEO를 좀더 손쉽게 하기위해 플러그인을 제작하였음.
+
+[레포지토리 링크](https://github.com/limdongjin/vuepress-plugin-simple-seo)
 
 ## 유용한 자료 모음
 

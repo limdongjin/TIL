@@ -28,7 +28,8 @@ module.exports = {
                 collapsable: true,
                 children: [
                     '/vuejs/vuepress/',
-                    '/vuejs/vuepress/layout-extend'
+                    '/vuejs/vuepress/layout-extend',
+                    '/vuejs/vuepress/plugin-writing'
                 ]
             },
             {
@@ -188,7 +189,7 @@ module.exports = {
     plugins: [
         '@vuepress/blog',
         '@vuepress/back-to-top',
-        '@vuepress/google-analytics', // 1.0.0.alpha.0 버전에서는 에러가 발생했지만 1.0.0.alpha.29로 높여서 해결하였음.
+        '@vuepress/google-analytics',
         '@vuepress/active-header-links',
         '@vuepress/medium-zoom',
         ['@vuepress/pwa', {
@@ -199,14 +200,9 @@ module.exports = {
         '@limdongjin/vuepress-plugin-sidebar-on-off',
         [ '@limdongjin/vuepress-plugin-simple-seo', {
             default_image: '/images/main-image-min.jpg',
-            root_url: 'https://limdongjin.github.io'
+            root_url: 'https://limdongjin.github.io',
+            default_site_name: 'limdongjin TIL'
         }]
-        // require('./plugins/vuepress-plugin-simple-seo')
-        // [ require('./plugins/vuepress-plugin-simple-seo'), {
-        //     default_image: '/images/main-image-min.jpg',
-        //     root_url: 'https://limdongjin.github.io',
-        //     default_site_name: 'limdongjin TIL'
-        // }]
     ],
     ga: 'UA-131016591-1',
     markdown: {

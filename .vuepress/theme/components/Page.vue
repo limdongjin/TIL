@@ -2,18 +2,6 @@
   <div class="page">
     <slot name="top"/>
 
-    <div v-if="this.$frontmatter.image" class="main-image">
-      <div v-bind:style="{backgroundImage: `url(${$withBase(this.$frontmatter.image)})`}"></div>
-      <div>
-        <transition-group name="intro" v-on:enter="enter" appear>
-          <h1 key="1">{{this.$frontmatter.title}}</h1>
-          <!--<h2 key="2">{{data.workplace}}</h2>-->
-          <!--<p key="3">{{data.description}}</p>-->
-          <div key="4"></div>
-        </transition-group>
-      </div>
-    </div>
-
     <!--<button style="background-color: #5d82a6; width: 100px; height: 100px" onclick="document.getElementsByClassName('theme-container')[0].classList.add('no-sidebar')"> Sidebar 접기/열기 </button>-->
     <!--<Sidebaropenclose />-->
 
