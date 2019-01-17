@@ -12,8 +12,7 @@ module.exports = {
         ['link', {rel: 'apple-touch-icon', href: `/images/logo-144.png`}],
         ['link', {rel: 'mask-icon', href: '/images/logo-144.png', color: '#3eaf7c'}],
         ['meta', {name: 'msapplication-TileImage', content: '/images/logo-144.png'}],
-        ['meta', {name: 'msapplication-TileColor', content: '#000000'}],
-        ['meta', {property: 'og:type', content: 'website'}]
+        ['meta', {name: 'msapplication-TileColor', content: '#000000'}]
     ],
     themeConfig: {
         repo: 'limdongjin',
@@ -202,6 +201,12 @@ module.exports = {
             default_image: '/images/main-image-min.jpg',
             root_url: 'https://limdongjin.github.io'
         }]
+        // require('./plugins/vuepress-plugin-simple-seo')
+        // [ require('./plugins/vuepress-plugin-simple-seo'), {
+        //     default_image: '/images/main-image-min.jpg',
+        //     root_url: 'https://limdongjin.github.io',
+        //     default_site_name: 'limdongjin TIL'
+        // }]
     ],
     ga: 'UA-131016591-1',
     markdown: {
