@@ -14,10 +14,6 @@ tags: ["유용한자료모음"]
 
 [지킬(Jekyll)로 홈페이지/블로그 만들기 posted by lawfully](http://lawfully.kr/smart/jekyll.html#%EC%84%B1%EC%A7%88-%EA%B8%89%ED%95%9C-%EC%82%AC%EB%9E%8C%EC%9D%84-%EC%9C%84%ED%95%9C-%EC%9A%94%EC%95%BD)
 
-[velopert님 블로그(js, 프론트엔드)](https://velopert.com/)
-
-[Beomi's Tech Blog](https://beomi.github.io/)
-
 [점프투파이썬 wikidocs](https://wikidocs.net/book/1)
 
 [파이썬을 여행하는 히치하이커를 위한 안내서](https://python-guide-kr.readthedocs.io/ko/latest/)
@@ -30,6 +26,8 @@ tags: ["유용한자료모음"]
 
 [발표에 대한 생각 posted by outsider](https://blog.outsider.ne.kr/994)
 
+[개발자 로드맵](https://github.com/kamranahmedse/developer-roadmap)
+
 ## 유용한 플랫폼 모음
 
 [velog 개발자 글쓰기 플랫폼](https://velog.io/)
@@ -39,6 +37,10 @@ tags: ["유용한자료모음"]
 [codewars :: 문제풀이 플랫폼](https://www.codewars.com/)
 
 [leetcode :: 문제풀이 플랫폼](https://leetcode.com/problemset/all/)
+
+[hackerrank :: 코딩인터뷰 특화 문제풀이 플랫폼](https://www.hackerrank.com/dashboard)
+
+[BOJ :: 한글 문제풀이 플랫폼](https://www.acmicpc.net/)
 
 [icons8 :: 무료 아이콘 사이트](https://icons8.com/)
 
@@ -58,6 +60,30 @@ tags: ["유용한자료모음"]
 
 [백엔드 개발자가 되고싶어요 - mingrammer](https://speakerdeck.com/mingrammer/become-a-backend-developer)
 
+## 유용한 블로그 모음
 
+[velopert님 블로그(js, 프론트엔드)](https://velopert.com/)
 
+[Beomi's Tech Blog](https://beomi.github.io/)
 
+[치즈님 블로그](http://jiyeonseo.github.io/)
+
+[carpedm 김태훈님 블로그](http://carpedm20.blogspot.com)
+
+[jay jin님 블로그](https://milooy.wordpress.com/)
+
+[lucy park님 블로그](https://www.lucypark.kr)
+
+## etc 유용한 코드 조각
+
+```bash
+alias killservers='kill -9 $(ps aux | grep tcp://0.0.0.0:3000)'
+```
+
+```bash
+alias gs='git status'
+alias gcl='git_clone'
+alias vbp='vi ~/.bash_profile'
+alias sbp='source ~/.bash_profile'
+alias cl='clear'
+```

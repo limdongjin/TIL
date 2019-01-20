@@ -15,7 +15,18 @@ module.exports = {
         ['meta', {name: 'msapplication-TileColor', content: '#000000'}]
     ],
     themeConfig: {
-        repo: 'limdongjin',
+        repo: 'limdongjin/TIL',
+        repoLabel: 'Contribute!',
+        // Optional options for generating "Edit this page" link
+        // if your docs are in a different repo from your main project:
+        docsRepo: 'limdongjin/TIL',
+        // if your docs are not at the root of the repo:
+        // if your docs are in a specific branch (defaults to 'master'):
+        // defaults to false, set to true to enable
+        editLinks: true,
+        // custom text for edit link. Defaults to "Edit this page"
+        editLinkText: 'Help us improve this page!',
+
         nav: [
             {text: 'Home', link: '/'},
             {text: 'About', link: '/about/'},
@@ -163,7 +174,11 @@ module.exports = {
                 children: [
                     '/rails/mailer/',
                     '/rails/tip/',
-                    '/rails/tip/useful-codeblock-ror'
+                    '/rails/tip/useful-codeblock-ror',
+                    '/rails/tip/codeblock/html-safe-rails',
+                    '/rails/tip/codeblock/drop-table-in-rails-console',
+                    '/rails/tip/codeblock/execute-sql-in-rails-console',
+                    '/rails/tip/codeblock/hash-to-object'
                 ]
             },
             {

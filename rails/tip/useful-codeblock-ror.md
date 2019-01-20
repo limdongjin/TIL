@@ -3,20 +3,6 @@ tags: ["rails", "루비", "코드조각"]
 ---
 # Ruby/Rails 코드 조각 모음
 
-## Rails Console에서 테이블 하나 드랍하기
-
-```bash
-$ rails console
-> ActiveRecord::Migration.drop_table(:table_name)
-```
-
-## Rails Console에서 sql파일 실행시키기
-
-```ruby
-$ rails console
-> ActiveRecord::Base.connection.execute(IO.read(“your_file.sql”))
-```
-
 ## Rails Console에서 이미지 다운 받기
 
 ```ruby
@@ -28,7 +14,6 @@ $ rails console # 물론 rails에 종속성은 없다
 ```
 
 ## Rails에 로딩 스피너 적용하기! (feat, turbolinks)
-
 
 ```javascript
 /* app/assets/javascripts/application.js */
@@ -92,18 +77,3 @@ $(document).on('turbolinks:request-end', function () {
   }
 }
 ```
-
-## foo[:key] to foo.key
-
-```ruby
-foo = { :mykey => "myvalue", :hello => "world" }
-
-foo = JSON.parse(foo.to_json, object_class: OpenStruct)
-
-# foo.hello
-# => "world"
-```
-
-
-
-

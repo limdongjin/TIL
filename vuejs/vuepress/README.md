@@ -1,4 +1,5 @@
 ---
+pageClass: cv
 sidebar: auto
 title: Tutorial. 뷰프레스(Vuepress)로 기술문서 빠르게 만들어보자!
 meta:

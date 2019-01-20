@@ -2,7 +2,11 @@
 title: 자바 유용한 자료 모음
 tags: ["자바","유용한자료모음"]
 ---
-# 자바 유용한 자료 모음
+# 자바 관련 유용한 자료 정리
+
+## 자바
+
+### 인터넷 자료
 
 [생활코딩 자바 강의](https://opentutorials.org/course/1223/4551)
 
@@ -42,6 +46,25 @@ tags: ["자바","유용한자료모음"]
 
 [java-design-patterns repository](https://github.com/iluwatar/java-design-patterns)
 
+### 책
 
+- 이펙티브 자바
+- 자바의 정석
+
+## 스프링
+
+### 인터넷 자료
+
+[유튜브 백기선님 채널](https://www.youtube.com/user/whiteship2000)
+
+[rebeccacho님 스프링스터디 깃북](https://rebeccacho.gitbooks.io/spring-study-group/content/)
+
+[스프링부트로 웹서비스 구축하기 시리즈 튜토리얼](https://github.com/jojoldu/springboot-webservice)
+
+[outsider님의 스프링 문서 번역 시리즈](https://blog.outsider.ne.kr/729)
+
+### 책
+
+- 토비의 스프링
 
 

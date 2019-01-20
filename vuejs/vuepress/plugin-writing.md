@@ -132,10 +132,10 @@ module.exports = {
 
 [App Level Enhancements](https://vuepress.vuejs.org/guide/basic-config.html#app-level-enhancements)를 할수있게해주는 함수이다.
 
-라우터를 건든다거나 app layer의 로직에서 이뤄지는 등의 하는 다소 복잡도가 있는 로직을 구현하기위해서는 이 함수를 이용해야한다.
+Vuepress 홈페이지의 FAQ에 의하면 클라이언트 사이드에서 코드를 자동으로 실행하고싶을때 사용한다고한다.
 
 :::tip
-더 자세한 사용법은 공식문서를 확인하면 된다.
+이 문서에서 다룬 함수들의 더 자세한 사용법은 공식문서를 확인하면 도움이 많이 될것이다..!!
 또한 official plugin들의 구현코드를 읽어보는것도 감을 잡는데에 도움이 될것이다!
 :::
 

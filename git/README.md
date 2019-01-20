@@ -52,7 +52,6 @@ git checkout 브랜치이름
 # 해당 브랜치로 이동할수있다.
 # ex) git branch itisbranch
 # 해당 예시 명령을 실행하면 itisbranch 브랜치로 이동된다.
-
 ```
 
 ## Useful Reference
