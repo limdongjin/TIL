@@ -27,3 +27,5 @@ tags: ["유용한자료모음"]
 [발표에 대한 생각 posted by outsider](https://blog.outsider.ne.kr/994)
 
 [개발자 로드맵](https://github.com/kamranahmedse/developer-roadmap)
+
+[코딩 시험과 TDD](https://justhackem.wordpress.com/2019/01/05/coding-test-and-tdd/)
