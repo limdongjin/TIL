@@ -29,3 +29,7 @@ tags: ["유용한자료모음"]
 [개발자 로드맵](https://github.com/kamranahmedse/developer-roadmap)
 
 [코딩 시험과 TDD](https://justhackem.wordpress.com/2019/01/05/coding-test-and-tdd/)
+
+## 좋은 자료 모아놓은 곳
+
+[Awesome-devteam :: 좋은 개발팀을 만드는데 도움이 되는 자료모음 레포지토리](https://github.com/leehosung/awesome-devteam)
