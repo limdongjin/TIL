@@ -1,6 +1,7 @@
 ---
 description: vuepress의 사이드바에 들어갈 항목들을 자동으로 만들어낸다.
-title:
+title: vuepress 사이드바 항목 추가 자동화하기
+tags: ["vuepress"]
 ---
 # vuepress 사이드바 항목 추가 자동화하기
 
