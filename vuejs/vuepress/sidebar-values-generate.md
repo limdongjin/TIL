@@ -63,6 +63,7 @@ let util = module.exports = {
 ```
 
 ```
+// .vuepress/config.js
 var path = require('path')
 let {getArticles} = require(path.resolve('.vuepress/dong_util'))
 
