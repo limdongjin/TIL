@@ -5,7 +5,7 @@
   },
   "devDependencies": {
     "@limdongjin/vuepress-plugin-sidebar-on-off": "^1.0.0-alpha.31",
-    "@limdongjin/vuepress-plugin-simple-seo": "^1.0.4-alpha.4",
+    "@limdongjin/vuepress-plugin-simple-seo": "^1.0.4-alpha.5",
     "@vuepress/plugin-active-header-links": "^1.0.0-alpha.32",
     "@vuepress/plugin-back-to-top": "^1.0.0-alpha.32",
     "@vuepress/plugin-blog": "^1.0.0-alpha.32",
