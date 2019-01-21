@@ -1,6 +1,12 @@
 #!/usr/bin/env bash
 set -e
 
+git add .
+
+git commit -m "$1"
+
+git push
+
 vuepress build
 
 cd .vuepress/dist
