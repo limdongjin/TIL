@@ -31,7 +31,7 @@ module.exports = {
 
 파일 구조를 읽어서 자동으로 만들어주면 될것같다!!
 
-결국은 파일 구조를 읽으는것으로 문제를 단순화할수있었고, 구현하면서 주의할점은 크게 세가지정도였다
+결국은 파일 구조를 읽으는것으로 문제를 단순화할수있었고, 구현하면서 주의할점은 크게 네가지정도였다
 
 1. 확장자명을 제거해야한다. 왜냐하면 vuepress의 routing/sidebar 작성 규칙을 따라야하므로.
 2. README.md의 경우에는 ''로 대체해야한다. vuepress는 README.md를 ''로 바꿔서 렌더링 하므로.
@@ -62,7 +62,7 @@ let util = module.exports = {
 }
 ```
 
-```
+```js
 // .vuepress/config.js
 var path = require('path')
 let {getArticles} = require(path.resolve('.vuepress/dong_util'))
