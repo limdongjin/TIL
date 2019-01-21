@@ -82,7 +82,6 @@ tags: ["rails", "루비", "유용한자료모음"]
 
 [(한글)RubyonRails AWS Elastic Beanstalk setting posted by ahntae](https://medium.com/ufofactory-org/rubyonrails-aws-elastic-beanstalk-setting-80181ae7b2ea)
 
-
 ## Rails 환경 설정 관련 자료
 
 [윈도우 RoR 세팅](http://slides.com/takeu/deck#/19)

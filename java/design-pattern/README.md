@@ -1,6 +1,0 @@
-
-# Design Pattern in Java
-
-디자인 패턴들을 자바로 구현해보자!
-
-- [Template Method Pattern](/java/design-pattern/template-pattern/)

@@ -1,3 +1,6 @@
+var path = require('path')
+let {getArticles} = require(path.resolve('.vuepress/dong_util'))
+
 module.exports = {
     title: 'limdongjin',
     description: '도큐멘팅!',
@@ -37,156 +40,97 @@ module.exports = {
             {
                 title: 'Vuepress',
                 collapsable: true,
-                children: [
-                    '/vuejs/vuepress/',
-                    '/vuejs/vuepress/layout-extend',
-                    '/vuejs/vuepress/plugin-writing'
-                ]
+                children: getArticles('vuejs/vuepress')
             },
             {
                 title: 'Java',
                 collapsable: true,
-                children: [
-                    '/java/useful-reference-java',
-                    '/java/introduction/',
-                    '/java/ds/array/',
-                    '/java/design-pattern/template-pattern/',
-                    '/java/design-pattern/useful-reference-java-pattern',
-                    '/java/class/',
-                    '/java/helloworld10/',
-                    '/java/tomcat/',
-                    '/java/servlet/',
-                    '/java/spring/start/',
-                    '/java/spring/start/start-with-gradle',
-                    '/java/spring/start/start-with-gradle-xml'
-
-                ]
+                children: getArticles('java')
             },
             {
                 title: 'ProblemSolving',
                 collapsable: true,
-                children: [
-                    '/problemsolving/twosum',
-                    '/problemsolving/add-two-numbers'
-                ]
+                children: getArticles('problemsolving')
             },
             {
                 title: 'Algorithms',
                 collapsable: true,
-                children: [
-                    '/algorithms/',
-                    '/algorithms/analysis/'
-                ]
+                children: getArticles('algorithms')
             },
             {
                 title: 'Vue.js',
                 collapsable: true,
-                children: [
-                    '/vuejs/references/',
-                    '/vuejs/general/axios/',
-                    '/vuejs/general/editor/',
-                    '/vuejs/general/imagerender/',
-                    '/vuejs/general/spinner/'
-                ]
+                children: getArticles('vuejs', 'vuepress') // except vuepress
             },
             {
                 title: 'AWS',
                 collapsable: true,
-                children: [
-                    '/aws/redirection_a_to_b'
-                ]
+                children: getArticles('aws', 'elasticbeanstalk') // except elasticbeanstalk
             },
             {
                 title: 'AWS Elastic Beanstalk',
                 collapsable: true,
-                children: [
-                    '/aws/elasticbeanstalk/useful_reference_eb',
-                    '/aws/elasticbeanstalk/ebextensions/',
-                    '/aws/elasticbeanstalk/ebextensions/useful_reference_ebex'
-                ]
+                children: getArticles('aws/elasticbeanstalk')
             },
             {
                 title: 'Blockchain',
                 collapsable: true,
-                children: [
-                    '/blockchain/bitcoin/whitepaper/',
-                    '/blockchain/ethereum/whitepaper/',
-                    '/blockchain/blockchain-tip'
-                ]
+                children: getArticles('blockchain')
             },
             {
                 title: 'Database',
                 collapsable: true,
-                children: [
-                    '/database/dynamodb/useful-reference-dynamodb'
-                ]
+                children: getArticles('database')
             },
-            {
-                title: 'DataStructure',
-                collapsable: true,
-                children: [
-                    '/java/ds/array/'
-                ]
-            },
+            // {
+            //     title: 'DataStructure',
+            //     collapsable: true,
+            //     children: getArticles('datastructure')
+            // },
             {
                 title: 'Elastic Search',
                 collapsable: true,
-                children: [
-                    '/elasticsearch/useful-reference-es.md',
-                    '/elasticsearch/general/',
-                    '/elasticsearch/python/'
-                ]
+                children: getArticles('elasticsearch')
             },
             {
                 title: 'GIT',
                 collapsable: true,
-                children: [
-                    '/git/'
-                ]
+                children: getArticles('git')
             },
             {
                 title: 'Javascript',
                 collapsable: true,
-                children: [
-                    '/js/useful-reference-js'
-                ]
+                children: getArticles('js')
             },
             {
                 title: 'nodejs',
                 collapsable: true,
-                children: [
-                    '/nodejs-serverside/sequelize/',
-                    '/nodejs-serverside/sequelize/migration/',
-                    '/nodejs-serverside/sequelize/crud/c/',
-                    '/nodejs-serverside/sequelize/crud/r/',
-                ]
+                children: getArticles('nodejs-serverside')
             },
             {
                 title: 'OOP',
                 collapsable: true,
-                children: [
-                    '/oop/'
-                ]
+                children: getArticles('oop')
+            },
+            {
+                title: 'Python',
+                collapsable: true,
+                children: getArticles('python')
+            },
+            {
+                title: 'Useful',
+                collapsable: true,
+                children: getArticles('useful')
             },
             {
                 title: 'Rails',
                 collapsable: true,
-                children: [
-                    '/rails/mailer/',
-                    '/rails/tip/',
-                    '/rails/tip/useful-codeblock-ror',
-                    '/rails/tip/codeblock/html-safe-rails',
-                    '/rails/tip/codeblock/drop-table-in-rails-console',
-                    '/rails/tip/codeblock/execute-sql-in-rails-console',
-                    '/rails/tip/codeblock/hash-to-object'
-                ]
+                children: getArticles('rails')
             },
             {
                 title: 'NLP',
                 collapsable: true,
-                children: [
-                    '/nlp/useful-reference-nlp'
-                ]
+                children: getArticles('nlp')
             },
             {
                 title: 'ETC',

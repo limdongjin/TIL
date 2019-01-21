@@ -1,0 +1,29 @@
+---
+description: 개발자로써의 성장, 소프트스킬과 관련한 자료들의 링크를 정리했음.
+tags: ["유용한자료모음"]
+---
+# 개발자의 성장, 소프트스킬과 관련한 자료 모음 (강연, 슬라이드, 글)
+
+개발자로써의 성장, 소프트스킬과 관련한 자료들의 링크를 정리했음.
+
+## 강연 영상
+
+[track1 03. 지적 프로그래밍을 위한 넓고 얇은 습관/ 카카오 서지연](https://www.youtube.com/watch?v=aP9mhLBJMLw)
+
+[ 개발자가 갖추어야 할 9가지 기술 - 박종천 넥슨 부본부장 ](https://www.youtube.com/watch?v=fHyTA-UIcqs)
+
+## 슬라이드
+
+[GDG Campus 2018 Meetup 발표자료, 함께 일하고 싶은 개발자 - 한재엽](https://speakerdeck.com/jaeyeophan/gdg-campus-2018-meetup-balpyojaryo-hamgge-ilhago-sipeun-gaebalja)
+
+[회사밖에서 성장하기 - mingrammer](https://speakerdeck.com/mingrammer/hoesa-baggeseo-seongjanghagi)
+
+[개발자의 흔한 취미: 오픈소스 개발 - mingrammer](https://speakerdeck.com/mingrammer/gaebaljayi-heunhan-cwimi-opeunsoseu-gaebal)
+
+[백엔드 개발자가 되고싶어요 - mingrammer](https://speakerdeck.com/mingrammer/become-a-backend-developer)
+
+## 포스트
+
+[발표에 대한 생각 posted by outsider](https://blog.outsider.ne.kr/994)
+
+[개발자 로드맵](https://github.com/kamranahmedse/developer-roadmap)

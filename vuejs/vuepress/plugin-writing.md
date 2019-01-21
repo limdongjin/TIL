@@ -1,9 +1,9 @@
 ---
-description: vuepress의 플러그인을 만들어보자
+description: vuepress의 플러그인 시스템 맛보기
 image: https://limdongjin.github.io/images/vuepress-logo.png
 tags: [ "vue", "vuepress" ]
 ---
-# Vuepress 플러그인 만들어보자 !!
+# Vuepress 플러그인 시스템 맛보기
 
 ## 플러그인 시스템이 vuepress 1.x 버전의 꽃이다.
 

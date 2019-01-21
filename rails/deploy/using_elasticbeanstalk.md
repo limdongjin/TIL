@@ -1,4 +1,7 @@
-
+---
+description: aws의 엘라스틱빈스톡에 레일즈를 배포하는 과정 정리.
+tags: ["rails", "루비", "elasticbeanstalk", "aws"]
+---
 # Rails Deployment with AWS Elastic Beanstalk
 
 Rails 웹 프로젝트를 배포를 하기위한 문서이다.
@@ -54,6 +57,7 @@ $ eb init
 # 필수 #
 .gitignore에 .elasticbeanstalk/ 폴더를 추가한다.
 ```
+
 ## 2. 배포 시작! 완료!
 
 ```
