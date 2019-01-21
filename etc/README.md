@@ -1,9 +1,6 @@
 ---
-title: uncategorize 유용한 자료 모음
-description: uncategorize 유용한 자료 모음
-meta:
-  - name: description
-    content: uncategorize 유용한 자료 모음
+title: 유용한 자료 모음
+description: 유용한 자료 모음
 tags: ["유용한자료모음"]
 ---
 # etc
@@ -62,6 +59,12 @@ tags: ["유용한자료모음"]
 
 ## 유용한 블로그 모음
 
+[마틴파울러 martin fowler 블로그](https://martinfowler.com/)
+
+[레일즈 창시자 DHH 미디엄 블로그 ](https://medium.com/@dhh)
+
+[켄트벡 Kent Beck 미디엄 블로그](https://medium.com/@kentbeck_7670)
+
 [velopert님 블로그(js, 프론트엔드)](https://velopert.com/)
 
 [Beomi's Tech Blog](https://beomi.github.io/)
@@ -73,6 +76,10 @@ tags: ["유용한자료모음"]
 [jay jin님 블로그](https://milooy.wordpress.com/)
 
 [lucy park님 블로그](https://www.lucypark.kr)
+
+## 유용한 유튜브 채널
+
+.
 
 ## etc 유용한 코드 조각
 
