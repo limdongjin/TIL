@@ -50,7 +50,7 @@ Input 문자열을 첫번째 인덱스부터 순차적으로 돌면서 substring
 즉 단순화하면 조건이 깨질때는( 같은 문자가 이미 substring에 존재할때 ) substring의 시작인덱스를 1증가시키고, 조건이 만족할때는 substring의 끝인덱스를 1증가시킨다.
 이 루틴을 인덱스가 문자열의 끝에 닿을때까지 반복하면 가장 긴 substring의 길이를 구할수있다.
 
-## 풀이 코드
+## 풀이 코드 - 27ms
 
 ```java
 import java.util.HashSet;
