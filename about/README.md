@@ -10,11 +10,15 @@ tags: ["about"]
 
 ## Link
 
-[페이스북 링크](https://www.facebook.com/geniuslim27)
+[페이스북 프로필](https://www.facebook.com/geniuslim27)
 
-[링크드인 링크](https://www.linkedin.com/in/dongjin-lim-98115a137/)
+[링크드인 프로필](https://www.linkedin.com/in/dongjin-lim-98115a137/)
 
-[깃허브 링크](https://github.com/limdongjin)
+[깃허브 프로필](https://github.com/limdongjin)
+
+[BOJ 프로필](https://www.acmicpc.net/user/genius)
+
+[리트코드 프로필](https://leetcode.com/limdongjin/)
 
 ## Experience
 
