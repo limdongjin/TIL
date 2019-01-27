@@ -22,6 +22,8 @@ tags: ["유용한자료모음"]
 
 [백엔드 개발자가 되고싶어요 - mingrammer](https://speakerdeck.com/mingrammer/become-a-backend-developer)
 
+[더 나은 개발자 되기 - outsider](https://www.slideshare.net/rockdoli/ss-63333165?ref=https://blog.outsider.ne.kr/1223)
+
 ## 포스트
 
 [발표에 대한 생각 posted by outsider](https://blog.outsider.ne.kr/994)

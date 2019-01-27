@@ -62,26 +62,43 @@ a = cdegt
 Y = <y<sub>1</sub>, y<sub>2</sub>, y<sub>3</sub>, ... y<sub>j</sub>, ... , y<sub>m</sub>> 문자열이 있다고 하고, LCS의 길이를 구하는 함수를 LCS()라고 하자.
 (X의 각 요소의 인덱스는 i이고 Y의 각 요소의 인덱스는 j라고한다.)
 
-(i, j)가 나올수있는 경우, 또는 (X<sub>i</sub>, Y<sub>j</sub>)가 나올수있는 경우를 나누고 이에따라서 LCS()의 식을 세워보자.
+(i, j)와 (X<sub>i</sub>, Y<sub>j</sub>)에 대하여 점화식을 세워보자. 즉 경우에 따른 LCS() 식을 세워보자.
 
 #### case 1. i 또는 j가 0인 경우 ( 길이가 0이라는 의미 )
 
-한쪽의 문자열의 길이가 0이므로 공통된 부분은 존재하지않기때문에 LCS의 길이는 0이다.
+수열 K의 인덱스 k 는 1부터 시작되는데, k가 0이라는 의미는 수열 K의 길이가 0이라는 의미를 갖는다.
+
+한쪽의 문자열의 길이가 0이면 공통된 부분은 존재하지않기때문에 LCS의 길이는 0이된다.
 
 <strong>LCS(X<sub>i</sub>, Y<sub>j</sub>) = 0</strong>
 
 #### case 2. X<sub>i</sub> 와 Y<sub>j</sub> 가 같은 경우
 
-LCS에 해당하는 마지막 요소는 상수 1로 대체될수있고, 마지막요소를 제외한 부분의 LCS는 결국 i j의 인덱스를 1씩 뺀 수열의 LCS가 된다.
+이는 X<sub>i</sub>와 Y<sub>j</sub>가 LCS(X<sub>i</sub>, Y<sub>j</sub>)의 마지막 문자라는 것이다.
+그렇기에 이 마지막 요소는 상수 1로 대체될수있고, 마지막요소를 제외한 부분의 LCS는 결국 i j의 인덱스를 1씩 빼서 LCS(X<sub>i-1</sub>, Y<sub>j-1</sub>)로 일반화할수있다.
 
 <strong>LCS(X<sub>i</sub>, Y<sub>j</sub>) = LCS(X<sub>i-1</sub>, Y<sub>j-1</sub>) + 1</strong>
 
 #### case 3.  X<sub>i</sub> 와 Y<sub>j</sub> 가 다른 경우 (i != 0 && j != 0)
 
+X<sub>i</sub>와 Y<sub>j</sub>가 같지않다는 것은 LCS(X<sub>i</sub>, Y<sub>j</sub>)의 마지막 문자가 아래 세가지 경우중의 하나라는 것이다.
+
+1. (X<sub>i</sub> == Y<sub>j - 1</sub>), (X<sub>i</sub> == Y<sub>j - 2</sub>) , ...
+2. (X<sub>i - 1</sub> == Y<sub>j</sub>), (X<sub>i - 2</sub> == Y<sub>j </sub>), ...
+3. (X<sub>i - 1</sub> == Y<sub>j -1 </sub>),  (X<sub>i - 2</sub> == Y<sub>j -1 </sub>), ...
+
+1의 경우는 결국 LCS(X<sub>i</sub>, Y<sub>j - 1</sub>)로 단순화 할수있다. 왜냐하면 i, j-3에 마지막 문자가 있더라도 LCS(X<sub>i</sub>, Y<sub>j - 1</sub>)에 포함이 되기때문이다.
+2의 경우도 마찬가지 논리로 LCS(X<sub>i - 1</sub>, Y<sub>j</sub>)로 단순화 할수있다.
+3의 경우는 1또는 2에서 일반화한 식에 결국 포함이 되게된다.
+
+그렇기때문에 LCS(X<sub>i</sub>, Y<sub>j - 1</sub>)과 LCS(X<sub>i - 1</sub>, Y<sub>j</sub>)중에 가장 큰 것이 LCS(X<sub>i</sub>, Y<sub>j</sub>)가 된다.
+
 <strong>LCS(X<sub>i</sub>, Y<sub>j</sub>) = MAX(LCS(X<sub>i-1</sub>, Y<sub>j</sub>), LCS(X<sub>i</sub>, Y<sub>j-1</sub>))</strong>
 
-즉 X와 Y의 LCS는 부분 LCS로 부터 답이 나오는것을 볼수있기때문에, Optimal Structure를 만족한다.
-그렇기때문에 저 점화식을 코드로 적용하고, 메모이제이션만 해주면 끝이다.
+#### 결론
+
+즉 Xi와 Yi의 LCS는 부분 LCS들로 부터 답이 나오는것을 볼수있다.
+이는 Optimal Structure를 만족한다는 것을 의미하고 DP를 사용할수있다는 것을 의미한다.
 
 ## 재귀로 구현한 LCS 코드
 
