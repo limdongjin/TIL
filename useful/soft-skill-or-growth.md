@@ -34,6 +34,8 @@ tags: ["유용한자료모음"]
 
 [블로그 글 1편을 쓰기까지의 과정](https://insidestory.kr/21479?fbclid=IwAR0wxL7YBTf7vgZDL2lo0H4E3UQxAYh5J7rIPuKMat-HHQVO652c6yEhn6s)
 
+[백엔드 개발자를 꿈꾸는 학생개발자에게](https://d2.naver.com/news/3435170?fbclid=IwAR36P-WHfy424QUCBgqHdNyjGC2KT0_Txz-ZlcSGcQzVDpeETOAnLbt3P9c)
+
 ## 좋은 자료 모아놓은 곳
 
 [Awesome-devteam :: 좋은 개발팀을 만드는데 도움이 되는 자료모음 레포지토리](https://github.com/leehosung/awesome-devteam)
