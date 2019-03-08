@@ -75,3 +75,21 @@ numbers 문자열를 통해 만들수 있는 모든 숫자를 구하기위해서
 1. numbers 를 통해 만들수있는 모든 순열(permutation)을 구해야한다. 그렇기때문에 permutations 함수를 구현하거나, 라이브러리를 사용하여야한다.
 
 2. permutations(numbers, 1) ~ permutations(numbers, n) 순열들을 구하고 ('1', '7', ) 과 같은 형태의 튜플을 숫자로 변환해서 result 리스트에 넣고 set 으로 중복을 제거한후 리스트 형태로 리턴한다.
+
+## is_prime_number 함수 구현
+
+```python
+def is_prime_number(number):
+    if number < 2:
+        return 0
+
+    for i in range(2, int(number/2 + 1)):
+        if number % i == 0:
+            return 0
+    return 1
+```
+
+에라토스테네스의 체를 이용하여 구현하였다.
+이는 2부터 number/2 + 1까지의 수로 나눠떨어지는지 확인 하고 나누어 떨어지면 소수가 아닌 것이고 나누어 떨어지지않으면 소수인것이다.
+
+소수이면 1, 아니면 0을 리턴하도록 구현 하였다.
