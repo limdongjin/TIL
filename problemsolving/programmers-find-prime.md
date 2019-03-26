@@ -3,7 +3,7 @@ description: 프로그래머스 소수 찾기 문제 풀기 (파이썬)
 date: 2019-03-08
 tags: ["problemsolving", "프로그래머스"]
 ---
-# 프로그래머스 소수 찾기 문제 풀기 (파이썬)
+# [프로그래머스] 소수 찾기 문제 풀기 (파이썬)
 
 [문제 링크](https://programmers.co.kr/learn/courses/30/lessons/42839?language=python3)
 
@@ -35,8 +35,10 @@ def solution(numbers):
     return answer
 
 def possible_numbers(number):
+    # possible_numbers("17") 은 리스트를 리턴하고, 이를 정렬하면 [1, 7, 17, 71]
     pass
 def is_prime_number(number):
+    # 소수이면 1, 아니면 0
     pass
 ```
 
