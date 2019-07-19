@@ -133,6 +133,11 @@ module.exports = {
                 children: getArticles('nlp')
             },
             {
+                title: 'C/C++',
+                collapsable: true,
+                children: getArticles('c_cpp')
+            },
+            {
                 title: 'ETC',
                 collapsable: true,
                 children: [
