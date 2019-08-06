@@ -1,10 +1,13 @@
 ---
-description: 평소에 자주보는 개발 관련 유용한 블로그를 정리하였음.
+description: 평소에 자주보는 개발 관련 유용한 블로그를 아카이빙하였음.
 tags: ["유용한자료모음"]
+meta:
+  - name: description
+    content: 평소에 자주보는 개발 관련 유용한 블로그를 아카이빙하였음.
 ---
-# 평소에 자주보는 개발 관련 유용한 블로그 정리
+# 평소에 자주보는 개발 관련 유용한 블로그,링크 정리
 
-평소에 자주보는 개발 관련 유용한 블로그를 정리하였음.
+평소에 자주보는 개발 관련 유용한 블로그,링크를 아카이빙하였음.
 
 ## 한글
 
@@ -21,6 +24,10 @@ tags: ["유용한자료모음"]
 [lucy park님 블로그](https://www.lucypark.kr)
 
 [프로그래머 이규원의 블로그](https://justhackem.wordpress.com/)
+
+[stdout.fm 개발자 podcast](https://stdout.fm)
+
+[mingrammer 블로그](https://mingrammer.com/post/)
 
 ## 외국
 

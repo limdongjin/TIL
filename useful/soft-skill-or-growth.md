@@ -6,11 +6,19 @@ tags: ["유용한자료모음"]
 
 개발자로써의 성장, 소프트스킬과 관련한 자료들의 링크를 정리했음.
 
-## 강연 영상
+## 영상
 
 [track1 03. 지적 프로그래밍을 위한 넓고 얇은 습관/ 카카오 서지연](https://www.youtube.com/watch?v=aP9mhLBJMLw)
 
 [ 개발자가 갖추어야 할 9가지 기술 - 박종천 넥슨 부본부장 ](https://www.youtube.com/watch?v=fHyTA-UIcqs)
+
+[TECH CONCERT: FRONT END 2019 - 주니어 개발자의 성장에 대한 뻔하지만 뻔하지않은 이야기](https://youtu.be/nKKlYEVMhhY)
+
+[TECH CONCERT: FRONT END 2019 - 일 만드는 개발자 vs. 일 부풀리는 개발자](https://youtu.be/4EtvuzPgShw)
+
+[[OKKYCON: 2018] 이혜승 - 테알못 신입은 어떻게 테스트를 시작했을까](https://youtu.be/1bTIMHsUeIk)
+
+[초보 개발자가 해야 할 사회적 활동](https://youtu.be/cpAKGBMTPZM)
 
 ## 슬라이드
 

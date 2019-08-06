@@ -70,6 +70,10 @@ git checkout 브랜치이름
 
 [Markdown 간단하게 정리하기](http://blog.eomdev.com/github/2015/12/11/github-markdown.html])
 
+[Git Flow와 자주 사용되는 Git 명령어들](https://www.holaxprogramming.com/2018/11/01/git-commands/)
 
+[우린 Git-flow를 사용하고 있어요 by 우아한형제들](http://woowabros.github.io/experience/2017/10/30/baemin-mobile-git-branch-strategy.html)
 
+[git flow cheatsheet 번역본](https://danielkummer.github.io/git-flow-cheatsheet/index.ko_KR.html)
 
+[A Guide to Git(Hub) Flow and Commits](https://medium.com/@roalcantara/a-guide-to-improve-the-git-hub-flow-and-commits-messages-b495461e1115)
