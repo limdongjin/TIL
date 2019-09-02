@@ -70,35 +70,38 @@ n == 0 이고 i == 0 이면 SIC의 Instruction Format 으로 간주된다.
 
 ![](/images/sicxe-indirect.png)
 
-    // indirect Addressing 의 이해를 위한 c 언어 예제
-    
-    int a = 10;
-    int* ptr = a; // 포인터 변수 ptr 에는 a 변수의 주소가 저장된다. 
-    
-    printf("%d", *ptr); // 출력: 10
-    
-    // 10 이라는 값이 출력되기까지의 과정을 알고있다면 Indirect Addressing 을 알고있다고 볼수있다.
-    
-    // 1. 포인터 변수 ptr 에 저장된 값을 불러온다. 이는 a 변수의 주소 값이다
-    // 2. a 변수의 주소값을 통해 a 변수로 접근
-    // 3. a 변수에 저장된 값인 10을 불러온다. 
-    // 4. 10을 출력한다.
+```c
+// indirect Addressing 의 이해를 위한 c 언어 예제
 
-    // indirect Addressing 을 위한 예시
-    
-    disp = 0x123 
-    메모리 0x123 번지에 저장된 내용 = 0x200
-    메모리 0x200 번지에 저장된 내용 = 0x300
-    
-    일때 indirect addressing 을 한다면?
-    
-    1. 메모리 0x123 번지에 저장된 값을 불러온다. 이는 0x200 이다
-    2. 0x200번지에 저장된 값을 불러온다. 이는 0x300 이다
+int a = 10;
+int* ptr = a; // 포인터 변수 ptr 에는 a 변수의 주소가 저장된다. 
+
+printf("%d", *ptr); // 출력: 10
+
+// 10 이라는 값이 출력되기까지의 과정을 알고있다면 Indirect Addressing 을 알고있다고 볼수있다.
+
+// 1. 포인터 변수 ptr 에 저장된 값을 불러온다. 이는 a 변수의 주소 값이다
+// 2. a 변수의 주소값을 통해 a 변수로 접근
+// 3. a 변수에 저장된 값인 10을 불러온다. 
+// 4. 10을 출력한다.
+
+// indirect Addressing 을 위한 예시
+
+disp = 0x123 
+메모리 0x123 번지에 저장된 내용 = 0x200
+메모리 0x200 번지에 저장된 내용 = 0x300
+
+일때 indirect addressing 을 한다면?
+
+1. 메모리 0x123 번지에 저장된 값을 불러온다. 이는 0x200 이다
+2. 0x200번지에 저장된 값을 불러온다. 이는 0x300 이다
+```
 
 ## Assembly 코드 레벨에서 Indirect, Immediate 구분
-
-    	J @RETADR 
+```
+    J @RETADR 
     . @ 가 붙으면 Indirect Addressing
-    
-    	COMP #1
+
+    COMP #1
     . # 이 붙으면 Immediate Addressing
+```

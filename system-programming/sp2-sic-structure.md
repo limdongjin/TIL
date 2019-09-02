@@ -16,17 +16,11 @@ tags: ["시스템프로그래밍"]
 SIC 는 special purpose 레지스터를 5개 갖고 있으며, 각각 1 word (24 bits) 이다. 
 
 | Mnemonic | Number | 목적 |
-
-| :--------: |:--------:| :--------:|
-
+| :---: |:---:| :---:|
 | A | 0 | Accumulator : 산술 연산에 활용 |
-
 | X | 1 | Index register : Addressing 할때 사용, 주소 저장 및 계산 |
-
 | L | 2 | Linkage register: JSUB (Jump to Subroutine)할때 return address가 이 레지스터에 저장됨 |
-
 | PC | 8 | Program Counter | 
-
 | SW | 9 | Status Word | 
 
 ## Data Format (SIC)

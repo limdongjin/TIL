@@ -25,15 +25,10 @@ F 레지스터는 2 word (48 bits) 이며, 나머지 레지스터들은 각각 1
  
 
 | Mnemonic | Number | 목적 |
-
 |:--------|:--------:|--------:|
-
 | B | 3 | Base register : Addressing 할때 사용|
-
 | S | 4 | General working register |
-
 | T | 5 | General working register |
-
 | F | 6 | Floating Point Accumulator | 
 
 ## Data Format (SIC/XE)
