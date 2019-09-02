@@ -48,6 +48,11 @@ module.exports = {
                 children: getArticles('system-programming')
             },
             {
+                title: 'Rails',
+                collapsable: true,
+                children: getArticles('rails')
+            },
+            {
                 title: 'Java',
                 collapsable: true,
                 children: getArticles('java')
@@ -113,24 +118,9 @@ module.exports = {
                 children: getArticles('nodejs-serverside')
             },
             {
-                title: 'OOP',
-                collapsable: true,
-                children: getArticles('oop')
-            },
-            {
                 title: 'Python',
                 collapsable: true,
                 children: getArticles('python')
-            },
-            {
-                title: 'Useful',
-                collapsable: true,
-                children: getArticles('useful')
-            },
-            {
-                title: 'Rails',
-                collapsable: true,
-                children: getArticles('rails')
             },
             {
                 title: 'NLP',
@@ -141,6 +131,16 @@ module.exports = {
                 title: 'C/C++',
                 collapsable: true,
                 children: getArticles('c_cpp')
+            },
+            {
+                title: 'OOP',
+                collapsable: true,
+                children: getArticles('oop')
+            },
+            {
+                title: 'Useful',
+                collapsable: true,
+                children: getArticles('useful')
             },
             {
                 title: 'ETC',
