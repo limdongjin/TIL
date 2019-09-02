@@ -43,6 +43,11 @@ module.exports = {
                 children: getArticles('vuejs/vuepress')
             },
             {
+                title: 'System Programming',
+                collapsable: true,
+                children: getArticles('system-programming')
+            },
+            {
                 title: 'Java',
                 collapsable: true,
                 children: getArticles('java')

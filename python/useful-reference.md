@@ -56,4 +56,3 @@ tags: ["파이썬","유용한자료모음"]
 [TDD(파이썬) : 테스트 잘하고 계신가요?](http://labs.brandi.co.kr/2018/06/07/kwakjs.html)
 
 [파이썬 시작하기 TDD부터 PyPI에 배포까지](https://www.holaxprogramming.com/2017/06/15/python-get-started/)
-
