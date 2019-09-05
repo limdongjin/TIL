@@ -10,7 +10,7 @@ tags: ["시스템프로그래밍"]
 
 n == 0 이고 i == 0 이면 SIC의 Instruction Format 으로 간주된다. 
 
-**즉 b, p, e bits는 flag 로 간주하는 것이 아니라, SIC Instruction Format의 Address 의 일부분이라고 생각해야함. 놓치기 좋을만한 예외상황이므로 잘 기억하고있어야한다.**
+즉 standard SIC Instruction 인 상황에서는 **b, p, e bits는 flag 로 간주하는 것이 아니라, SIC Instruction Format의 Address 의 일부분이라고 생각해야함. 놓치기 좋을만한 예외상황이므로 잘 기억하고있어야한다.**
 
 ![](/images/sic-standard-inst.png)
 
