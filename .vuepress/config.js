@@ -147,7 +147,7 @@ module.exports = {
                 collapsable: true,
                 children: [
                     '/etc/',
-                    '/nodejs_serverless/useful-reference-serverless',
+                    '/serverless/useful-reference-serverless',
                     '/tools/'
                 ]
             }

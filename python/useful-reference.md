@@ -33,6 +33,8 @@ tags: ["파이썬","유용한자료모음"]
 
 [[Python]Selenium으로 웹사이트 크롤링하기(3) — 데이터 파싱](https://medium.com/@nsh235482/python-selenium으로-웹사이트-크롤링하기-3-데이터-파싱-383f2f72e8f4)
 
+[Selenium 으로 Web Scraping 아이 해봤니?](https://www.popit.kr/web-scraping-by-selenium/)
+
 ## 패키징, CLI, 배포 ..
 
 [setup.py와 requirements.txt의 차이점과 사용 방법](https://edykim.com/ko/post/how-does-setup.py-differ-from-requirements.txt-and-how-to-use-it/)

@@ -21,6 +21,9 @@ tags: ["서버리스", "유용한자료모음"]
 
 [프론트엔드 개발자 혼자 서버리스 개발하기 - 포스팅](https://walkinpcm.blogspot.com/2018/04/aws-1.html)
 
+[300원에 200만뷰 소화하기 – 서버리스 아키텍처 AWS 람다(Lambda) 활용 사례](https://blog.rocketpunch.com/2017/07/02/2-million-pv-with-300-krw/)
 
+[zappa를 이용한 파이썬 서버리스 구현](https://buttercoconut.xyz/257/)
 
+[AWS Lambda를 시작하기 전 알았으면 좋았을것들](https://medium.com/harrythegreat/aws-lambda를-시작하기-전-알았으면-좋았을것들-788bd3b3bdd2)
 

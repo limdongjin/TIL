@@ -16,7 +16,7 @@ n == 0 이고 i == 0 이면 SIC의 Instruction Format 으로 간주된다.
 
 ## Target Address(TA) 계산을 위한 Mode
 
-- Base Relative
+- Base Relative 
     - **b == 1, p == 0** 일때 Base Relative
     - TA = disp + [B]
     - disp 을 12bit **unsigned** integer 로 해석 (disp: 0 ~ 4095)
