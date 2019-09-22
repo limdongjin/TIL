@@ -48,6 +48,11 @@ module.exports = {
                 children: getArticles('system-programming')
             },
             {
+                title: 'Concepts',
+                collapsable: true,
+                children: getArticles('concepts')
+            },
+            {
                 title: 'Rails',
                 collapsable: true,
                 children: getArticles('rails')
