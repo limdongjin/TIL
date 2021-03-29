@@ -5,6 +5,4 @@ description: 개인위키 겸 기술블로그
 ---
 # Today I Learned
 
-초고수를 향한 여정!
-
 <TagList />
