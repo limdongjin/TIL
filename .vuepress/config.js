@@ -80,28 +80,14 @@ module.exports = {
             {
                 title: 'AWS',
                 collapsable: true,
-                children: getArticles('aws', 'elasticbeanstalk') // except elasticbeanstalk
-            },
-            {
-                title: 'AWS Elastic Beanstalk',
-                collapsable: true,
-                children: getArticles('aws/elasticbeanstalk')
+                children: getArticles('aws')
             },
             {
                 title: 'Blockchain',
                 collapsable: true,
                 children: getArticles('blockchain')
             },
-            {
-                title: 'Database',
-                collapsable: true,
-                children: getArticles('database')
-            },
-            // {
-            //     title: 'DataStructure',
-            //     collapsable: true,
-            //     children: getArticles('datastructure')
-            // },
+
             {
                 title: 'Elastic Search',
                 collapsable: true,
@@ -112,49 +98,18 @@ module.exports = {
                 collapsable: true,
                 children: getArticles('git')
             },
-            {
-                title: 'Javascript',
-                collapsable: true,
-                children: getArticles('js')
-            },
+
+
             {
                 title: 'nodejs',
                 collapsable: true,
                 children: getArticles('nodejs-serverside')
             },
-            {
-                title: 'Python',
-                collapsable: true,
-                children: getArticles('python')
-            },
-            {
-                title: 'NLP',
-                collapsable: true,
-                children: getArticles('nlp')
-            },
+
             {
                 title: 'C/C++',
                 collapsable: true,
                 children: getArticles('c_cpp')
-            },
-            {
-                title: 'OOP',
-                collapsable: true,
-                children: getArticles('oop')
-            },
-            {
-                title: 'Useful',
-                collapsable: true,
-                children: getArticles('useful')
-            },
-            {
-                title: 'ETC',
-                collapsable: true,
-                children: [
-                    '/etc/',
-                    '/serverless/useful-reference-serverless',
-                    '/tools/'
-                ]
             }
         ],
         displayAllHeaders: false,
