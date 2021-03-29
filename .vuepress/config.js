@@ -115,24 +115,24 @@ module.exports = {
         lastUpdated: 'Last Updated'
     },
     plugins: [
-        '@vuepress/blog',
-        '@vuepress/back-to-top',
-        '@vuepress/google-analytics',
+        ['@vuepress/back-to-top'],
+        ['@vuepress/google-analytics',
+            {'ga': 'UA-131016591-1'}
+            ],
         '@vuepress/active-header-links',
-        '@vuepress/medium-zoom',
+        ['@vuepress/medium-zoom'],
         ['@vuepress/pwa', {
             serviceWorker: true,
             updatePopup: true
         }],
-        '@vuepress/pagination',
-        '@limdongjin/vuepress-plugin-sidebar-on-off',
+        ['@vuepress/pagination'],
+        ['@limdongjin/vuepress-plugin-sidebar-on-off'],
         [ '@limdongjin/vuepress-plugin-simple-seo', {
             default_image: '/images/main-image-min.jpg',
             root_url: 'https://limdongjin.github.io',
             default_site_name: 'limdongjin TIL'
         }]
     ],
-    ga: 'UA-131016591-1',
     markdown: {
         lineNumbers: true
     }

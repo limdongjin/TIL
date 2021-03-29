@@ -7,7 +7,7 @@ git commit -m "$1"
 
 git push
 
-vuepress build
+npm run build
 
 cd .vuepress/dist
 
