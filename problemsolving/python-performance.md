@@ -17,7 +17,7 @@
 ### 해결책. 재귀 한도를 늘려라 
 ```python
 import sys
-sys.setrecursionlimit(sys.setrecursionlimit(1000))
+sys.setrecursionlimit(100000000)
 ``` 
 
 파이썬 인터프리터로 **재귀 깊이를 늘리고 싶다면, 위의 코드로 recursionlimit 을 설정해야한다.**
