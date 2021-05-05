@@ -121,11 +121,11 @@ module.exports = {
             ],
         '@vuepress/active-header-links',
         ['@vuepress/medium-zoom'],
+        ['@vuepress/pagination'],
         ['@vuepress/pwa', {
             serviceWorker: true,
             updatePopup: true
         }],
-        ['@vuepress/pagination'],
         ['@limdongjin/vuepress-plugin-sidebar-on-off'],
         [ '@limdongjin/vuepress-plugin-simple-seo', {
             default_image: '/images/main-image-min.jpg',

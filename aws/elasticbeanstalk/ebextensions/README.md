@@ -1,9 +1,5 @@
 ---
-title: AWS Elastic Beanstalk의 ebextension 설정을 해보자!
 description: AWS Elastic Beanstalk의 기본적인 nginx ebextension 설정에 대해서.
-meta:
-  - name: description
-    content: AWS Elastic Beanstalk의 기본적인 nginx ebextension 설정에 대해서.
 tags: ["aws", "elasticbeanstalk"]
 ---
 # AWS Elastic Beanstalk의 ebextensions 설정을 해보자!

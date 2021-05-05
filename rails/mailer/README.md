@@ -1,14 +1,5 @@
 ---
-title: Ruby On Rails 메일 보내기 기능 구현하기!!
-meta:
-  - name: description
-    content: Ruby On Rails 메일 보내기 기능 구현하기!! 메일 내용 꾸미기 + 비동기 전송법
-  - property: og:title
-    content: Ruby On Rails 메일 보내기 기능 구현하기!!
-  - property: og:description
-    content:  Ruby On Rails 메일 보내기 기능 구현하기!! 메일 내용 꾸미기 + 비동기 전송법
-  - property: og:url
-    content: https://limdongjin.github.io/rails/mailer
+description: Ruby On Rails 메일 보내기 기능 구현하기!! 메일 내용 꾸미기 + 비동기 전송법
 tags: ["rails"]
 ---
 # Ruby On Rails 메일 보내기 기능 구현하기!!

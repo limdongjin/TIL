@@ -1,8 +1,5 @@
 ---
-title: Elastic Search 팁 모음
-meta:
-  - name: description
-    content: date_detection 에러, aws elastic search 액세스 정책, 한글 형태소 분석기
+description: date_detection 에러, aws elastic search 액세스 정책, 한글 형태소 분석기
 tags: ["elasticsearch", "팁"]
 ---
 # Elasticsearch 팁

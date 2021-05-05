@@ -1,11 +1,10 @@
 ---
-description: LCS(최장 공통 부분 수열) 개념 및 자바로 구현
-date: 2019-01-26
+description: LCS(Longest Common Subsequence) 개념 및 자바로 구현
 tags: ["알고리즘"]
 ---
-# LCS(최장 공통 부분 수열)
+# LCS(Longest Common Subsequence) 개념 및 자바 구현 
 
-## LCS(Longest Common Subsequence)가 무엇이지?
+## LCS(Longest Common Subsequence) 란
 
 LCS(Logest Common Subsequence)는 말그대로 "가장 긴 공통 부분 수열"이다. 이를 나눠서 바라보자.
 

@@ -1,9 +1,5 @@
 ---
-meta:
- - name: description
-   content: leetcode twosum 문제를 풀어보자 feat, HashMap
- - property: og:image
-   content: https://limdongjin.github.io/images/LeetCode.png
+description: leetcode twosum - 쟈바 
 tags: ["problemsolving", "leetcode", "java", "hashmap"]
 ---
 # [Leetcode] 1. Two Sum

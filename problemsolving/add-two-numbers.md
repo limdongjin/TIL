@@ -1,9 +1,5 @@
 ---
-meta:
- - name: description
-   content: leetcode 2. add two numbers 풀기!
- - property: og:image
-   content: https://limdongjin.github.io/images/LeetCode.png
+description: leetcode 2. add two numbers - 자바 
 tags: ["problemsolving", "leetcode", "java"]
 ---
 

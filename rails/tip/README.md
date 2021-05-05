@@ -1,14 +1,5 @@
 ---
-title: Ruby On Rails 유용한 자료, 팁 모음
-meta:
-  - name: description
-    content: Ruby On Rails 유용한 자료, 팁 모음, 코드조각, 학습에 좋은글들
-  - property: og:title
-    content: Ruby On Rails 유용한 자료, 팁 모음
-  - property: og:description
-    content: Ruby On Rails 유용한 자료, 팁 모음, 코드조각, 학습에 좋은글들
-  - property: og:url
-    content: https://limdongjin.github.io/rails/tip
+description: Ruby On Rails 유용한 자료, 팁 모음, 코드조각, 학습에 좋은글들
 tags: ["rails", "루비", "유용한자료모음"]
 ---
 # Ruby/Rails 팁 모음

@@ -1,4 +1,7 @@
-# 자바에서의 Lambda expression
+---
+description: 자바 Lambda Expression, 람다 표현식 
+---
+# Lambda expression - 자바 
 
 ```java
 (int x, int y) -> x + y

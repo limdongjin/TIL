@@ -1,5 +1,5 @@
 ---
-description: "C 코드 조각. 입력 문자열이 16 진수 인지 확인한다."
+description: 입력 문자열이 16 진수 인지 확인 - C 
 tags: ["C/CPP", "코드조각", "팁"]
 ---
 # C 코드 조각. is_valid_hex

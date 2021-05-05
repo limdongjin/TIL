@@ -1,3 +1,7 @@
+---
+description: 파이썬 성능 향상 및 주의사항  with PS
+tags: ["problemsolving", "python"]
+---
 # 파이썬 성능 향상 및 주의사항  with PS
 
 ## 파이썬으로 시간초과(TLE) 가 난다면 PyPy 로 제출하라 

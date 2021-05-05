@@ -1,5 +1,5 @@
 ---
-title: 템플릿 메소드 패턴 Template Method Pattern (feat, java)
+descriptione: 템플릿 메소드 패턴 Template Method Pattern (feat, java)
 tags: ["자바", "디자인패턴","템플릿메소드패턴"]
 ---
 # 템플릿 메소드 패턴 Template Method Pattern (feat, java)

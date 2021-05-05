@@ -1,9 +1,5 @@
 ---
-title: Python에서 Elastic Search 연결하고 CRUD, Bulk해보기
 description: Python에서 Elastic Search를 연결하고 CRUD해보기, Bulk해보기
-meta:
-  - name: description
-    content: Python에서 Elastic Search를 연결하고 CRUD해보기, Bulk해보기
 tags: ["elasticsearch", "파이썬"]
 ---
 # Python에서 Elastic Search 사용하기

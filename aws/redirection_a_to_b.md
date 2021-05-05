@@ -1,9 +1,5 @@
 ---
-title: A도메인으로 온 요청을 B도메인으로 redirection 시키고 싶다면? (Route53 + S3)
 description: A도메인으로 온 요청을 B도메인으로 redirection 시키고 싶다면? (Route53 + S3)
-meta:
-  - name: description
-    content: A도메인으로 온 요청을 B도메인으로 redirection 시키고 싶다면? (Route53 + S3)
 tags: ["route53","s3", "aws"]
 ---
 # `A도메인으로 온 요청을 B도메인으로 redirection 시키고 싶다면? (Route53 + S3)`
