@@ -123,6 +123,8 @@ for(int elem : intArr){
 
 [Arrays part in Oracle Java Tutorial](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
 
+[Arrays in Java :: Scaler Topics](https://www.scaler.com/topics/java/array-in-java/)
+
 
 
 
